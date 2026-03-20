@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/* Design System: The Monolithic Interface */
+
+@theme {
+  /* Surface hierarchy */
+  --color-surface: #0e0e0e;
+  --color-surface-dim: #0e0e0e;
+  --color-surface-bright: #2c2c2c;
+  --color-surface-container-lowest: #000000;
+  --color-surface-container-low: #131313;
+  --color-surface-container: #1a1a1a;
+  --color-surface-container-high: #20201f;
+  --color-surface-container-highest: #262626;
+  
+  /* Primary accent (cyan) */
+  --color-primary: #81ecff;
+  --color-primary-dim: #00d4ec;
+  --color-primary-container: #00e3fd;
+  --color-on-primary: #005762;
+  --color-on-primary-fixed: #003840;
+  
+  /* Text colors */
+  --color-on-surface: #ffffff;
+  --color-on-surface-variant: #adaaaa;
+  
+  /* Borders */
+  --color-outline: #767575;
+  --color-outline-variant: #484847;
+  
+  /* Secondary */
+  --color-secondary: #10d5ff;
+  --color-secondary-container: #00677d;
+  
+  /* Error */
+  --color-error: #ff716c;
+  --color-error-container: #9f0519;
+  
+  /* Fonts */
+  --font-headline: 'Inter', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-label: 'Space Grotesk', monospace;
+}
+
+/* Base styles */
+@layer base {
+  html {
+    font-family: var(--font-body);
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+  }
+  
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+  }
+  
+  ::selection {
+    background-color: rgba(129, 236, 255, 0.3);
+  }
+}
+
+/* Component styles */
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-br from-primary to-primary-container 
+           text-on-primary-fixed px-6 py-3 rounded-lg 
+           font-label font-bold uppercase tracking-wider 
+           transition-all duration-300;
+    box-shadow: 0 0 20px rgba(129, 236, 255, 0.2);
+  }
+  
+  .btn-primary:hover {
+    box-shadow: 0 0 30px rgba(129, 236, 255, 0.4);
+  }
+  
+  .btn-secondary {
+    @apply border border-outline-variant/20 text-primary 
+           px-6 py-3 rounded-lg font-label font-bold uppercase 
+           tracking-wider transition-all duration-300;
+  }
+  
+  .btn-secondary:hover {
+    @apply bg-surface-container-high;
+  }
+  
+  .input-field {
+    @apply w-full bg-surface-container-lowest border-0 
+           border-b-2 border-outline-variant/30 
+           text-on-surface font-body p-4 
+           transition-all;
+  }
+  
+  .input-field::placeholder {
+    @apply text-neutral-700;
+  }
+  
+  .input-field:focus {
+    @apply border-primary outline-none;
+  }
+  
+  .card {
+    @apply bg-surface-container p-6 rounded-xl 
+           transition-all duration-300;
+  }
+  
+  .card:hover {
+    @apply bg-surface-container-high;
+  }
+  
+  .section-gap {
+    @apply py-24 md:py-32;
+  }
+}
