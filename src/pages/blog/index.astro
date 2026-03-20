@@ -1,61 +1,13 @@
 ---
-// blog/index.astro - Blog listing page
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
 
-// Placeholder blog posts data
-const posts = [
-  {
-    title: 'Building AI Agents: A Practical Guide',
-    description: 'Exploring the fundamentals of creating autonomous AI agents that can accomplish complex tasks.',
-    date: '2026-03-15',
-    tags: ['AI', 'Agents', 'Python'],
-    slug: 'building-ai-agents-guide',
-    readTime: '8 min read'
-  },
-  {
-    title: 'The Future of Automated Trading',
-    description: 'How machine learning is reshaping the landscape of algorithmic trading and investment strategies.',
-    date: '2026-03-10',
-    tags: ['Trading', 'ML', 'Finance'],
-    slug: 'future-automated-trading',
-    readTime: '6 min read'
-  },
-  {
-    title: 'Open Source Lessons Learned',
-    description: 'Key insights from maintaining open source projects and building a community around your code.',
-    date: '2026-03-05',
-    tags: ['Open Source', 'Community'],
-    slug: 'open-source-lessons',
-    readTime: '5 min read'
-  },
-  {
-    title: 'Prompt Engineering Best Practices',
-    description: 'Techniques and strategies for crafting effective prompts that get the most out of LLMs.',
-    date: '2026-02-28',
-    tags: ['AI', 'LLM', 'Prompts'],
-    slug: 'prompt-engineering-best-practices',
-    readTime: '7 min read'
-  },
-  {
-    title: 'Building Scalable Python Applications',
-    description: 'Architecture patterns and best practices for building production-ready Python applications.',
-    date: '2026-02-20',
-    tags: ['Python', 'Architecture'],
-    slug: 'scalable-python-applications',
-    readTime: '10 min read'
-  },
-  {
-    title: 'Introduction to RAG Systems',
-    description: 'Understanding Retrieval-Augmented Generation and how to implement it effectively.',
-    date: '2026-02-15',
-    tags: ['AI', 'RAG', 'Vector DB'],
-    slug: 'introduction-rag-systems',
-    readTime: '9 min read'
-  }
-];
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 
-function formatDate(dateStr: string) {
-  return new Date(dateStr).toLocaleDateString('en-US', {
+function formatDate(date: Date) {
+  return date.toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
@@ -63,49 +15,37 @@ function formatDate(dateStr: string) {
 }
 ---
 
-<BaseLayout title="Blog | Gonçalo Velosa">
-  <div class="max-w-7xl mx-auto px-6 lg:px-8 py-16 md:py-24">
-    <!-- Header -->
-    <header class="mb-16">
-      <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-on-surface mb-4">
-        Blog<span class="text-primary">.</span>
-      </h1>
-      <p class="text-xl text-on-surface-variant max-w-2xl">
-        Thoughts on AI, software development, and building products in public.
-      </p>
-    </header>
-
-    <!-- Blog Posts Grid -->
+<BaseLayout title="Blog" description="Thoughts on AI agents, software development, and building in public.">
+  <section class="pt-32 pb-24 px-6 lg:px-8 max-w-7xl mx-auto">
+    <h1 class="text-6xl md:text-8xl font-bold tracking-tight text-on-surface mb-6">
+      Blog<span class="text-primary">.</span>
+    </h1>
+    <p class="text-xl text-on-surface-variant max-w-2xl mb-12">
+      Thoughts on AI agents, software development, and building in public.
+    </p>
+    
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       {posts.map((post) => (
-        <article class="card group cursor-pointer">
-          <!-- Date & Read Time -->
-          <div class="flex items-center gap-3 text-sm text-on-surface-variant mb-4">
-            <time datetime={post.date}>{formatDate(post.date)}</time>
-            <span>&bull;</span>
-            <span>{post.readTime}</span>
+        <a href={`/blog/${post.id}`} class="card group">
+          <div class="h-48 mb-6 rounded-lg overflow-hidden bg-gradient-to-br from-surface-container-high to-surface-container-lowest flex items-center justify-center">
+            <span class="text-primary text-4xl font-bold opacity-20">
+              {post.data.title.charAt(0)}
+            </span>
           </div>
-
-          <!-- Title -->
-          <h2 class="text-xl font-bold text-on-surface mb-3 group-hover:text-primary transition-colors">
-            {post.title}
-          </h2>
-
-          <!-- Description -->
-          <p class="text-on-surface-variant mb-4 line-clamp-2">
-            {post.description}
+          <p class="text-xs font-label text-primary uppercase tracking-widest mb-2">
+            {post.data.category}
           </p>
-
-          <!-- Tags -->
-          <div class="flex flex-wrap gap-2">
-            {post.tags.map((tag) => (
-              <span class="text-xs font-label text-primary bg-surface-container-high px-3 py-1 rounded-full">
-                {tag}
-              </span>
-            ))}
-          </div>
-        </article>
+          <h3 class="text-xl font-bold text-on-surface mb-2 group-hover:text-primary transition-colors">
+            {post.data.title}
+          </h3>
+          <p class="text-on-surface-variant text-sm mb-4 line-clamp-2">
+            {post.data.description}
+          </p>
+          <time class="text-xs text-neutral-500">
+            {formatDate(post.data.pubDate)}
+          </time>
+        </a>
       ))}
     </div>
-  </div>
+  </section>
 </BaseLayout>

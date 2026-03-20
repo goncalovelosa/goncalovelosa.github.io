@@ -1,195 +1,154 @@
 ---
-// contact.astro - Contact page with form and info
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="Contact | Gonçalo Velosa">
-  <div class="max-w-7xl mx-auto px-6 lg:px-8 py-16 md:py-24">
-    <!-- Header -->
-    <header class="mb-16">
-      <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-on-surface mb-4">
+<BaseLayout title="Contact" description="Get in touch with Gonçalo Velosa for consulting opportunities in AI agents, blockchain, and Node.js.">
+  <main class="pt-32 pb-24 px-6 lg:px-8 max-w-7xl mx-auto min-h-screen">
+    <!-- Header Section -->
+    <section class="mb-16">
+      <h1 class="text-6xl md:text-8xl font-bold tracking-tight text-on-surface mb-6">
         Contact<span class="text-primary">.</span>
       </h1>
-      <p class="text-xl text-on-surface-variant max-w-2xl">
-        Let's work together. Send me a message and I'll get back to you as soon as possible.
+      <p class="text-xl text-on-surface-variant max-w-2xl leading-relaxed">
+        Have a project in mind or want to collaborate? I'm open to consulting opportunities 
+        in AI agents, blockchain, and Node.js architecture.
       </p>
-    </header>
+    </section>
 
-    <!-- Two Column Layout -->
-    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16">
-      <!-- Left Column - Contact Form -->
-      <div class="card">
-        <h2 class="text-2xl font-bold text-on-surface mb-6">Send a Message</h2>
-
-        <form class="space-y-6">
-          <!-- Name Field -->
-          <div>
-            <label for="name" class="block text-sm font-medium text-on-surface-variant mb-2">
+    <!-- Grid Layout -->
+    <div class="grid lg:grid-cols-12 gap-12">
+      <!-- Left Column: Contact Form -->
+      <div class="lg:col-span-7 bg-surface-container-low p-8 md:p-12 rounded-xl">
+        <!-- REPLACE: Create form at https://formspree.io and update action URL -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-8">
+          <div class="space-y-2">
+            <label for="name" class="block text-xs font-label uppercase tracking-widest text-primary font-bold">
               Name
             </label>
-            <input
-              type="text"
+            <input 
+              type="text" 
               id="name"
               name="name"
-              required
               class="input-field"
               placeholder="Your name"
+              required
             />
           </div>
-
-          <!-- Email Field -->
-          <div>
-            <label for="email" class="block text-sm font-medium text-on-surface-variant mb-2">
-              Email
+          
+          <div class="space-y-2">
+            <label for="email" class="block text-xs font-label uppercase tracking-widest text-primary font-bold">
+              Email Address
             </label>
-            <input
-              type="email"
+            <input 
+              type="email" 
               id="email"
               name="email"
-              required
               class="input-field"
               placeholder="your@email.com"
+              required
             />
           </div>
-
-          <!-- Message Field -->
-          <div>
-            <label for="message" class="block text-sm font-medium text-on-surface-variant mb-2">
+          
+          <div class="space-y-2">
+            <label for="message" class="block text-xs font-label uppercase tracking-widest text-primary font-bold">
               Message
             </label>
-            <textarea
+            <textarea 
               id="message"
               name="message"
+              class="input-field resize-none"
+              placeholder="Tell me about your project..."
               rows="5"
               required
-              class="input-field resize-none"
-              placeholder="Tell me about your project or inquiry..."
             ></textarea>
           </div>
-
-          <!-- Submit Button -->
-          <button type="submit" class="btn-primary w-full">
-            Send Message
-          </button>
+          
+          <div class="pt-4">
+            <button type="submit" class="btn-primary w-full md:w-auto flex items-center justify-center gap-3">
+              <span>Send Message</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+          </div>
         </form>
       </div>
 
-      <!-- Right Column - Contact Info -->
-      <div class="space-y-8">
-        <!-- Contact Info Card -->
-        <div class="card">
-          <h2 class="text-2xl font-bold text-on-surface mb-6">Contact Information</h2>
-
-          <div class="space-y-4">
-            <!-- Email -->
-            <a
-              href="mailto:contact@goncalovelosa.com"
-              class="flex items-center gap-4 text-on-surface-variant hover:text-primary transition-colors group"
-            >
-              <div class="p-3 bg-surface-container-high rounded-lg group-hover:bg-surface-container-highest transition-colors">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <!-- Right Column: Info & Links -->
+      <div class="lg:col-span-5 flex flex-col gap-6">
+        <!-- Contact Info -->
+        <div class="bg-surface-container p-8 rounded-xl">
+          <h3 class="text-sm font-label uppercase tracking-widest text-on-surface-variant mb-6">
+            Direct Connect
+          </h3>
+          
+          <div class="space-y-6">
+            <a href="mailto:contact@goncalovelosa.com" class="group flex items-center gap-4">
+              <div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center group-hover:text-primary transition-colors">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
               <div>
-                <p class="text-sm text-on-surface-variant">Email</p>
-                <p class="text-on-surface font-medium">contact@goncalovelosa.com</p>
+                <p class="text-xs font-label uppercase tracking-tighter text-neutral-500">Email</p>
+                <p class="text-lg font-medium text-on-surface">contact@goncalovelosa.com</p>
               </div>
             </a>
-
-            <!-- Location -->
-            <div class="flex items-center gap-4 text-on-surface-variant">
-              <div class="p-3 bg-surface-container-high rounded-lg">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface-variant">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
               <div>
-                <p class="text-sm text-on-surface-variant">Location</p>
-                <p class="text-on-surface font-medium">Remote / Worldwide</p>
+                <p class="text-xs font-label uppercase tracking-tighter text-neutral-500">Location</p>
+                <p class="text-lg font-medium text-on-surface">Europe/Lisbon</p>
               </div>
             </div>
           </div>
-        </div>
-
-        <!-- Social Links Card -->
-        <div class="card">
-          <h2 class="text-2xl font-bold text-on-surface mb-6">Connect With Me</h2>
-
-          <div class="space-y-4">
-            <!-- GitHub -->
-            <a
-              href="https://github.com/goncalovelosa"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="flex items-center gap-4 text-on-surface-variant hover:text-primary transition-colors group"
-            >
-              <div class="p-3 bg-surface-container-high rounded-lg group-hover:bg-surface-container-highest transition-colors">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                </svg>
-              </div>
-              <div>
-                <p class="text-sm text-on-surface-variant">GitHub</p>
-                <p class="text-on-surface font-medium">@goncalovelosa</p>
-              </div>
+          
+          <!-- Social Links -->
+          <div class="pt-8 flex gap-4">
+            <a href="https://github.com/ninovelosa" target="_blank" rel="noopener"
+               class="w-12 h-12 bg-surface-container-high rounded-full flex items-center justify-center text-on-surface-variant hover:bg-primary hover:text-on-primary-fixed transition-all">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
             </a>
-
-            <!-- Medium -->
-            <a
-              href="https://medium.com/@goncalovelosa"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="flex items-center gap-4 text-on-surface-variant hover:text-primary transition-colors group"
-            >
-              <div class="p-3 bg-surface-container-high rounded-lg group-hover:bg-surface-container-highest transition-colors">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
-                </svg>
-              </div>
-              <div>
-                <p class="text-sm text-on-surface-variant">Medium</p>
-                <p class="text-on-surface font-medium">@goncalovelosa</p>
-              </div>
+            <a href="https://medium.com/@gvelosa" target="_blank" rel="noopener"
+               class="w-12 h-12 bg-surface-container-high rounded-full flex items-center justify-center text-on-surface-variant hover:bg-primary hover:text-on-primary-fixed transition-all">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+              </svg>
             </a>
-
-            <!-- LinkedIn -->
-            <a
-              href="https://linkedin.com/in/goncalovelosa"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="flex items-center gap-4 text-on-surface-variant hover:text-primary transition-colors group"
-            >
-              <div class="p-3 bg-surface-container-high rounded-lg group-hover:bg-surface-container-highest transition-colors">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-              </div>
-              <div>
-                <p class="text-sm text-on-surface-variant">LinkedIn</p>
-                <p class="text-on-surface font-medium">Gonçalo Velosa</p>
-              </div>
+            <a href="https://twitter.com/ninovelosa" target="_blank" rel="noopener"
+               class="w-12 h-12 bg-surface-container-high rounded-full flex items-center justify-center text-on-surface-variant hover:bg-primary hover:text-on-primary-fixed transition-all">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
             </a>
           </div>
         </div>
-
-        <!-- Availability Status Card -->
-        <div class="card">
-          <h2 class="text-2xl font-bold text-on-surface mb-6">Availability</h2>
-
-          <div class="flex items-center gap-4">
-            <div class="relative">
-              <div class="w-4 h-4 bg-green-500 rounded-full"></div>
-              <div class="absolute inset-0 w-4 h-4 bg-green-500 rounded-full animate-ping"></div>
-            </div>
-            <div>
-              <p class="text-on-surface font-medium">Available for new projects</p>
-              <p class="text-sm text-on-surface-variant">Currently accepting freelance work and collaborations</p>
-            </div>
+        
+        <!-- Availability -->
+        <div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10">
+          <h3 class="text-sm font-label uppercase tracking-widest text-on-surface-variant mb-4">
+            Availability
+          </h3>
+          <div class="flex items-center gap-3 text-primary mb-4">
+            <div class="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
+            <span class="text-xs font-label uppercase tracking-widest font-bold">
+              Open for Opportunities
+            </span>
           </div>
+          <p class="text-on-surface-variant text-sm leading-relaxed">
+            Currently accepting consulting projects and full-time opportunities in AI/ML, 
+            blockchain, and backend development.
+          </p>
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </BaseLayout>
