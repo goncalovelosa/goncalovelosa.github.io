@@ -9,10 +9,10 @@ mediumUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 ---
 
-![Cover: expensive models towering over a small but powerful beacon](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
+![Cover: tiny hummingbird-drone with golden beam dominating a massive blue monolith](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
 
 
-![Cost per task: Composer 2.5 vs Opus 4.7 vs GPT-5.5](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
+![Cost comparison: three glass cylinders, two nearly full, one almost empty with vivid green glow](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
 
 The AI coding space has a new problem, and it's a good one: too many models are getting too good.
 
