@@ -88,8 +88,8 @@ I run both. Claude Code for architecture decisions and anything frontend-related
 The real winner of the $20 AI coding war? The one whose limits you learn to work around — and the one you're willing to pay to upgrade when those limits start costing you more in frustration than they save in dollars.
 
 ![The $20 AI Coding Bet: Claude Code vs Codex CLI](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/cover.png)
-![Efficiency comparison: one tool burns through budget fast, the other lasts](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/efficiency-gauges.png)
-![Usage patterns: expensive spikes vs affordable continuous flow](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/usage-pattern.png)
+![Budget burn rate: one wallet nearly empty, one still full](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/efficiency-gauges.png)
+![Resource pacing: one coffee half-empty from big gulps, one mostly full from small sips](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/usage-pattern.png)
 
 ---
 
