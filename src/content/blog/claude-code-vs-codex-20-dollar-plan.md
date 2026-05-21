@@ -9,6 +9,8 @@ mediumUrl: "https://medium.com/@gvelosa/claude-code-vs-codex-20-TBD"
 canonicalUrl: "https://medium.com/@gvelosa/claude-code-vs-codex-20-TBD"
 ---
 
+![Cover: two hourglasses — blue sand nearly spent, amber sand still flowing steady](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/cover.png)
+
 Two terminal agents, one price point, wildly different outcomes. I've been running both Claude Code and Codex CLI on the $20 tier for the past month, and the real cost story isn't on any pricing page.
 
 Both Anthropic and OpenAI pitch their terminal coding agents at $20/month. Claude Code runs on your Pro plan. Codex runs on your ChatGPT Plus. Same sticker price. But spend a few weeks actually using both and you realize the $20 is almost irrelevant. What matters is how fast you burn through it.
@@ -31,6 +33,8 @@ What you get for the money: Opus 4.6 (soon 4.7), 200K context window, and the be
 
 The weekly cap system creates a specific kind of frustration. You learn to game it. Tuesday becomes "big Claude Code day" because the reset just happened. Thursday becomes "light touch day" because you're preserving tokens for a Friday deadline. Your coding schedule starts revolving around a subscription reset, and that's a weird way to build software.
 
+![Budget burn rate: one wallet nearly empty, one still full](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/efficiency-gauges.png)
+
 ## How Codex CLI Bills Your Time
 
 Codex uses 5-hour rolling windows with published ranges, not fixed limits. Plus users get 45 to 225 messages per window. That 5x spread exists because task complexity determines consumption. A quick bug fix costs 1-3 messages. A complex architectural refactor? That can eat 20-50.
@@ -44,6 +48,8 @@ There's a 2x rate limit promotion running since February 2026. The upper bounds 
 ## The Token Efficiency Gap
 
 This is where the comparison gets lopsided. Codex CLI uses approximately 4x fewer tokens per task than Claude Code. That's the difference between burning through your allocation in an afternoon versus lasting the whole workday.
+
+![Resource pacing: one coffee half-empty from big gulps, one mostly full from small sips](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/usage-pattern.png)
 
 But fewer tokens doesn't always mean better value. Claude Code's approach is thorough. It reads more of your codebase, considers more edge cases, and produces higher-quality output that needs fewer revision cycles. Codex is faster and leaner, optimized for autonomous execution where speed matters more than perfection.
 
@@ -86,10 +92,6 @@ The $20 plan for both tools is a gateway, not a destination. It's enough to figu
 I run both. Claude Code for architecture decisions and anything frontend-related. Codex for batch operations, DevOps work, and when I need something done fast and I'm willing to babysit the result. The $40/month for both plans is still cheaper than the $100-$200 either one costs when you push it hard.
 
 The real winner of the $20 AI coding war? The one whose limits you learn to work around — and the one you're willing to pay to upgrade when those limits start costing you more in frustration than they save in dollars.
-
-![The $20 AI Coding Bet: Claude Code vs Codex CLI](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/cover.png)
-![Budget burn rate: one wallet nearly empty, one still full](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/efficiency-gauges.png)
-![Resource pacing: one coffee half-empty from big gulps, one mostly full from small sips](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/usage-pattern.png)
 
 ---
 
