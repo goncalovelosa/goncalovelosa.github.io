@@ -4,12 +4,15 @@ description: "Cursor's new model ranks third on the Coding Agent Index but costs
 pubDate: 2026-05-21
 category: "AI"
 tags: ["ai-coding", "cursor", "composer-2.5", "llm-benchmarks", "developer-tools"]
-heroImage: "./composer-2-5-frontier-coding-at-commodity-pricing/images/benchmark-bars.png"
+heroImage: "./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png"
 mediumUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 ---
 
-![Cost per task: Composer 2.5 vs Opus 4.7 vs GPT-5.5](./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
+![Cover: expensive models towering over a small but powerful beacon](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
+
+
+![Cost per task: Composer 2.5 vs Opus 4.7 vs GPT-5.5](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
 
 The AI coding space has a new problem, and it's a good one: too many models are getting too good.
 
@@ -39,7 +42,7 @@ The base model is Kimi K2.5 from Moonshot AI, a mixture-of-experts architecture 
 
 But here's the part that matters more. Cursor spent 85% of their compute budget on their own reinforcement learning and training pipeline. They generated 25 times more synthetic training tasks than they did for Composer 2. The result is a model that went from a score of 48 (Composer 2) to 62, a 14-point jump in a single generation. That's the kind of improvement curve that makes you lean forward in your chair.
 
-![Benchmark comparison: SWE-Bench, CursorBench, Terminal-Bench](./composer-2-5-frontier-coding-at-commodity-pricing/images/benchmark-bars.png)
+![Benchmark comparison: SWE-Bench, CursorBench, Terminal-Bench](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/benchmark-bars.png)
 
 The pricing reflects the architecture. Standard mode runs $0.50 per million input tokens and $2.50 per million output tokens. Fast mode costs $3.00/$15.00. For context, Claude Opus 4.7 pricing is an order of magnitude higher on both dimensions. Composer 2.5 Fast completes tasks in 6.7 minutes on average, making it the third-fastest model on the entire Index. Speed and cost aren't enemies here; they're allies.
 
@@ -55,7 +58,7 @@ Five tasks. With GPT-5.5 that's about $24. With Composer 2.5 standard, it's $0.3
 
 This is the point the benchmark-chasing misses. When you're running dozens of agent sessions a week, you're going to get some duds regardless of which model you use. The question isn't whether Model A produces 2% more correct completions than Model B on a curated benchmark. The question is whether you can afford to run the model long enough that its strengths compound.
 
-![Weekly cost at 50 tasks per week](./composer-2-5-frontier-coding-at-commodity-pricing/images/value-funnel.png)
+![Weekly cost at 50 tasks per week](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/value-funnel.png)
 
 At $0.07/task, you can run Composer 2.5 all day. You can use it for throwaway explorations. You can use it for tasks you'd otherwise just Google and copy-paste. You can use it without a budget approval, without a usage dashboard, without that little voice in your head saying "is this task worth $4.82?"
 
