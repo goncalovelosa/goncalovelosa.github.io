@@ -11,9 +11,6 @@ canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 
 ![Cover: a single gold coin casting an enormous shadow — small cost, massive impact](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
 
-
-![Cost comparison: three receipts of dramatically different lengths — $3.50 vs $287 vs $337 per week](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
-
 The AI coding space has a new problem, and it's a good one: too many models are getting too good.
 
 Three days ago, Artificial Analysis updated their Coding Agent Index. Cursor's Composer 2.5 is sitting in third place with a score of 62. Claude Opus 4.7 leads at 66. GPT-5.5 is at 65. Those two models are genuinely better. Nobody's disputing that.
@@ -31,6 +28,8 @@ I've been running AI coding agents daily for over a year now. My workflow involv
 At GPT-5.5 pricing, that's $241 to $337 per week. At Claude Opus 4.7 pricing, $205 to $287. At Composer 2.5 standard, $3.50 to $4.90. At Composer 2.5 Fast, $22 to $31.
 
 The difference between $300/week and $5/week isn't a rounding error. It's the difference between expense-reporting your AI tools and just paying for them yourself. It's the difference between thinking "should I spin up an agent for this?" and just doing it.
+
+![Cost comparison: three receipts of dramatically different lengths — $3.50 vs $287 vs $337 per week](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
 
 And for most of the tasks I throw at agents, the quality difference is barely perceptible. Composer 2.5 actually *beats* both frontier models on CursorBench v3.1 (63.2% vs. Opus 4.7's 61.6% and GPT-5.5's 59.2%). It ties Opus 4.7 on Terminal-Bench 2.0 at 69.3% vs. 69.4%. GPT-5.5 dominates that benchmark at 82.7%, I'll grant you, but I'm not running nuclear reactor control software. I'm refactoring CRUD endpoints and writing integration tests.
 
@@ -57,8 +56,6 @@ Last Tuesday I was working on a feature that required touching seven files acros
 Five tasks. With GPT-5.5 that's about $24. With Composer 2.5 standard, it's $0.35. The Composer 2.5 output was clean enough that I accepted four of the five suggestions with minimal edits. The fifth needed a rewrite of the error handling, which... honestly, I've had to rewrite error handling on GPT-5.5 outputs too.
 
 This is the point the benchmark-chasing misses. When you're running dozens of agent sessions a week, you're going to get some duds regardless of which model you use. The question isn't whether Model A produces 2% more correct completions than Model B on a curated benchmark. The question is whether you can afford to run the model long enough that its strengths compound.
-
-![Weekly cost at 50 tasks per week](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/value-funnel.png)
 
 At $0.07/task, you can run Composer 2.5 all day. You can use it for throwaway explorations. You can use it for tasks you'd otherwise just Google and copy-paste. You can use it without a budget approval, without a usage dashboard, without that little voice in your head saying "is this task worth $4.82?"
 
