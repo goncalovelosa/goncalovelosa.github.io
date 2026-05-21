@@ -9,10 +9,10 @@ mediumUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 ---
 
-![Cover: tiny hummingbird-drone with golden beam dominating a massive blue monolith](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
+![Cover: a single gold coin casting an enormous shadow — small cost, massive impact](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
 
 
-![Cost comparison: three glass cylinders, two nearly full, one almost empty with vivid green glow](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
+![Cost comparison: three receipts of dramatically different lengths — $3.50 vs $287 vs $337 per week](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
 
 The AI coding space has a new problem, and it's a good one: too many models are getting too good.
 
@@ -42,7 +42,7 @@ The base model is Kimi K2.5 from Moonshot AI, a mixture-of-experts architecture 
 
 But here's the part that matters more. Cursor spent 85% of their compute budget on their own reinforcement learning and training pipeline. They generated 25 times more synthetic training tasks than they did for Composer 2. The result is a model that went from a score of 48 (Composer 2) to 62, a 14-point jump in a single generation. That's the kind of improvement curve that makes you lean forward in your chair.
 
-![Benchmark comparison: SWE-Bench, CursorBench, Terminal-Bench](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/benchmark-bars.png)
+![Strategy: two toolboxes — one perfect tool vs a full practical set](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/strategy.png)
 
 The pricing reflects the architecture. Standard mode runs $0.50 per million input tokens and $2.50 per million output tokens. Fast mode costs $3.00/$15.00. For context, Claude Opus 4.7 pricing is an order of magnitude higher on both dimensions. Composer 2.5 Fast completes tasks in 6.7 minutes on average, making it the third-fastest model on the entire Index. Speed and cost aren't enemies here; they're allies.
 
