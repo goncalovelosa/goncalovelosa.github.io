@@ -10,6 +10,8 @@ const blog = defineCollection({
     heroImage: z.string().optional(),
     tags: z.array(z.string()).default([]),
     category: z.string().default('General'),
+    canonicalUrl: z.string().url().optional(),
+    mediumUrl: z.string().url().optional(),
   }),
 });
 

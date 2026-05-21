@@ -7,11 +7,13 @@ import '../styles/global.css';
 interface Props {
   title?: string;
   description?: string;
+  canonicalUrl?: string;
 }
 
 const {
   title = 'Gonçalo Velosa | Software Developer & AI Enthusiast',
-  description = 'Building AI Agents In Public. Software Developer passionate about AI, automation, and building innovative solutions.'
+  description = 'Building AI Agents In Public. Software Developer passionate about AI, automation, and building innovative solutions.',
+  canonicalUrl,
 } = Astro.props;
 ---
 
@@ -22,6 +24,9 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Canonical URL -->
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
