@@ -4,7 +4,7 @@ description: "Two terminal agents, one price point, wildly different outcomes. I
 pubDate: 2026-05-21
 category: "AI"
 tags: ["ai-coding-tools", "claude-code", "codex-cli", "pricing-comparison", "developer-productivity"]
-heroImage: "./claude-code-vs-codex-20-dollar-plan/images/chart.png"
+heroImage: "./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/cover.png"
 mediumUrl: "https://medium.com/@gvelosa/claude-code-vs-codex-20-TBD"
 canonicalUrl: "https://medium.com/@gvelosa/claude-code-vs-codex-20-TBD"
 ---
@@ -87,9 +87,9 @@ I run both. Claude Code for architecture decisions and anything frontend-related
 
 The real winner of the $20 AI coding war? The one whose limits you learn to work around — and the one you're willing to pay to upgrade when those limits start costing you more in frustration than they save in dollars.
 
-![The $20 AI Coding Bet: Claude Code vs Codex CLI](./claude-code-vs-codex-20-dollar-plan/images/cover.png)
-![Usage patterns: messages per day vs when limits hit](./claude-code-vs-codex-20-dollar-plan/images/chart.png)
-![Developer decision: which tool fits your workflow](./claude-code-vs-codex-20-dollar-plan/images/diagram.png)
+![The $20 AI Coding Bet: Claude Code vs Codex CLI](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/cover.png)
+![Efficiency comparison: one tool burns through budget fast, the other lasts](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/efficiency-gauges.png)
+![Usage patterns: expensive spikes vs affordable continuous flow](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/usage-pattern.png)
 
 ---
 
