@@ -5,8 +5,8 @@ pubDate: 2026-05-21
 category: "AI"
 tags: ["ai-coding-tools", "claude-code", "codex-cli", "pricing-comparison", "developer-productivity"]
 heroImage: "./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/cover.png"
-mediumUrl: "https://medium.com/@gvelosa/claude-code-vs-codex-20-TBD"
-canonicalUrl: "https://medium.com/@gvelosa/claude-code-vs-codex-20-TBD"
+mediumUrl: "https://medium.com/@gvelosa/the-20-ai-coding-bet-claude-code-vs-codex-cli-2d9240d0ebe7"
+canonicalUrl: "https://medium.com/@gvelosa/the-20-ai-coding-bet-claude-code-vs-codex-cli-2d9240d0ebe7"
 ---
 
 ![Cover: two hourglasses — blue sand nearly spent, amber sand still flowing steady](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/cover.png)
