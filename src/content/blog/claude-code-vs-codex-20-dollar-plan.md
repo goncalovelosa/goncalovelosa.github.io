@@ -1,6 +1,6 @@
 ---
 title: "The $20 AI Coding Bet: Claude Code vs Codex CLI"
-description: "Two terminal agents, one price point, wildly different outcomes. I've been running both Claude Code and Codex CLI on the $20 tier for the past month, and the re"
+description: "Two terminal agents, one price point, wildly different economics. I've been running both Claude Code and Codex CLI on the $20 tier for the past month, and the r"
 pubDate: 2026-05-21
 category: "AI"
 tags: ["ai-coding-tools", "claude-code", "codex-cli", "pricing-comparison", "developer-productivity"]
@@ -11,15 +11,17 @@ canonicalUrl: "https://medium.com/@gvelosa/claude-code-vs-codex-20-TBD"
 
 ![Cover: two hourglasses — blue sand nearly spent, amber sand still flowing steady](./claude-code-vs-codex-20-dollar-plan/./claude-code-vs-codex-20-dollar-plan/images/cover.png)
 
-Two terminal agents, one price point, wildly different outcomes. I've been running both Claude Code and Codex CLI on the $20 tier for the past month, and the real cost story isn't on any pricing page.
+Two terminal agents, one price point, wildly different economics. I've been running both Claude Code and Codex CLI on the $20 tier for the past month, and the real cost story isn't on any pricing page.
 
-Both Anthropic and OpenAI pitch their terminal coding agents at $20/month. Claude Code runs on your Pro plan. Codex runs on your ChatGPT Plus. Same sticker price. But spend a few weeks actually using both and you realize the $20 is almost irrelevant. What matters is how fast you burn through it.
+Both Anthropic and OpenAI pitch their terminal coding agents at $20/month. Claude Code runs on your Pro plan. Codex runs on your ChatGPT Plus. Same sticker price. But spend a few weeks actually using both and you realize the $20 tells you almost nothing. What matters is how each tool allocates — and depletes — your budget.
 
 ## The Sticker Price Is a Teaser
 
 Claude Code comes bundled with the Claude Pro plan at $20/month. Codex CLI comes with ChatGPT Plus at $20/month. On paper, it's a tie.
 
-But here's what the pricing pages don't emphasize: both tools share their usage allowance with everything else on the plan. Open a Claude Pro chat in your browser, ask it to summarize a PDF, and you've just eaten into your Claude Code budget. Submit a ChatGPT Plus conversation about weekend plans and you've consumed tokens that could have been a Codex refactor.
+But here's what the pricing pages don't emphasize: the two tools handle usage completely differently. Claude Code shares its allowance with claude.ai — open a Claude Pro chat in your browser to summarize a PDF, and you've just eaten into your Claude Code budget. Your coding time and your research time come from the same pool.
+
+Codex is different. OpenAI gives Codex its own separate usage limits with its own 5-hour rolling reset windows. Your regular ChatGPT conversations — asking about weekend plans, generating images, deep research — don't touch your Codex allocation at all. The two are independent pools. That said, Codex usage does share its "agentic" limit with ChatGPT for Excel and Workspace Agents, so it's not completely isolated from everything. But your regular ChatGPT chats? Those are safe.
 
 The $20 buys you access rather than a dedicated coding budget. For light users, that's fine. For anyone coding 3+ hours a day, it's the first week of the month and you're already rationing.
 
@@ -29,7 +31,7 @@ Claude Pro uses a combination of 5-hour sessions and weekly usage caps. You can 
 
 If you're a heavy Claude user for research, writing, or analysis, your coding time competes with everything else. I've hit my weekly cap by Wednesday more than once. The Max plans (5x at $100/mo, 20x at $200/mo) solve this, but now you're no longer in the $20 conversation.
 
-What you get for the money: Opus 4.6 (soon 4.7), 200K context window, and the best code quality I've seen from any agent. Claude Code hits ~81% on SWE-bench Verified and wins 67% of blind head-to-head comparisons. When it works within your budget, it produces code that rarely needs a second pass.
+What you get for the money: Opus 4.7 with a 1M token context window (on Max and Team plans; Pro gets Sonnet 4.6 by default with Opus available for select tasks). Claude Code with Opus 4.7 scores 87.6% on SWE-bench Verified — the highest of any coding agent on that benchmark. When it works within your budget, it produces code that rarely needs a second pass.
 
 The weekly cap system creates a specific kind of frustration. You learn to game it. Tuesday becomes "big Claude Code day" because the reset just happened. Thursday becomes "light touch day" because you're preserving tokens for a Friday deadline. Your coding schedule starts revolving around a subscription reset, and that's a weird way to build software.
 
@@ -57,13 +59,13 @@ The question becomes: do you want one excellent solution that costs 4x the token
 
 ## What Happens When You Hit the Wall
 
-Both tools handle limits differently, and the user experience matters.
+Both tools let you buy your way past limits, and both approaches have tradeoffs.
 
-Claude Code goes quiet. You get a message about hitting your usage cap and you wait. The weekly reset is the weekly reset. There's no pay-as-you-go overflow on the Pro plan. Your options are wait, upgrade to Max, or switch tools.
+Claude Code on Pro now supports extra usage billing — when you hit your plan allocation, you can keep going at standard API token rates. It's opt-in: enable it in Settings > Usage, add a payment method, and set a daily spending cap. A heavy Claude Code session can run $5-15 per hour on extra usage depending on model choice and context size. It's more flexible than the old hard-stop approach, but it turns a predictable $20 into an open-ended meter.
 
-Codex CLI lets you buy credits to continue past your included allocation. This is more flexible in the moment but also more dangerous for your budget. That "just $5 more" mindset is how a $20/month tool becomes a $200/month habit. OpenAI knows this. Their own estimate of $100-$200/dev/month is the natural consequence of pay-per-overflow pricing.
+Codex CLI also lets you buy credits to continue past your included allocation. The experience is similar — keep working, pay more. OpenAI's own estimate of $100-$200/dev/month is the natural consequence of pay-per-overflow pricing on either platform.
 
-I prefer Claude's approach for budgeting predictability, and I prefer Codex's approach when I'm mid-refactor and can't afford to stop. Neither is objectively better. They reflect different philosophies: Anthropic caps you to protect you from yourself, OpenAI lets you spend freely and charges for the privilege.
+The honest truth: both roads lead to the same place. Whether you're buying Claude extra usage or Codex overflow credits, you're paying API rates on top of your subscription. The $20 entry point is a floor, not a ceiling.
 
 ## Open Source Changes the Math
 
@@ -87,11 +89,11 @@ After a month of side-by-side usage, here's who should pick what.
 
 ## The Honest Take
 
-The $20 plan for both tools is a gateway, not a destination. It's enough to figure out which agent fits your workflow, then you'll likely need to upgrade. Claude Code makes you pay with time (waiting for resets). Codex makes you pay with money (buying overflow credits). Pick which currency you'd rather spend.
+The $20 plan for both tools is a gateway, not a destination. It's enough to figure out which agent fits your workflow, then you'll likely need to upgrade or buy overflow credits. The key difference isn't price — it's how the budget works. Claude Code shares a pool with your claude.ai usage, so every PDF summary competes with your coding. Codex gives you a separate allocation, so your regular ChatGPT usage doesn't eat into coding time. Both will upsell you past $20 eventually.
 
 I run both. Claude Code for architecture decisions and anything frontend-related. Codex for batch operations, DevOps work, and when I need something done fast and I'm willing to babysit the result. The $40/month for both plans is still cheaper than the $100-$200 either one costs when you push it hard.
 
-The real winner of the $20 AI coding war? The one whose limits you learn to work around — and the one you're willing to pay to upgrade when those limits start costing you more in frustration than they save in dollars.
+The real winner of the $20 AI coding war? Depends on whether you want your coding budget mixed into everything else (Claude Code) or kept in its own sandbox (Codex). Either way, budget for more than $20.
 
 ---
 
