@@ -59,13 +59,13 @@ The question becomes: do you want one excellent solution that costs 4x the token
 
 ## What happens when you hit the wall
 
-Both tools let you buy your way past limits, and both approaches have tradeoffs.
+Both tools will sell you more capacity when you run out. The question is whether you want to buy it.
 
 Claude Code on Pro now supports extra usage billing: when you hit your plan allocation, you can keep going at standard API token rates. It's opt-in: enable it in Settings > Usage, add a payment method, and set a daily spending cap. A heavy Claude Code session can run $5-15 per hour on extra usage depending on model choice and context size. It's more flexible than the old hard-stop approach, but it turns a predictable $20 into an open-ended meter.
 
 Codex CLI also lets you buy credits to continue past your included allocation. The experience is similar. Keep working, pay more. OpenAI's own estimate of $100-$200/dev/month is the natural consequence of pay-per-overflow pricing on either platform.
 
-The honest truth: both roads lead to the same place. Whether you're buying Claude extra usage or Codex overflow credits, you're paying API rates on top of your subscription. The $20 entry point is a floor, same as a ceiling.
+Both roads lead to the same place. Whether you're buying Claude extra usage or Codex overflow credits, you're paying API rates on top of your subscription. The $20 entry point is a floor, same as a ceiling.
 
 ## Open source changes the math
 
@@ -73,7 +73,7 @@ There's one more factor that doesn't show up on pricing pages. Codex CLI is open
 
 With Codex, you can fork the CLI, modify how it handles context, integrate it into your own toolchain, or run it with alternative models. If OpenAI's pricing ever becomes untenable, you have options. The agent framework is yours. Several teams I've talked to run a customized Codex with local models for internal tasks, paying nothing beyond their compute costs.
 
-Claude Code gives you no such escape hatch. You're locked into Anthropic's model, Anthropic's pricing, and Anthropic's rate limits. When they change the weekly cap calculation (and they have, multiple times), you adapt or you leave.
+Claude Code gives you no such escape hatch. You're locked into Anthropic's ecosystem. Their models, their pricing, their rate limits. When they change the weekly cap calculation (and they have, multiple times), you adapt or you leave.
 
 For individual developers on $20 plans, this distinction is theoretical. But if you're building a team workflow around one of these tools, vendor lock-in should factor into the decision. The cheapest tool today isn't always the cheapest tool next quarter.
 
@@ -87,7 +87,7 @@ After a month of side-by-side usage, here's who should pick what.
 
 **Pick neither if you:** code 6+ hours a day. The $20 tier is a sampler for both tools. Heavy users will end up on Max ($100-200) or Pro ($200) respectively, and at that point you should be evaluating API costs directly.
 
-## The honest take
+## What I actually do
 
 The $20 plan for both tools is a gateway, not a destination. It's enough to figure out which agent fits your workflow, then you'll likely need to upgrade or buy overflow credits. The key difference isn't price — it's how the budget works. Claude Code shares a pool with your claude.ai usage, so every PDF summary competes with your coding. Codex gives you a separate allocation, so your regular ChatGPT usage doesn't eat into coding time. Both will upsell you past $20 eventually.
 
