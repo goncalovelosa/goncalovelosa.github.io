@@ -65,9 +65,9 @@ There's a broader dynamic at play here that I think the industry is just startin
 
 The AI coding market has been dominated by what I'd call the frontier fetish: the assumption that developers will always pay a premium for the smartest model available. And sure, there are scenarios where you want the absolute best. If I'm debugging a heisenbug in a distributed system at 2 AM, yes, give me Opus 4.7. If I'm generating a complex algorithm from scratch, GPT-5.5's Terminal-Bench dominance probably matters.
 
-But most of my coding isn't that. Most of *anyone's* coding isn't that. Most coding is plumbing. Wiring APIs, writing boilerplate, adding logging, fixing lint errors, updating dependencies. The thousand small tasks that eat 80% of a developer's day. For that work, you don't need the smartest model on earth. You need one that's good enough, fast enough, and cheap enough that you never think twice about invoking it.
+But most of my coding isn't that. Most of *anyone's* coding isn't that. Most coding is plumbing. Wiring APIs, writing boilerplate, adding logging, fixing lint errors, updating dependencies. The thousand small tasks that eat 80% of a developer's day. For that work, you don't need the smartest model on earth. You need one that's good enough and cheap enough that you never think twice about invoking it.
 
-Composer 2.5 occupies that sweet spot with startling precision. It's close enough to frontier performance on most benchmarks that the difference won't change your workflow. It's fast enough that you're not staring at a spinner. And it's cheap enough that cost simply drops out of the equation.
+Composer 2.5 occupies that sweet spot with startling precision. It's close enough to frontier performance that the difference won't change your workflow. And it's cheap enough that cost simply drops out of the equation.
 
 ## The competitive moat nobody talks about
 
@@ -75,7 +75,7 @@ Here's something I find fascinating: Cursor's strategy is nothing like Anthropic
 
 Anthropic and OpenAI are building general-purpose intelligence. Their coding performance is a side effect of building models that can reason about everything. Cursor is doing the opposite. They started with a coding environment, and they're building models specifically optimized for the work that happens inside that environment.
 
-That specialization shows. Cursor spent 85% of their compute on proprietary RL training. They generated 25x more synthetic tasks than for Composer 2. They keep the model exclusive to their own IDE and CLI. This is a company that's not trying to win the general AI race. They're trying to own the coding experience end to end, using model quality, tight tooling integration, and aggressive pricing to get there.
+That specialization shows. Cursor spent 85% of their compute on proprietary RL training. They generated 25x more synthetic tasks than for Composer 2. They keep the model exclusive to their own IDE and CLI. This is a company that's not trying to win the general AI race. They're trying to own the coding experience end to end, using model quality and aggressive pricing to get there.
 
 The fact that they're reportedly training a larger model on SpaceXAI's Colossus cluster suggests they're not done pushing the performance ceiling either. If the next model closes the remaining 4-point gap on the Index while maintaining anything close to current pricing, the "frontier fetish" starts to look like an expensive habit.
 
@@ -90,7 +90,7 @@ The 4-point gap on the Coding Agent Index is real. On hard problems — complex 
 
 And the standard mode, while absurdly cheap, is slower than Fast. For interactive pair-programming where you want responses in seconds, you'll want Fast mode, which at $0.44/task is still 10x cheaper than the frontier models but no longer in "who cares about the cost" territory.
 
-## The bottom line
+## What I reach for now
 
 I've been testing Composer 2.5 since it dropped, and here's my honest takeaway: it's the model I reach for first now. I keep Opus 4.7 available for the hard problems, but for the daily grind of software development, Composer 2.5 handles 85% of what I throw at it at a price that doesn't make me wince.
 
