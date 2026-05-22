@@ -17,25 +17,98 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     <!-- Grid Layout -->
     <div class="grid lg:grid-cols-12 gap-12">
-      <!-- Left Column: Quick Message -->
+      <!-- Left Column: Contact Form -->
       <div class="lg:col-span-7 bg-surface-container-low p-8 md:p-12 rounded-xl">
-        <div class="flex flex-col items-center justify-center h-full text-center py-12">
-          <div class="w-20 h-20 rounded-full bg-surface-container-high flex items-center justify-center mb-8">
-            <svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-            </svg>
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+          <input type="hidden" name="access_key" value="e760754c-6b53-4d90-b343-856b45cffd69">
+          <!-- Honeypot anti-spam -->
+          <input type="checkbox" name="botcheck" class="hidden" style="display:none">
+          <!-- Redirect after success -->
+          <input type="hidden" name="redirect" value="https://goncalovelosa.github.io/contact/?success=true">
+          <!-- Subject for the email -->
+          <input type="hidden" name="subject" value="New contact from goncalovelosa.github.io">
+
+          <div>
+            <label for="name" class="block text-sm font-label uppercase tracking-widest text-on-surface-variant mb-2">
+              Name
+            </label>
+            <input 
+              type="text" 
+              id="name" 
+              name="name" 
+              required
+              placeholder="Your name"
+              class="w-full bg-surface-container-high border border-outline-variant/20 rounded-lg px-4 py-3 text-on-surface placeholder:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+            >
           </div>
-          <h3 class="text-2xl font-bold text-on-surface mb-4">Drop me a line</h3>
-          <p class="text-on-surface-variant mb-8 max-w-md">
-            Whether it's a consulting project, collaboration idea, or just a tech conversation — 
-            I'm always happy to connect.
-          </p>
-          <a href="mailto:contact@goncalovelosa.com" class="btn-primary inline-flex items-center gap-3">
-            <span>Send me an email</span>
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+
+          <div>
+            <label for="email" class="block text-sm font-label uppercase tracking-widest text-on-surface-variant mb-2">
+              Email
+            </label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              required
+              placeholder="your@email.com"
+              class="w-full bg-surface-container-high border border-outline-variant/20 rounded-lg px-4 py-3 text-on-surface placeholder:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+            >
+          </div>
+
+          <div>
+            <label for="message" class="block text-sm font-label uppercase tracking-widest text-on-surface-variant mb-2">
+              Message
+            </label>
+            <textarea 
+              id="message" 
+              name="message" 
+              required
+              rows="5"
+              placeholder="Tell me about your project or idea..."
+              class="w-full bg-surface-container-high border border-outline-variant/20 rounded-lg px-4 py-3 text-on-surface placeholder:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-y"
+            ></textarea>
+          </div>
+
+          <button 
+            type="submit" 
+            id="submit-btn"
+            class="btn-primary inline-flex items-center gap-3 w-full justify-center"
+          >
+            <span id="btn-text">Send message</span>
+            <svg id="btn-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
             </svg>
-          </a>
+            <svg id="btn-spinner" class="w-5 h-5 animate-spin hidden" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+          </button>
+        </form>
+
+        <!-- Success Message -->
+        <div id="success-msg" class="hidden text-center py-12">
+          <div class="w-20 h-20 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-6">
+            <svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold text-on-surface mb-2">Message sent!</h3>
+          <p class="text-on-surface-variant">Thanks for reaching out. I'll get back to you soon.</p>
+        </div>
+
+        <!-- Error Message -->
+        <div id="error-msg" class="hidden text-center py-12">
+          <div class="w-20 h-20 rounded-full bg-red-500/20 flex items-center justify-center mx-auto mb-6">
+            <svg class="w-10 h-10 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold text-on-surface mb-2">Something went wrong</h3>
+          <p class="text-on-surface-variant mb-6">Please try again or reach out directly.</p>
+          <button onclick="document.getElementById('error-msg').classList.add('hidden'); document.getElementById('contact-form').classList.remove('hidden');" class="btn-primary">
+            Try again
+          </button>
         </div>
       </div>
 
@@ -48,18 +121,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           </h3>
           
           <div class="space-y-6">
-            <a href="mailto:contact@goncalovelosa.com" class="group flex items-center gap-4">
-              <div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center group-hover:text-primary transition-colors">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <div>
-                <p class="text-xs font-label uppercase tracking-tighter text-neutral-500">Email</p>
-                <p class="text-lg font-medium text-on-surface">contact@goncalovelosa.com</p>
-              </div>
-            </a>
-            
             <div class="flex items-center gap-4">
               <div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface-variant">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -122,4 +183,53 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       </div>
     </div>
   </main>
+
+  <script>
+    const form = document.getElementById('contact-form');
+    const successMsg = document.getElementById('success-msg');
+    const errorMsg = document.getElementById('error-msg');
+    const submitBtn = document.getElementById('submit-btn');
+    const btnText = document.getElementById('btn-text');
+    const btnIcon = document.getElementById('btn-icon');
+    const btnSpinner = document.getElementById('btn-spinner');
+
+    // Check if redirected with success param
+    if (new URLSearchParams(window.location.search).get('success') === 'true') {
+      form.classList.add('hidden');
+      successMsg.classList.remove('hidden');
+      // Clean URL
+      window.history.replaceState({}, '', '/contact/');
+    }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      // Loading state
+      submitBtn.disabled = true;
+      btnText.textContent = 'Sending...';
+      btnIcon.classList.add('hidden');
+      btnSpinner.classList.remove('hidden');
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(Object.fromEntries(new FormData(form)))
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+          form.classList.add('hidden');
+          successMsg.classList.remove('hidden');
+        } else {
+          form.classList.add('hidden');
+          errorMsg.classList.remove('hidden');
+        }
+      } catch {
+        form.classList.add('hidden');
+        errorMsg.classList.remove('hidden');
+      }
+    });
+  </script>
 </BaseLayout>
