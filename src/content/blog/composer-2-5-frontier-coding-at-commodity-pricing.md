@@ -13,7 +13,7 @@ canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 
 The AI coding space has a new problem, and it's a good one: too many models are getting too good.
 
-Three days ago, Artificial Analysis updated their Coding Agent Index. Cursor's Composer 2.5 is sitting in third place with a score of 62. Claude Opus 4.7 leads at 66. GPT-5.5 is at 65. Those two models are genuinely better. Nobody's disputing that.
+Three days ago, Artificial Analysis updated their Coding Agent Index. Cursor's Composer 2.5 is sitting in third place with a score of 62. Claude Opus 4.7 leads at 66 (at max effort). GPT-5.5 is at 65 (at xhigh reasoning). Those two models are genuinely better at their peak settings. Nobody's disputing that.
 
 But here's the number that stopped me mid-scroll: Composer 2.5 standard costs $0.07 per task. Claude Opus 4.7 costs $4.10. GPT-5.5 costs $4.82.
 
@@ -31,7 +31,7 @@ The difference between $300/week and $5/week isn't a rounding error. It's the di
 
 ![Cost comparison: three receipts of dramatically different lengths — $3.50 vs $287 vs $337 per week](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
 
-And for most of the tasks I throw at agents, the quality difference is barely perceptible. Composer 2.5 actually *beats* both frontier models on CursorBench v3.1 (63.2% vs. Opus 4.7's 61.6% and GPT-5.5's 59.2%). It ties Opus 4.7 on Terminal-Bench 2.0 at 69.3% vs. 69.4%. GPT-5.5 dominates that benchmark at 82.7%, I'll grant you, but I'm not running nuclear reactor control software. I'm refactoring CRUD endpoints and writing integration tests.
+And for most of the tasks I throw at agents, the quality difference is barely perceptible. Composer 2.5 actually *beats* both frontier models on CursorBench v3.1 (63.2% vs. Opus 4.7's 61.6% at its default setting and GPT-5.5's 59.2%) — though I'll note that CursorBench is Cursor's own benchmark, so take that with appropriate salt. It ties Opus 4.7 on Terminal-Bench 2.0 at 69.3% vs. 69.4%. GPT-5.5 dominates that benchmark at 82.7%, I'll grant you, but I'm not running nuclear reactor control software. I'm refactoring CRUD endpoints and writing integration tests.
 
 ## What Cursor actually built
 
@@ -39,7 +39,7 @@ The technical story behind Composer 2.5 is worth paying attention to, because it
 
 The base model is Kimi K2.5 from Moonshot AI, a mixture-of-experts architecture with 1 trillion total parameters but only ~32 billion active at any given inference step. That MoE design is doing exactly what it should: giving you a big model's knowledge with a smaller model's compute cost.
 
-But here's the part that matters more. Cursor spent 85% of their compute budget on their own reinforcement learning and training pipeline. They generated 25 times more synthetic training tasks than they did for Composer 2. The result is a model that went from a score of 48 (Composer 2) to 62, a 14-point jump in a single generation. That's the kind of improvement curve that makes you lean forward in your chair.
+But here's the part that matters more. Cursor spent 85% of their compute budget on their own additional training and reinforcement learning pipeline. They generated 25 times more synthetic training tasks than they did for Composer 2. The result is a model that went from a score of 48 (Composer 2) to 62, a 14-point jump in a single generation. That's the kind of improvement curve that makes you lean forward in your chair.
 
 ![Strategy: two toolboxes — one perfect tool vs a full practical set](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/strategy.png)
 
@@ -77,7 +77,7 @@ Anthropic and OpenAI are building general-purpose intelligence. Their coding per
 
 That specialization shows. Cursor spent 85% of their compute on proprietary RL training. They generated 25x more synthetic tasks than for Composer 2. They keep the model exclusive to their own IDE and CLI. This is a company that's not trying to win the general AI race. They're trying to own the coding experience end to end, using model quality, tight tooling integration, and aggressive pricing to get there.
 
-The fact that they're reportedly training a larger model on SpaceXAI's Colossus 2 cluster suggests they're not done pushing the performance ceiling either. If the next model closes the remaining 4-point gap on the Index while maintaining anything close to current pricing, the "frontier fetish" starts to look like an expensive habit.
+The fact that they're reportedly training a larger model on SpaceXAI's Colossus cluster suggests they're not done pushing the performance ceiling either. If the next model closes the remaining 4-point gap on the Index while maintaining anything close to current pricing, the "frontier fetish" starts to look like an expensive habit.
 
 ## Where it falls short
 
