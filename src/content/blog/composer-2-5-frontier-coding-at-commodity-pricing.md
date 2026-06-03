@@ -4,12 +4,12 @@ description: "Cursor's model ranks third on the Coding Agent Index but costs 10-
 pubDate: 2026-06-03
 category: "AI"
 tags: ["ai-coding", "cursor", "composer-2.5", "deepseek-v4", "llm-benchmarks", "developer-tools"]
-heroImage: "./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png"
+heroImage: "./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png"
 mediumUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 ---
 
-![Cover: a single gold coin casting an enormous shadow — small cost, massive impact](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
+![Cover: a single gold coin casting an enormous shadow — small cost, massive impact](./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
 
 The AI coding space has a new problem, and it's a good one: too many models are getting too good and too cheap, too fast.
 
@@ -31,7 +31,7 @@ At Opus 4.8 pricing, that's $200 to $280 per week. At GPT-5.5 pricing, $241 to $
 
 The difference between $280/week and $5/week isn't a rounding error. It's the difference between expense-reporting your AI tools and just paying for them yourself. It's the difference between thinking "should I spin up an agent for this?" and just doing it.
 
-![Cost comparison: three receipts of dramatically different lengths — $3.50 vs $280 vs $337 per week](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
+![Cost comparison: three receipts of dramatically different lengths — $3.50 vs $280 vs $337 per week](./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
 
 DeepSeek V4-Pro has complicated this picture. At $0.435 per million input tokens and $0.87 per million output tokens after its permanent 75% price cut, it's the cheapest model on the Coding Agent Index that still delivers frontier-adjacent performance. It scored 80.6% on SWE-bench Verified, matching Claude Opus 4.6. On LiveCodeBench, its 93.5 is the highest of any model, period. MIT-licensed, open weights, 1M-token context window.
 
@@ -47,7 +47,7 @@ The base model is Kimi K2.5 from Moonshot AI, a mixture-of-experts architecture 
 
 But the part that matters more: Cursor spent 85% of their compute budget on their own additional training and reinforcement learning pipeline. They generated 25 times more synthetic training tasks than they did for Composer 2. The result is a model that went from a score of 48 (Composer 2) to 62, a 14-point jump in a single generation. That's the kind of improvement curve that makes you lean forward in your chair.
 
-![Strategy: two toolboxes — one perfect tool vs a full practical set](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/strategy.png)
+![Strategy: two toolboxes — one perfect tool vs a full practical set](./composer-2-5-frontier-coding-at-commodity-pricing/images/strategy.png)
 
 The pricing reflects the architecture. Standard mode runs $0.50 per million input tokens and $2.50 per million output tokens. Fast mode costs $3.00/$15.00. For context, Claude Opus 4.8 pricing is an order of magnitude higher on both dimensions ($5/$25). Composer 2.5 Fast completes tasks in 6.7 minutes on average, making it the third-fastest model on the entire Index. Speed and cost aren't enemies here; they're allies.
 
