@@ -1,6 +1,6 @@
 ---
 title: "Composer 2.5 is the AI coding model most developers should actually use"
-description: "Cursor's model ranks third on the Coding Agent Index but costs 10-60x less than the leaders. With DeepSeek V4-Pro now competing on value, the question isn't which model is best — it's which model is best for your workflow."
+description: "At $20/month all three major AI coding tools cost the same. The difference is how far that budget goes. Composer 2.5 stretches your credits further than any competitor."
 pubDate: 2026-06-03
 category: "AI"
 tags: ["ai-coding", "cursor", "composer-2.5", "deepseek-v4", "llm-benchmarks", "developer-tools"]
@@ -8,7 +8,6 @@ heroImage: "./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comp
 mediumUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 ---
-
 ![Cover: a single gold coin casting an enormous shadow — small cost, massive impact](./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
 
 The AI coding space has a new problem, and it's a good one: too many models are getting too good and too cheap, too fast.
@@ -17,27 +16,27 @@ When I first drafted this piece in late May, the Artificial Analysis Coding Agen
 
 Two weeks later, Anthropic shipped Opus 4.8. DeepSeek dropped V4-Pro with a 75% price cut. Moonshot open-sourced Kimi K2.6. The leaderboard reshuffled overnight.
 
-The number that still stops me mid-scroll, even after all that: Composer 2.5 standard costs $0.07 per task. Claude Opus 4.8 costs over $4. DeepSeek V4-Pro, the new value champion, runs $0.35 per task. Composer 2.5 is still five times cheaper than the closest competition on the Coding Agent Index.
+Nobody mentions the real metric in the model wars: at $20/month, all three major AI coding tools cost the same. The difference isn't the subscription. It's how far that twenty bucks actually goes.
 
-Let me do the uncomfortable arithmetic. Composer 2.5 standard is somewhere between 10x and 60x cheaper than the frontier models, depending on whether you're running it in Fast mode ($0.44/task) or standard. And the performance gap to the top? Four points on the Index. A rounding error on SWE-Bench Multilingual, where Composer 2.5 hits 79.8% against Opus 4.7's 80.5%.
+On the Artificial Analysis Coding Agent Index, a single Composer 2.5 standard task costs roughly $0.07 in compute. An Opus 4.8 task costs over $4. Same monthly budget. Vastly different number of tasks before you hit the cap. And the performance gap? Four points on the Index. A rounding error on SWE-Bench Multilingual, where Composer 2.5 hits 79.8% against Opus 4.7's 80.5%.
 
-This isn't a story about the best model winning. It's a story about the best model most people can afford to actually use, and why that category just got crowded.
+This isn't a story about the cheapest model winning. It's about getting more coding output per dollar, and why that calculation just got more interesting.
 
 ## The numbers that actually matter
 
 I've been running AI coding agents daily for over a year now. My workflow involves spinning up agent sessions for everything from refactoring stale API endpoints to writing tests for code I wrote six months ago and can barely remember. On a heavy week, I'll fire off 50 to 70 agent sessions.
 
-At Opus 4.8 pricing, that's $200 to $280 per week. At GPT-5.5 pricing, $241 to $337. At DeepSeek V4-Pro, $17.50 to $24.50. At Composer 2.5 standard, $3.50 to $4.90. At Composer 2.5 Fast, $22 to $31.
+Most model comparisons miss the point: at $20/month, Cursor Pro, Claude Code Pro, and Codex Plus all cost the same. The difference isn't the sticker price. It's how much coding you get done before you hit the cap.
 
-The difference between $280/week and $5/week isn't a rounding error. It's the difference between expense-reporting your AI tools and just paying for them yourself. It's the difference between thinking "should I spin up an agent for this?" and just doing it.
+Cursor Pro includes $20 of model usage credits per month. Because Composer 2.5 standard mode costs roughly $0.50 per million input tokens and $2.50 per million output tokens, each agent task burns a tiny fraction of your budget. Running 50 to 70 tasks a week on Composer 2.5 standard barely makes a dent in those credits. Claude Code Pro gives you roughly 45 messages per 5-hour window — enough for light daily use, but heavy users report hitting limits by mid-afternoon. Codex Plus gives you 20 to 100 messages per 5-hour window depending on the model, with GPT-5.4 at the lower end.
 
-![Cost comparison: three receipts of dramatically different lengths — $3.50 vs $280 vs $337 per week](./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
+The gap widens at higher tiers. Cursor Pro+ at $60/month gives you more included credits. Claude Code's Max 5x ($100/month) and Codex Pro 5x ($100/month) both offer 5x the base quota. At the top, Cursor Ultra ($200/month), Claude Max 20x ($200/month), and Codex Pro 20x ($200/month) all sit at the same price point. But because Composer 2.5's per-token costs are an order of magnitude lower than Opus or GPT models, each tier's credits buy you significantly more agent sessions in Cursor.
 
-DeepSeek V4-Pro has complicated this picture. At $0.435 per million input tokens and $0.87 per million output tokens after its permanent 75% price cut, it's the cheapest model on the Coding Agent Index that still delivers frontier-adjacent performance. It scored 80.6% on SWE-bench Verified, matching Claude Opus 4.6. On LiveCodeBench, its 93.5 is the highest of any model, period. MIT-licensed, open weights, 1M-token context window.
+![Cost comparison: three receipts of dramatically different lengths — same $20 monthly budget, vastly different output](./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
 
-So why am I still writing about Composer 2.5? Because DeepSeek V4-Pro, for all its benchmark dominance, is a general-purpose model. You run it through an API or a generic agent harness. Composer 2.5 lives inside the IDE where you write code. It has been trained on Cursor's specific tool-use patterns and agentic workflow, tuned on 25x more synthetic coding tasks than its predecessor. The benchmarks that matter most for daily development — CursorBench v3.1, where Composer 2.5 scores 63.2% versus Opus 4.7's 61.6% — reflect that specialization.
+DeepSeek V4-Pro has complicated this picture further. At $0.435 per million input tokens and $0.87 per million output tokens after its permanent 75% price cut, it's the cheapest model on the Coding Agent Index that still delivers frontier-adjacent performance. It scored 80.6% on SWE-bench Verified, matching Claude Opus 4.6. On LiveCodeBench, its 93.5 is the highest of any model, period. MIT-licensed, open weights, 1M-token context window. But DeepSeek lives in the API layer. You run it through an open harness like Aider or Continue, or call the API directly. It doesn't come bundled with any IDE or subscription.
 
-Composer 2.5 actually *beats* both frontier models on CursorBench v3.1, though I'll note that CursorBench is Cursor's own benchmark, so take that with appropriate salt. It ties Opus 4.7 on Terminal-Bench 2.0 at 69.3% vs. 69.4%. GPT-5.5 dominates that benchmark at 82.7%, I'll grant you, but I'm not running nuclear reactor control software. I'm refactoring CRUD endpoints and writing integration tests.
+So why am I still writing about Composer 2.5? Because DeepSeek V4-Pro, for all its benchmark dominance, is a general-purpose model behind an API endpoint. Composer 2.5 lives inside the IDE where you write code. It has been trained on Cursor's specific tool-use patterns and agentic workflow, tuned on 25x more synthetic coding tasks than its predecessor. On SWE-Bench Multilingual, Composer 2.5 hits 79.8% versus Opus 4.7's 80.5%. On Terminal-Bench 2.0, it ties Opus 4.7 at 69.3% vs. 69.4%. GPT-5.5 dominates that benchmark at 82.7%, I'll grant you, but I'm not running nuclear reactor control software. I'm refactoring CRUD endpoints and writing integration tests.
 
 ## What Cursor actually built
 
@@ -57,9 +56,9 @@ Released May 18th, Composer 2.5 is available exclusively inside Cursor's IDE and
 
 Two weeks ago, the value story was simple: Composer 2.5 versus the expensive frontier. Now it's a three-way conversation, and pretending otherwise would be dishonest.
 
-**DeepSeek V4-Pro** is the open-weight value king. At $0.35/task on the Coding Agent Index, it matches Composer 2.5 Fast ($0.44/task) and beats it on raw benchmark ceiling. If you're running agents through Claude Code, Codex CLI, or any open harness with API access, DeepSeek V4-Pro is the rational economic choice. The MIT license means you can fine-tune or self-host. The 1M-token context window handles anything you throw at it. It scored 80.6% on SWE-bench Verified and leads LiveCodeBench at 93.5.
+**DeepSeek V4-Pro** is the open-weight value king. At $0.35/task on the Coding Agent Index, its raw token costs rival Composer 2.5 Fast ($0.44/task) and it wins on benchmark ceiling. If you're running agents through an open harness like Aider or Continue, or calling the API directly, DeepSeek V4-Pro is the rational economic choice. The MIT license means you can fine-tune or self-host. The 1M-token context window handles anything you throw at it. It scored 80.6% on SWE-bench Verified and leads LiveCodeBench at 93.5.
 
-**Composer 2.5** is the integrated value king. It's five times cheaper than DeepSeek per task if you run standard mode ($0.07 vs $0.35), and it benefits from Cursor's specialized training pipeline that no open harness can replicate. The IDE integration — inline edits, multi-file awareness, project-level context — isn't a nice-to-have. It's the thing that makes the difference between an agent that suggests code and an agent that *writes code where you need it*.
+**Composer 2.5** is the integrated value king. Its per-token costs are the lowest of any model in a subscription IDE, roughly $0.07/task in standard mode, which means your Cursor Pro credits stretch far further than they would running Claude or GPT models. The IDE integration (inline edits, multi-file awareness, project-level context) isn't a nice-to-have. It's the thing that makes the difference between an agent that suggests code and an agent that *writes code where you need it*.
 
 **The frontier models** (Opus 4.8, GPT-5.5) are the ceiling. When you need the absolute best reasoning, the highest scores on contamination-resistant benchmarks, or deep architectural analysis, you pay the premium. Opus 4.8 retained the same $5/$25 pricing as 4.7 while improving across coding, agentic tool use, and reasoning.
 
@@ -71,11 +70,11 @@ Let me paint a picture of what this looks like in day-to-day development.
 
 Last Tuesday I was working on a feature that required touching seven files across a monorepo. I broke it into five agent tasks: scaffolding, writing business logic, updating consumers, adding tests, and fixing type errors from the first pass.
 
-Five tasks. With Opus 4.8 that's about $20. With DeepSeek V4-Pro, $1.75. With Composer 2.5 standard, $0.35. The Composer 2.5 output was clean enough that I accepted four of the five suggestions with minimal edits. The fifth needed a rewrite of the error handling, which... honestly, I've had to rewrite error handling on frontier model outputs too.
+Five tasks. In Claude Code Pro at $20/month, that's five of my roughly 45 messages per window — a meaningful chunk of a single afternoon's quota. In Codex Plus at $20/month, same story: each task eats into a limited message budget. In Cursor Pro at $20/month, those five Composer 2.5 standard tasks barely register against the credit pool. The Composer 2.5 output was clean enough that I accepted four of the five suggestions with minimal edits. The fifth needed a rewrite of the error handling, which... honestly, I've had to rewrite error handling on frontier model outputs too.
 
-This is the point the benchmark-chasing misses. When you're running dozens of agent sessions a week, you're going to get some duds regardless of which model you use. The question isn't whether Model A produces 2% more correct completions than Model B on a curated benchmark. The question is whether you can afford to run the model long enough that its strengths compound.
+This is the point the benchmark-chasing misses. When you're running dozens of agent sessions a week, you're going to get some duds regardless of which model you use. The question isn't whether Model A produces 2% more correct completions than Model B on a curated benchmark. The question is whether you can get through a full workday without watching your quota counter tick down.
 
-At $0.07/task, you can run Composer 2.5 all day. You can use it for throwaway explorations. You can use it for tasks you'd otherwise just Google and copy-paste. You can use it without a budget approval or a usage dashboard, without that little voice in your head saying "is this task worth four dollars?"
+With Composer 2.5's low token costs inside a Cursor Pro plan, I can run agents all day without hitting my cap. I can use it for throwaway explorations. I can use it for tasks I'd otherwise just Google and copy-paste. I can use it without that little voice in my head saying "is this task worth burning a message?"
 
 ## The competitive moat nobody talks about
 
@@ -101,10 +100,10 @@ And the standard mode, while absurdly cheap, is slower than Fast. It's also hidd
 
 ## What I reach for now
 
-I've been testing Composer 2.5 since it dropped, and here's my honest takeaway: it's still the model I reach for first. I keep Opus 4.8 available for the hard problems, and I've added DeepSeek V4-Pro to my toolkit for tasks where I want open-weight flexibility. But for the daily grind of software development, Composer 2.5 handles 85% of what I throw at it at a price that doesn't make me wince.
+I've been testing Composer 2.5 since it dropped, and here's my honest takeaway: it's still the model I reach for first. I keep Opus 4.8 available for the hard problems, and I've added DeepSeek V4-Pro to my toolkit for tasks where I want open-weight flexibility. But for the daily grind of software development, Composer 2.5 handles 85% of what I throw at it, and my Cursor Pro credits last the full month.
 
-The AI coding market has spent two years obsessed with who has the smartest model. Then DeepSeek asked who has the cheapest smart model. Cursor asked a different question: who has the smartest *integrated* model? Seven cents a task. Five times cheaper than DeepSeek. Sixty times cheaper than the leader. Close enough on performance that most developers won't notice the difference.
+The AI coding market has spent two years obsessed with who has the smartest model. Then DeepSeek asked who has the cheapest smart model. Cursor asked a different question: who has the smartest *integrated* model, the one that stretches your monthly budget furthest? Close enough on performance that most developers won't notice the difference. Cheap enough per token that you stop counting.
 
-If you're already in Cursor, try Composer 2.5 for a week. Run every task through it that you'd normally send to Opus or GPT. Track how many outputs you accept versus rewrite. If you're not in Cursor, try DeepSeek V4-Pro through Claude Code or Codex — at $0.35/task with open weights, it's the rational alternative. Either way, stop paying frontier prices for plumbing work.
+If you're already in Cursor, try Composer 2.5 for a week. Run every task through it that you'd normally send to Opus or GPT. Track how many outputs you accept versus rewrite, and watch how your credit usage compares. If you're not in Cursor, try DeepSeek V4-Pro through Aider or Continue — at $0.35/task with open weights, it's the rational alternative for API-first workflows. Either way, think about how much coding you're actually getting done per dollar, not just which model tops the leaderboard.
 
-The best model is the one you can afford to use without thinking about it. Right now, that's either Composer 2.5 or DeepSeek V4-Pro, depending on whether you value IDE integration or open-weight freedom more. The frontier tax is optional.
+The best model is the one you can use all day without thinking about cost. Right now that's Composer 2.5 inside Cursor, or DeepSeek V4-Pro through open tools if you care more about open-weight freedom than IDE integration. Either way, the frontier tax is optional.
