@@ -17,7 +17,7 @@ When I first drafted this piece in late May, the Artificial Analysis Coding Agen
 
 Two weeks later, Anthropic shipped Opus 4.8. DeepSeek dropped V4-Pro with a 75% price cut. Moonshot open-sourced Kimi K2.6. The leaderboard reshuffled overnight.
 
-Here's the number that still stops me mid-scroll, even after all that: Composer 2.5 standard costs $0.07 per task. Claude Opus 4.8 costs over $4. DeepSeek V4-Pro, the new value champion, runs $0.35 per task. Composer 2.5 is still five times cheaper than the closest competition on the Coding Agent Index.
+The number that still stops me mid-scroll, even after all that: Composer 2.5 standard costs $0.07 per task. Claude Opus 4.8 costs over $4. DeepSeek V4-Pro, the new value champion, runs $0.35 per task. Composer 2.5 is still five times cheaper than the closest competition on the Coding Agent Index.
 
 Let me do the uncomfortable arithmetic. Composer 2.5 standard is somewhere between 10x and 60x cheaper than the frontier models, depending on whether you're running it in Fast mode ($0.44/task) or standard. And the performance gap to the top? Four points on the Index. A rounding error on SWE-Bench Multilingual, where Composer 2.5 hits 79.8% against Opus 4.7's 80.5%.
 
@@ -45,7 +45,7 @@ The technical story behind Composer 2.5 is worth paying attention to, because it
 
 The base model is Kimi K2.5 from Moonshot AI, a mixture-of-experts architecture with 1 trillion total parameters but only ~32 billion active at any given inference step. That MoE design is doing exactly what it should: giving you a big model's knowledge with a smaller model's compute cost.
 
-But here's the part that matters more. Cursor spent 85% of their compute budget on their own additional training and reinforcement learning pipeline. They generated 25 times more synthetic training tasks than they did for Composer 2. The result is a model that went from a score of 48 (Composer 2) to 62, a 14-point jump in a single generation. That's the kind of improvement curve that makes you lean forward in your chair.
+But the part that matters more: Cursor spent 85% of their compute budget on their own additional training and reinforcement learning pipeline. They generated 25 times more synthetic training tasks than they did for Composer 2. The result is a model that went from a score of 48 (Composer 2) to 62, a 14-point jump in a single generation. That's the kind of improvement curve that makes you lean forward in your chair.
 
 ![Strategy: two toolboxes — one perfect tool vs a full practical set](./composer-2-5-frontier-coding-at-commodity-pricing/./composer-2-5-frontier-coding-at-commodity-pricing/images/strategy.png)
 
