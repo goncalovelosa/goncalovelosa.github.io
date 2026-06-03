@@ -14,7 +14,7 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 ---
 
-<BaseLayout title={entry.data.title} description={entry.data.description}>
+<BaseLayout title={entry.data.title} description={entry.data.description} canonicalUrl={entry.data.canonicalUrl}>
   <article class="pt-32 pb-24 px-6 lg:px-8 max-w-4xl mx-auto">
     <header class="mb-12">
       <p class="text-primary text-sm font-label uppercase tracking-widest mb-4">
@@ -52,8 +52,30 @@ const { Content } = await render(entry);
                 prose-pre:bg-surface-container-lowest prose-pre:border prose-pre:border-outline-variant/20
                 prose-strong:text-on-surface
                 prose-ul:text-on-surface-variant prose-ol:text-on-surface-variant
-                prose-blockquote:border-primary prose-blockquote:text-on-surface-variant">
+                prose-blockquote:border-primary prose-blockquote:text-on-surface-variant
+                prose-img:rounded-lg">
       <Content />
     </div>
+
+    {entry.data.mediumUrl && (
+      <footer class="mt-16 pt-8 border-t border-outline-variant/20">
+        <div class="bg-surface-container rounded-lg p-6 text-center">
+          <p class="text-on-surface-variant text-sm mb-3">
+            This article was originally published on Medium.
+          </p>
+          <a
+            href={entry.data.mediumUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block text-primary border border-primary px-6 py-2 rounded text-sm font-label uppercase tracking-widest hover:bg-primary hover:text-on-surface transition-colors"
+          >
+            Read on Medium →
+          </a>
+          <p class="text-neutral-500 text-xs mt-3">
+            Follow <a href="https://medium.com/@gvelosa" target="_blank" rel="noopener" class="text-primary hover:underline">@gvelosa</a> for more articles like this.
+          </p>
+        </div>
+      </footer>
+    )}
   </article>
 </BaseLayout>
