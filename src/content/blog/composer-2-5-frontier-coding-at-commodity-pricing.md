@@ -4,7 +4,7 @@ description: "At $20/month all three major AI coding tools cost the same. The di
 pubDate: 2026-06-03
 category: "AI"
 tags: ["ai-coding", "cursor", "composer-2.5", "deepseek-v4", "llm-benchmarks", "developer-tools"]
-heroImage: "./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png"
+heroImage: "./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png"
 mediumUrl: "https://medium.com/@gvelosa/composer-2-5-is-the-ai-coding-model-most-developers-should-actually-use-653a1ce9bf18"
 canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-is-the-ai-coding-model-most-developers-should-actually-use-653a1ce9bf18"
 ---
