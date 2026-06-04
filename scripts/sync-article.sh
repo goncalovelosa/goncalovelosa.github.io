@@ -78,14 +78,27 @@ else
 fi
 
 # === SYNC ARTICLE MARKDOWN (unless --images-only) ===
+# NOTE: The site .md has Astro frontmatter that edited.md doesn't have.
+# We only sync the BODY content, preserving the site's frontmatter.
 if [[ "$IMAGES_ONLY" == false ]]; then
   SRC_MD="$SOURCE/edited.md"
   DEST_MD="$SITE_REPO/src/content/blog/$SLUG.md"
 
-  if [[ -f "$SRC_MD" ]]; then
+  if [[ -f "$SRC_MD" ]] && [[ -f "$DEST_MD" ]]; then
     echo ""
-    echo "📄 Syncing article markdown..."
-    cp -v "$SRC_MD" "$DEST_MD"
+    echo "📄 Syncing article body (preserving site frontmatter)..."
+
+    # Extract frontmatter from site .md (everything between first pair of ---)
+    FRONTMATTER=$(awk '/^---$/{n++; if(n==2){exit} print; if(n==1)next} n==1{print}' "$DEST_MD")
+
+    # Extract body from edited.md (skip the # Title line and cover image line)
+    BODY=$(tail -n +2 "$SRC_MD")
+
+    # Combine
+    printf '%s\n%s\n' "$FRONTMATTER" "$BODY" > "$DEST_MD"
+    echo "  ✅ Body synced, frontmatter preserved"
+  elif [[ -f "$SRC_MD" ]]; then
+    echo "⚠️  Site .md not found at $DEST_MD — skipping markdown sync"
   else
     echo "⚠️  No edited.md found at $SRC_MD"
   fi
