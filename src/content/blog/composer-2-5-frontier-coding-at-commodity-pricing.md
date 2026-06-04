@@ -8,7 +8,7 @@ heroImage: "./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comp
 mediumUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-TBD"
 ---
-![Cover: a single gold coin casting an enormous shadow — small cost, massive impact](./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
+![Cover: a tiny brass washer casting an enormous warm shadow — small cost, massive impact](./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
 
 The AI coding space has a new problem, and it's a good one: too many models are getting too good and too cheap, too fast.
 
