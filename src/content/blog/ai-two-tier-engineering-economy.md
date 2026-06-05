@@ -1,14 +1,15 @@
 ---
 title: "AI Is Creating a Two-Tier Engineering Economy"
-description: "AI tools split engineering into visible output and invisible review work. 94% of leaders admit their metrics miss the difference."
-pubDate: "2026-06-04"
-tags: ["ai", "programming", "productivity", "software-development", "career"]
-draft: true
+description: "AI coding tools were supposed to make everyone faster. Instead, they split engineering teams into two tiers, and the metrics we use can only see one of them."
+pubDate: 2026-06-05
+category: "AI"
+tags: ["Artificial Intelligence", "Software Engineering", "Future of Work", "Technology", "Career"]
+heroImage: "./ai-two-tier-engineering-economy/images/visual-1-cover.png"
 ---
 
 AI coding tools were supposed to make everyone faster. They did something stranger instead: they split engineering teams into two tiers, and the metrics we use can only see one of them.
 
-In January 2026, Sonar surveyed 1,100 professional developers and found that 42% of committed code is now AI-generated or AI-assisted. By 2027, developers expect that to reach 65%. The tools work. The code ships.
+In January 2026, Sonar (a code quality platform) surveyed 1,100 professional developers and found that 42% of committed code is now AI-generated or AI-assisted, categories that span everything from autocomplete suggestions to full function generation. By 2027, developers expect that to reach 65%. The tools work. The code ships.
 
 But 96% of those developers don't fully trust the AI output. Only 48% always verify it before committing. And 38% say reviewing AI-generated code takes more effort than reviewing code written by a human colleague.
 
@@ -30,11 +31,11 @@ Meanwhile, 81% of developers say they spend more time in code review since AI ad
 
 ## The two tiers
 
-Here is what the data describes, even if no report says it this directly.
+Here is what the data describes, even if no report says it this directly. The tiers are roles, not people. The same engineer can occupy both in a single afternoon.
 
-Tier one: engineers who use AI to ship more. They write code with Copilot, Cursor, or Claude Code. Their PR count goes up. Their commit frequency looks impressive. On every dashboard their company built, they are the top performers.
+Tier one: the work of shipping. Writing code with Copilot, Cursor, or Claude Code. PR count goes up. Commit frequency looks impressive. On every dashboard the company built, this is the top performer.
 
-Tier two: engineers who review and fix what tier one ships. They are the ones reading AI-generated pull requests, catching the logic errors, flagging the security issues, rewriting the non-idiomatic solutions. Their PR count stays flat or declines. Their commit history looks unremarkable. On the same dashboards, they look average.
+Tier two: the work of reviewing and fixing. Reading AI-generated pull requests, catching logic errors, flagging security issues, rewriting non-idiomatic solutions. PR count stays flat. Commit history looks unremarkable. On the same dashboards, this looks average.
 
 Fastly's July 2025 survey of 791 developers found that 32% of senior developers with ten or more years of experience ship code where more than half is AI-generated. For juniors, that figure is 13%. Seniors produce 2.5 times more AI-assisted code than juniors. The same seniors are also the ones reviewing it. They are the heaviest users and the primary auditors.
 
@@ -56,7 +57,7 @@ LinearB's 2026 Engineering Benchmarks Report analysed 8.1 million pull requests 
 
 The acceptance rate tells the rest of the story. AI-generated PRs have a 32.7% acceptance rate. Human-written PRs: 84.4%.
 
-Opsera's 2026 benchmark report, covering 250,000 developers across 60 enterprises, confirms the 4.6 times wait and adds that AI introduces 15 to 18% more security vulnerabilities.
+Opsera's 2026 benchmark report (Opsera is a DevOps analytics vendor), covering 250,000 developers across 60 enterprises, confirms the 4.6 times wait and adds that AI introduces 15 to 18% more security vulnerabilities per pull request.
 
 So the person shipping AI-assisted code gets a productivity boost. The person reviewing it gets a tax. The dashboards count the boost. They miss the tax entirely.
 
@@ -72,13 +73,13 @@ The Stack Overflow Developer Survey 2025, with 49,000 responses, shows AI adopti
 
 Cui et al., published in *Management Science* in 2025, ran randomised controlled trials with 1,974 developers at Microsoft and Accenture. Copilot users produced 13.5% more completed pull requests. No measurable change in shipped code quality. The study came from researchers at MIT, Princeton, and Wharton.
 
-The Qodo findings seem to contradict this. They don't, exactly. Cui et al. measured quality by what shipped and survived in production. Qodo measured what static analysis flags in review. A PR can pass all tests and deploy cleanly while still carrying maintainability debt that surfaces months later. Both studies are right. They measure different things.
+The Qodo findings seem to contradict this. They don't, exactly. Cui et al. measured quality by what shipped and survived in production. Qodo measured what static analysis flags in review. A PR can pass all tests and deploy cleanly while still carrying maintainability debt that surfaces months later. Both studies are right. They measure different things. The honest answer is that we don't yet know which one predicts long-term outcomes.
+
+The same ambiguity applies to the acceptance rates. AI-generated PRs may have lower acceptance because reviewers apply more scrutiny to them, not because the code is worse. The data cannot distinguish between the two.
 
 13.5% more PRs. That is what the dashboard sees. What it does not see: the senior engineer who spent an extra hour verifying each one.
 
-Engineering metrics were already broken before AI. Story points got inflated. Commits got split. Lines of code got padded. Goodhart's Law, the economist's warning that "when a measure becomes a target, it ceases to be a good measure," has haunted every productivity framework ever invented.
-
-AI did not break the metrics. It made the breakage obvious.
+Engineering metrics were already broken before AI. Story points got inflated. Commits got split. Lines of code got padded. AI did not break the metrics. It made the breakage obvious.
 
 ![A dashboard shows green metrics while the foundation cracks beneath](./ai-two-tier-engineering-economy/images/visual-3-dashboard.png)
 
@@ -92,17 +93,7 @@ There is no version of this where we go back to writing code without AI. The 42%
 
 I have been that reviewer. In my role as tech lead, I've watched my own PR count flatten while the queue of AI-assisted pull requests grows longer every sprint. The work that keeps our codebase maintainable, the architectural decisions, the security reviews, the mentorship of juniors who are learning faster than ever but building on shakier foundations, none of it shows up in our engineering dashboard. What shows up is PR count. And PR count tells a story that rewards the wrong people.
 
-The fix is not to measure harder. It is to measure differently. Organizations should track review-hours alongside PR counts. Promotion criteria should explicitly reward engineers who prevent bad code from shipping. Review time is work. Until dashboards reflect that, no individual coping strategy will close the gap.
-
-In the meantime, the best individual defense is creating artifacts. In engineering, the equivalent of Yasar Ahmad's two-minute email is the architecture decision record. The thorough PR description that explains the reasoning behind a change. The tech spec that documents trade-offs before implementation begins. The retro document that captures what went wrong and what to change next time.
-
-The engineer who writes these documents becomes the de facto owner of the technical narrative. Their work becomes visible, searchable, citable. A PR count does not capture judgment. An ADR does. A sprint metric does not capture mentorship. A tech spec that three other engineers reference in their own PRs does.
-
-Documentation is the bridge between invisible glue work and visible leadership. It converts the work that nobody tracks into artifacts that everybody can reference. It does not fix the measurement problem. But it gives the people doing the hardest work a record of having done it.
-
-The line about the recap sender becoming the de facto owner of the outcome resonated with 203,000 people on Instagram. It works because it makes invisible labour legible to the people who decide on promotions and headcount.
-
-![Documentation glows on a desk, making invisible engineering work visible](./ai-two-tier-engineering-economy/images/visual-4-documentation.png)
+The fix is not to measure harder. It is to measure differently. Organizations should track review-hours alongside PR counts. Promotion criteria should explicitly reward engineers who prevent bad code from shipping. Review time is work. Until dashboards reflect that, the gap keeps growing.
 
 ## The real cost
 
