@@ -27,7 +27,7 @@ Meanwhile, 81% of developers say they spend more time in code review since AI ad
 
 94% of leaders acknowledge that key factors like tech debt and developer burnout are missing from their current metrics. Only 6% believe their measurement frameworks can fix this.
 
-89% say productivity is up. 94% say they can't actually measure the cost. Leaders see the gains but can't see what they're trading for them.
+89% say productivity is up. 94% say they can't measure the cost. Leaders see the gains but can't see what they're trading for them.
 
 ## The two tiers
 
@@ -65,7 +65,7 @@ This is what Tanya Reilly warned about years before AI coding tools existed. In 
 
 Her observation was painful: glue work is essential and actively harmful to the careers of the people who perform it, because it crowds out the visible, promotable contributions that organisations tend to reward. It is invisible on performance reviews.
 
-Reviewing AI-generated code is the new glue work. It is the invisible tax that keeps the codebase functional while everyone else's metrics look great. AI code review tools like CodeRabbit and Qodo are emerging to absorb some of this burden, but for now the bulk of it still falls on humans. And just like the original glue work, it falls disproportionately on the same people who are already doing the most important work on the team.
+Reviewing AI-generated code is the new glue work. It is the invisible tax that keeps the codebase functional while everyone else's metrics look great. AI code review tools like CodeRabbit and Qodo are emerging to absorb some of this burden, but for now the bulk of it still falls on humans. And just like the original glue work, it falls disproportionately on the same people who are already doing the most consequential work on the team.
 
 ## The measurement collapse
 
