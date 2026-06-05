@@ -25,17 +25,15 @@ That Reddit post sounds like an anecdote. It is. But the data behind it says thi
 
 Pullflow analyzed 40.3 million pull requests between February 2022 and November 2025. AI agent participation in PRs grew from 1.1% to 14.9%. That is a 14x increase in 21 months. The repositories using AI review tools jumped from 300,000 to 1.3 million in the same window.
 
-The tooling landscape exploded. CodeRabbit reviewed over 13 million pull requests. GitHub Copilot's code review feature hit 60 million reviews by March 2026, ten times its April 2025 numbers. Google's Gemini Code Assist grew 43x in a single year. Even purpose-built tools like Qodo (formerly PR-Agent) and Greptile carved out niches by specializing in security audits and full-codebase context respectively.
+The tooling landscape exploded. CodeRabbit reviewed over 13 million pull requests (per their own reporting). GitHub Copilot's code review feature hit 60 million reviews by March 2026, ten times its April 2025 numbers, according to GitHub's own data. Google's Gemini Code Assist grew 43x in a single year, per Google Cloud's announcement. Even purpose-built tools like Qodo (formerly PR-Agent) and Greptile carved out niches by specializing in security audits and full-codebase context respectively.
 
-Meanwhile, Korbit, a venture-funded AI code review startup, shut down in 2025. The market is consolidating around a few winners fast. When a funded startup in a booming market closes its doors, that tells you the incumbents have distribution moats that pure-play review tools cannot overcome. GitHub owns the pull request. Copilot ships with it for free. You do not need a standalone product when the platform bakes it in.
-
-The same thing happened with test automation a decade ago. Selenium and Jenkins were supposed to replace manual QA. What actually happened is QA shifted upstream into test design and infrastructure. AI code review is following the same pattern. The review does not disappear. It shifts to harder problems.
+Meanwhile, Korbit, a venture-funded AI code review startup, shut down in 2025. The market is consolidating around incumbents with distribution moats. GitHub owns the pull request. Copilot ships with it for free.
 
 ## AI solved the wrong problem
 
-Here is where it gets interesting. AI was supposed to make writing code dramatically faster. Instead, a study from METR (Model Evaluation and Threat Research) found that experienced developers using AI tools completed tasks 19% *slower* than without them. Yet those same developers believed they were 20% faster. That is a 39-point gap between perception and reality, measured within a single study. LinearB's 2026 benchmark report, analyzing 8.1 million pull requests across 4,800 organizations, confirmed the pattern at scale: developers feel faster, but shipping velocity has not improved.
+Here is where it gets interesting. AI was supposed to make writing code dramatically faster. Instead, a study from METR (Model Evaluation and Threat Research) found that experienced developers using AI tools completed tasks 19% *slower* than without them, on unfamiliar codebases. Yet those same developers believed they were 20% faster. The tools made them feel more productive while objectively slowing them down. LinearB's 2026 benchmark report, analyzing 8.1 million pull requests across 4,800 organizations, confirmed the pattern at scale: developers feel faster, but shipping velocity has not improved.
 
-The reason is simple. AI made code generation faster, but code generation was never the bottleneck. Code review was. And now that developers can produce 200 pull requests a week with the same effort it used to take to produce 50, the review capacity has not scaled. The Martian Code Review Benchmark, the first independent evaluation of AI code review tools (released March 2026 by researchers from DeepMind, Anthropic, and Meta), found that AI coding tools actually *increased* PR review time by 91%.
+The reason is simple. AI made code generation faster, but code generation was never the only bottleneck. Code review was the other one. And now that developers can produce far more pull requests with the same effort, the review capacity has not scaled. The Martian Code Review Benchmark, the first broad evaluation of AI code review tools (released March 2026 by researchers affiliated with DeepMind, Anthropic, and Meta, companies that build the tools being tested), found that AI coding tools actually *increased* PR review time by 91%.
 
 More code. Same review capacity. Slower shipping.
 
@@ -45,7 +43,7 @@ More code. Same review capacity. Slower shipping.
 
 The obvious solution was to throw AI at the review problem too. And it works, sort of.
 
-The Martian benchmark evaluated 17 tools across 200,000 real pull requests. The best performer, CodeRabbit, achieved a 51.2% F1 score with 49.2% precision. Translation: roughly one in two comments from the best AI reviewer leads to an actual code change. The rest are noise.
+The Martian benchmark evaluated 17 tools across 200,000 real pull requests. The best performer, CodeRabbit, achieved a 51.2% F1 score with 49.2% precision. Translation: the best AI reviewer correctly identifies roughly half of real issues. The rest slip through.
 
 CodeRabbit, which sells AI code review tools, reported from its own analysis of 13 million pull requests that AI-assisted code generates 1.7x more issues than human-written code. Seventeen percent of AI-assisted PRs contained issues scoring 9-10 on their severity scale, meaning high probability of production impact. We made code generation faster and buggier, then built AI to catch the bugs, and the AI catches about half of them.
 
@@ -53,11 +51,11 @@ This is the trust gap that two separate data sources captured. Sonar's 2025 surv
 
 Ninety-six percent. So the AI writes the code. The AI reviews the code. And then a human has to check the AI that checked the AI. We built a faster pipeline to do the same thing we were already doing.
 
-Stack Overflow's data revealed a frequency divide that explains some of this tension. Developers who use AI tools daily report higher satisfaction. They have learned the tools' strengths and compensate for their weaknesses. Infrequent users are frustrated by hallucinations and almost-right answers. As Erin Yepis, Stack Overflow's research manager, put it: if you rarely use the tool, "the effect of, I came to this restaurant once, I am giving it a one star Yelp review takes over." Trust grows with repetition. But the overall trend is heading the wrong direction. Sixty percent positive in 2025, down from seventy percent in 2024. More usage, less trust.
+Stack Overflow's data revealed one nuance: developers who use AI tools daily report higher satisfaction than infrequent users. Whether trust grows with repetition, or whether developers who already trust AI simply use it more, the data cannot tell us. But the overall trend is heading the wrong direction. More usage, less trust.
 
-One commenter on the Reddit thread raised a point that stuck with me. "The real issue is that junior developers are rushing and opening PRs without going through the code itself. CodeRabbit might solve this problem, but it is a solution caused by using too much AI in the first place." That is the uncomfortable loop. AI lets juniors ship faster, which produces messier PRs, which requires AI review to catch the mess, which lets juniors ship even faster. We are not fixing the pipeline. We are widening it.
+One commenter on the Reddit thread raised a point that stuck with me. "The real issue is that junior developers are rushing and opening PRs without going through the code itself." AI lets juniors ship faster, which produces messier PRs, which requires AI review to catch the mess, which lets juniors ship even faster. We are widening the pipeline, not fixing it.
 
-The same commenter added something else. "Juniors should review PRs to learn." This is the part that gets lost in the efficiency conversation. Code review was never just about catching bugs. It was how junior developers learned to read code and absorb standards. When the bot does the first pass, the junior reads the bot's comment instead of reading the diff. They learn what the bot catches. They do not learn what the bot misses.
+Another commenter added something quieter: "Juniors should review PRs to learn." Code review was never just about catching bugs. It was how junior developers learned to read code. When the bot does the first pass, the junior reads the bot's comment instead of the diff. They learn what the bot catches. They do not learn what the bot misses.
 
 ## What seniors actually do now
 
@@ -67,7 +65,7 @@ The r/cursor post hints at something more interesting than "AI replaced reviewer
 
 Level one is linting and static analysis. Tools like SonarQube and ESLint catch formatting, imports, and style violations. Some commenters on the Reddit thread pointed out, correctly, that these problems should never reach a human reviewer in the first place. If your seniors were spending 20 minutes on missing imports, your problem was not AI. Your problem was not having a linter.
 
-Level two is AI first-pass review. CodeRabbit, Copilot, BugBot scan for error handling, edge cases, test coverage, and common anti-patterns. This is where the real time savings happen. The Martian benchmark shows these tools are 50-60% effective. They generate noise. They flag false positives. But when they work, they clear the underbrush so humans can focus on harder problems.
+Level two is AI first-pass review. CodeRabbit, Copilot, BugBot scan for error handling, edge cases, test coverage, and common anti-patterns. This is where the real time savings happen. The Martian benchmark shows the best of these tools catches roughly half of real issues. They generate noise. They flag false positives. But when they work, they clear the underbrush so humans can focus on harder problems.
 
 Level three is human architectural review. This is where seniors operate now. Does the approach make sense? Does this API design scale? Are we creating technical debt that will haunt us in six months? No AI tool can do this well, and the r/cursor post confirms it. The author was explicit: "the architectural judgment still needs a human."
 
