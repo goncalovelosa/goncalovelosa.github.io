@@ -49,7 +49,7 @@ Gabriel Scherer, an OCaml maintainer, said reviewing AI-generated code is "more 
 
 Nobody promoted them for it.
 
-![A funnel filters AI-generated code, human hands inspect and remove defective pieces](./ai-two-tier-engineering-economy/images/visual-2-funnel.png)
+![A pristine desk surface with a laptop showing green growth, hiding a chaotic tangled mess of cables and debris below](./ai-two-tier-engineering-economy/images/visual-2-funnel.png)
 
 ## The review tax
 
@@ -81,7 +81,7 @@ The same ambiguity applies to the acceptance rates. AI-generated PRs may have lo
 
 Engineering metrics were already broken before AI. Story points got inflated. Commits got split. Lines of code got padded. AI did not break the metrics. It made the breakage obvious.
 
-![A dashboard shows green metrics while the foundation cracks beneath](./ai-two-tier-engineering-economy/images/visual-3-dashboard.png)
+![A tower of green pristine blocks on top, dark crumbling cracked blocks on the bottom, spotlight on the green section](./ai-two-tier-engineering-economy/images/visual-3-dashboard.png)
 
 When a junior engineer ships three times more PRs with AI assistance and a senior engineer spends their day reviewing them, the junior looks like a 10x developer. The senior looks like they are falling behind. The organisation rewards the wrong person. The senior burns out. Nobody notices until the codebase starts rotting.
 
