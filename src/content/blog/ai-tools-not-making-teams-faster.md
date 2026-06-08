@@ -9,7 +9,6 @@ mediumUrl: "https://medium.com/@gvelosa/ai-writes-42-of-your-code-why-havent-you
 canonicalUrl: "https://medium.com/@gvelosa/ai-writes-42-of-your-code-why-havent-you-shipped-42-faster-82dda91eed7f"
 ---
 
-
 Sonar's latest survey, released in January 2026, found that AI now accounts for 42% of all committed code. Seventy-two percent of developers who have tried AI tools use them every single day. GitHub Copilot adoption has reached nearly half of developers industry-wide.
 
 Your engineering team has never produced this much code.
@@ -115,5 +114,4 @@ The 42% number from Sonar is accurate. AI does account for that share of committ
 Your developers are writing more code than ever. The question is whether anyone is measuring what happens to it.
 
 ---
-
 *Data sources: METR (arxiv.org/abs/2507.09089), Harness State of DevOps Modernization 2026 (survey by Coleman Parkes, 700 respondents), LinearB 2026 Software Engineering Benchmarks Report (8.1M PRs, 4,800 organizations), Stack Overflow Developer Survey 2025, GitClear 2025 AI Copilot Code Quality Report (211M lines analyzed), Sonar State of Code Developer Survey January 2026 (1,100 developers). Some cited research is produced by vendors (Harness, LinearB, GitClear, Sonar) who sell products in the spaces they research. This article notes those conflicts where relevant.*
