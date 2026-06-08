@@ -13,13 +13,13 @@ canonicalUrl: "https://medium.com/p/9aea4e68f0fb"
 
 I have been quoting AI productivity studies with the confidence of a man who definitely read the whole paper. I hadn't.
 
-A few weeks ago, I caught myself dropping the "55% faster with Copilot" stat in a team meeting. Someone nodded. Someone else slid it into a slide deck. By end of day, that number had metastasized into three strategy documents. Nobody asked where it came from. Including me.
+A few weeks ago, I caught myself dropping the "55% faster with Copilot" stat in a team meeting. Someone nodded. Someone else slid it into a slide deck. By the end of the day, that number had metastasized into three strategy documents. Nobody asked where it came from. Including me.
 
 This article is my correction. Not because AI coding tools are bad (I use them daily) but because the gap between what the data shows and what we keep repeating is embarrassing. And I contributed to the problem.
 
 If you are building a team, choosing tools, or trying to understand whether AI is making you faster, you deserve better numbers.
 
-## the study everyone cites (and almost nobody has read)
+## The study everyone cites (and almost nobody has read)
 
 The 55% figure comes from a 2023 study by Peng and colleagues, published through GitHub and Microsoft. GitHub, which sells Copilot, funded the research. The number is real. It is also extraordinarily narrow.
 
@@ -31,20 +31,20 @@ I am not saying the study is invalid. But "developers completed a toy task faste
 
 We took a controlled observation and stretched it into an industry slogan. The study measured time to completion on a greenfield task. It did not measure debugging, code review cycles, or anything that consumes most of a working day.
 
-## the self-report trap
+## The self-report trap
 
 You have seen the survey. Eighty-seven percent of developers say AI tools make them more productive. It appears in keynotes and vendor marketing with metronomic regularity. It feels true because it confirms what we want to believe.
 
 The source is a 2024 study by Liang and colleagues at ICSE. The problem is not the data. The problem is what we do with it.
 
-Self-report measures of productivity are confessionals. They capture how people feel, influenced by novelty and perceived effort, factors that have nothing to do with output. AI tools amplify the feeling of speed.
+Self-report measures of productivity are confessions. They capture how people feel, influenced by novelty and perceived effort, factors that have nothing to do with output. AI tools amplify the feeling of speed.
 
 This would be a footnote if the self-reports aligned with objective data. They do not.
 
 ![A hamster runs furiously inside a wheel that spins freely, detached from any cage or stand, going nowhere](./ai-coding-productivity-measurement-wrong/images/VISUAL_2_illustration_1.png)
 *Running fast. Going nowhere.*
 
-A 2025 randomized controlled trial by Becker and colleagues at METR gave 16 experienced developers 246 real engineering issues to solve. Each task was randomly assigned so developers completed some with AI and some without. The AI-assisted tasks took 19% longer. Objectively measured. Timed. Verified. That original finding was statistically significant, with a confidence interval between 2% and 39% slower. But sixteen developers at a single AI-safety organization is a sample that demands humility, not headlines.
+A 2025 randomized controlled trial by Becker and colleagues at METR gave 16 experienced developers 246 real engineering issues to solve. Each task was randomly assigned, so developers completed some with AI and some without. The AI-assisted tasks took 19% longer. Objectively measured. Timed. Verified. That original finding was statistically significant, with a confidence interval between 2% and 39% slower. But sixteen developers at a single AI-safety organization is a sample that demands humility, not headlines.
 
 Then the researchers asked those same developers how fast they thought they were. The AI group reported feeling 20% faster.
 
@@ -52,13 +52,13 @@ They were slower, and they believed they were faster. The tools that introduced 
 
 Here is where the story gets more complicated. In February 2026, METR published a follow-up with a new round of the same experiment. This time, using more recent AI tools, the original developers showed an estimated 18% speedup. New developers showed roughly 4% faster. The headline flipped.
 
-Except neither result is statistically significant. METR's confidence interval for the original developers ranged from a 38% speedup to a 9% slowdown, crossing zero. The new developers' interval, from 15% faster to 9% slower, tells the same story. The data is consistent with anything from a substantial speedup to a mild slowdown. The point estimates suggest improvement, but the sample is too small to say by how much.
+Except that neither result is statistically significant. METR's confidence interval for the original developers ranged from a 38% speedup to a 9% slowdown, crossing zero. The new developers' interval, from 15% faster to 9% slower, tells the same story. The data is consistent with anything from a substantial speedup to a mild slowdown. The point estimates suggest improvement, but the sample is too small to say by how much.
 
-Sort of. METR also found that many developers refused to participate unless they could use AI. Others submitted only tasks where AI did not matter much. The study was bleeding participants who knew they needed these tools, which means the speedup numbers are almost certainly understated.
+Sort of. METR also found that many developers refused to participate unless they could use AI. Others submitted only tasks where AI did not matter much. The study was recruiting participants who knew they needed these tools, which means the speedup numbers are almost certainly understated.
 
 The honest read: AI tooling probably has gotten better, and the productivity picture is genuinely mixed. Early 2025: slowdown for experienced devs. Early 2026: probable speedup, but the measurement is too noisy to pin down. Anyone giving you a single percentage, in either direction, is selling you something. The studies disagree with each other. That is the data.
 
-## experienced developers take the hit
+## Experienced developers take the hit
 
 The METR studies trace an arc: 19% slower in early 2025, then 18% faster a year later. But METR measures individuals solving isolated tasks. The structural picture at scale looks different.
 
@@ -68,14 +68,14 @@ Whether review-burden effects improved post-2025 remains unknown. Tools got fast
 
 Opsera's 2026 benchmark, covering 250,000 developers across 60 enterprises, fills in part of the picture. Opsera is a DevOps vendor, so treat the numbers accordingly. The data is observational. AI-generated pull requests may differ from human ones in ways the study did not control for. Their data shows AI reduces time-to-PR by up to 58% in the best-performing subgroups, though the enterprise-wide average is smaller. The same study found that AI-generated pull requests wait 4.6 times longer for review. You write faster but wait longer for someone to check your work.
 
-Junior developers often show genuine speed improvements in these studies. IBM's 2025 CHI work by Weisz and colleagues (IBM sells its own coding assistant, Watsonx) confirmed that net productivity increases exist but distribute unevenly. Some people benefit. Others pay a tax. When you average across skill levels, junior gains mask senior drag. Your aggregate dashboard looks green while your most experienced contributors absorb the review debt.
+Junior developers often show genuine speed improvements in these studies. IBM's 2025 CHI work by Weisz and colleagues (IBM sells its own coding assistant, Watsonx) confirmed that net productivity increases exist but are distributed unevenly. Some people benefit. Others pay a tax. When you average across skill levels, junior gains mask senior drag. Your aggregate dashboard looks green while your most experienced contributors absorb the review debt.
 
 ![A row of pristine teal columns, but one amber column in the center is cracked and crumbling, bearing the heaviest weight](./ai-coding-productivity-measurement-wrong/images/VISUAL_3_diagram_1.png)
 *Junior gains mask senior drag — the averaging problem.*
 
-On tasks where I already know the approach, typing was never the bottleneck. Thinking through edge cases was. AI accelerates the typing part of a job where typing was already the fast part.
+On tasks where I already know the approach, typing was never the bottleneck. Thinking through edge cases was. AI accelerates the typing part of a job where typing was already the fastest part.
 
-## quality debt accumulates quietly
+## Quality debt accumulates quietly
 
 Speed metrics are seductive because they are easy to collect. Quality metrics require patience.
 
@@ -98,22 +98,22 @@ The speed was real. So was the complexity. But the speed was temporary, and the 
 ![A sleek amber arrow flies forward, but a heavy iron chain drags a massive rusted ball behind it](./ai-coding-productivity-measurement-wrong/images/VISUAL_4_illustration_1.png)
 *Speed was temporary. Complexity was not.*
 
-This is the streetlight effect applied to software. We measure what is easy to see, not what matters. We optimized for stories closed because those were the numbers AI could visibly improve. The costs showed up in maintainability, onboarding time, and the cognitive load of reading code no single person on the team wrote.
+This is the streetlight effect applied to software. We measure what is easy to see, not what matters. We optimized for stories closed because those were the numbers AI could visibly improve. The costs showed up in maintainability, onboarding time, and the cognitive load of reading code that no single person on the team wrote.
 
-## what should we measure instead
+## What should we measure instead?
 
 The SPACE framework, published by Forsgren and colleagues in 2021, argues that individual coding speed is one narrow dimension in a system that includes satisfaction, communication, efficiency, and quality. Individual throughput is not team delivery.
 
-If your AI tool helps a junior close tickets 30% faster but adds 6.5% review burden to every senior engineer, your team-level throughput may have gone down. The junior's dashboard looks like a success story. The senior's untracked overtime tells a different one.
+If your AI tool helps a junior close tickets 30% faster but adds 6.5% review burden to every senior engineer, your team-level throughput may have gone down. The junior's dashboard looks like a success story. The senior's untracked overtime tells a different story.
 
 We need metrics that capture the full cycle: cycle time from first commit to merge. Review-to-commit ratio. Defect escape rate per sprint. Time from merge to first production incident traced back to that merge. These metrics capture team health overall. Isolating AI's contribution specifically would require controlled comparisons within your own team, which most organizations are not set up to run. But without the baseline, you cannot even ask the question. Most organizations measure the first commit timestamp and stop there. That was always a problem. AI tools made it urgent.
 
 The tools themselves do not care whether the code they generate is maintainable. That burden falls on the humans in the loop, and the humans are the same people being told to move faster.
 
-## the uncomfortable middle ground
+## The uncomfortable middle ground
 
-I still use AI coding tools. Daily. I am not arguing you should stop. The IBM study and the METR follow-up both suggest real benefits, and those benefits may be growing as tools improve. Stack Overflow's 2025 survey of 65,000 developers echoes this: most report real gains. That too is self-report data, subject to the same biases I just spent three sections dissecting. But when the objective studies and the subjective surveys both point in the same direction, the signal gets harder to dismiss. What I am arguing is that we have been sloppy about the numbers behind those benefits. I have been sloppy. We grabbed the most impressive-sounding figures, stripped them of context, and used them to justify decisions that deserved more scrutiny.
+I still use AI coding tools. Daily. I am not arguing that you should stop. The IBM study and the METR follow-up both suggest real benefits, and those benefits may be growing as tools improve. Stack Overflow's 2025 survey of 65,000 developers echoes this: most report real gains. That too is self-report data, subject to the same biases I just spent three sections dissecting. But when the objective studies and the subjective surveys both point in the same direction, the signal gets harder to dismiss. What I am arguing is that we have been sloppy about the numbers behind those benefits. I have been sloppy. We grabbed the most impressive-sounding figures, stripped them of context, and used them to justify decisions that deserved more scrutiny.
 
-The honest answer about AI coding productivity is boring and true: it depends on experience level, task type, codebase maturity, and how you define productivity. The studies contradict each other. Gains are real for some and negative for others. Quality risks persist. Less shareable than a tweet about 55% faster. Closer to reality.
+The honest answer about AI coding productivity is boring and true: it depends on experience level, task type, codebase maturity, and how you define productivity. The studies contradict each other. Gains are real for some and negative for others. Quality risks persist. Less shareable than a tweet, about 55% faster. Closer to reality.
 
 The next time someone quotes a productivity stat at you, ask about the study design. Ask about the sample size. Ask who chose not to participate. We owe our teams better than cherry-picked numbers. That starts with admitting we were citing the wrong data, which, for the record, I was.
