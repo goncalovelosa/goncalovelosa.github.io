@@ -75,17 +75,9 @@ const heroSrc = getHeroImageSrc(entry);
                 prose-strong:text-on-surface
                 prose-ul:text-on-surface-variant prose-ol:text-on-surface-variant
                 prose-blockquote:border-primary prose-blockquote:text-on-surface-variant
-                prose-img:rounded-lg prose-img:mx-auto">
+                prose-img:rounded-lg">
       <Content />
     </div>
-
-    <style is:global>
-      .prose img + em,
-      .prose p > img:first-child + em {
-        display: block;
-        text-align: center;
-      }
-    </style>
 
     {entry.data.mediumUrl && (
       <footer class="mt-16 pt-8 border-t border-outline-variant/20">
