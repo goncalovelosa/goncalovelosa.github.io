@@ -12,6 +12,22 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+
+// Resolve heroImage path
+const heroImages = import.meta.glob<{ default: ImageMetadata }>(
+  '../../content/blog/**/*.{png,jpg,jpeg,webp,avif}',
+  { eager: true }
+);
+
+function getHeroImageSrc(entry: any): string | undefined {
+  if (!entry.data.heroImage) return undefined;
+  const imagePath = entry.data.heroImage.replace(/^\.\//, '');
+  const key = `../../content/blog/${imagePath}`;
+  const match = heroImages[key];
+  return match?.default?.src;
+}
+
+const heroSrc = getHeroImageSrc(entry);
 ---
 
 <BaseLayout title={entry.data.title} description={entry.data.description} canonicalUrl={entry.data.canonicalUrl}>
@@ -43,6 +59,12 @@ const { Content } = await render(entry);
         </div>
       )}
     </header>
+
+    {heroSrc && (
+      <div class="mb-12 rounded-lg overflow-hidden">
+        <img src={heroSrc} alt={entry.data.title} class="w-full h-auto" loading="eager" />
+      </div>
+    )}
     
     <div class="prose prose-invert prose-lg max-w-none
                 prose-headings:text-on-surface prose-headings:font-bold
