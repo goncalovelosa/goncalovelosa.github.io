@@ -6,9 +6,9 @@ category: "AI"
 tags: ["Artificial Intelligence", "Software Engineering", "Career", "Technology", "Programming"]
 heroImage: "./promptable-career-erosion-ai/images/VISUAL_1_cover_1.png"
 ---
-
 A senior engineer watched AI dissolve his career pillars one by one. His story is not unique.
 
+![A tall amber sandstone column crumbling layer by layer from the top, dust drifting from the ruined upper section, hairline cracks spreading in the solid base](./promptable-career-erosion-ai/images/VISUAL_1_cover_1.png)
 *Erosion from the top down — each layer a career pillar.*
 
 Last week, a software engineer with ten years of experience published a blog post with a title that stopped me mid-scroll: "LLMs are eroding my software engineering career and I don't know what to do."
