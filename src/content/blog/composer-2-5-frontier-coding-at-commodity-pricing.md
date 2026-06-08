@@ -8,7 +8,6 @@ heroImage: "./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png
 mediumUrl: "https://medium.com/@gvelosa/composer-2-5-is-the-ai-coding-model-most-developers-should-actually-use-653a1ce9bf18"
 canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-is-the-ai-coding-model-most-developers-should-actually-use-653a1ce9bf18"
 ---
-![Cover: a tiny brass washer casting an enormous warm shadow — small cost, massive impact](./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
 
 The AI coding space has a new problem, and it's a good one: too many models are getting too good and too cheap, too fast.
 
