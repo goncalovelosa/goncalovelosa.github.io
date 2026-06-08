@@ -9,7 +9,7 @@ mediumUrl: "https://medium.com/@gvelosa/the-20-ai-coding-bet-claude-code-vs-code
 canonicalUrl: "https://medium.com/@gvelosa/the-20-ai-coding-bet-claude-code-vs-codex-cli-2d9240d0ebe7"
 ---
 
-![Cover: two hourglasses — blue sand nearly spent, amber sand still flowing steady](./claude-code-vs-codex-20-dollar-plan/images/cover.png)
+
 
 Two terminal agents, one price point, wildly different economics. I've been running both Claude Code and Codex CLI on the $20 tier for the past month, and the real cost story isn't on any pricing page.
 

@@ -8,7 +8,7 @@ heroImage: "./ai-tools-not-making-teams-faster/images/cover.png"
 ---
 
 
-![Cover image](./ai-tools-not-making-teams-faster/images/cover.png)
+
 
 Sonar's latest survey, released in January 2026, found that AI now accounts for 42% of all committed code. Seventy-two percent of developers who have tried AI tools use them every single day. GitHub Copilot adoption has reached nearly half of developers industry-wide.
 
