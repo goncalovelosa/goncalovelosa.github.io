@@ -5,6 +5,8 @@ pubDate: 2026-06-05
 category: "AI"
 tags: ["Artificial Intelligence", "Software Engineering", "Future of Work", "Technology", "Career"]
 heroImage: "./ai-coding-productivity-measurement-wrong/images/VISUAL_1_cover_1.png"
+mediumUrl: "https://medium.com/p/9aea4e68f0fb"
+canonicalUrl: "https://medium.com/p/9aea4e68f0fb"
 ---
 
 *A narrow study casting a wide wake.*
