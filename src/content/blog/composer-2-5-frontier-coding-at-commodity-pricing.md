@@ -8,8 +8,6 @@ heroImage: "./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png
 mediumUrl: "https://medium.com/@gvelosa/composer-2-5-is-the-ai-coding-model-most-developers-should-actually-use-653a1ce9bf18"
 canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-is-the-ai-coding-model-most-developers-should-actually-use-653a1ce9bf18"
 ---
-![Cover: a tiny brass washer casting an enormous warm shadow — small cost, massive impact](./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png)
-
 The AI coding space has a new problem, and it's a good one: too many models are getting too good and too cheap, too fast.
 
 When I first drafted this piece in late May, the Artificial Analysis Coding Agent Index had Cursor's Composer 2.5 sitting in third place with a score of 62. Claude Opus 4.7 led at 66. GPT-5.5 sat at 65. A tidy story: two expensive frontier models trading blows at the top, with a cheap upstart nipping at their heels.

@@ -9,8 +9,6 @@ mediumUrl: "https://medium.com/@gvelosa/the-20-ai-coding-bet-claude-code-vs-code
 canonicalUrl: "https://medium.com/@gvelosa/the-20-ai-coding-bet-claude-code-vs-codex-cli-2d9240d0ebe7"
 ---
 
-![Cover: two hourglasses — blue sand nearly spent, amber sand still flowing steady](./claude-code-vs-codex-20-dollar-plan/images/cover.png)
-
 Two terminal agents, one price point, wildly different economics. I've been running both Claude Code and Codex CLI on the $20 tier for the past month, and the real cost story isn't on any pricing page.
 
 Both Anthropic and OpenAI pitch their terminal coding agents at $20/month. Claude Code runs on your Pro plan. Codex runs on your ChatGPT Plus. Same sticker price. But spend a few weeks actually using both and you realize the $20 tells you almost nothing. What matters is how each tool allocates, and depletes, your budget.
