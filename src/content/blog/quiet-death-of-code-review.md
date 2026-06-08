@@ -7,7 +7,6 @@ tags: ["Artificial Intelligence", "Software Engineering", "Future of Work", "Tec
 heroImage: "./quiet-death-of-code-review/images/cover.png"
 ---
 
-![The Quiet Death of the Code Review](./quiet-death-of-code-review/images/cover.png)
 
 A team of six developers and two seniors replaced their code review process with AI five months ago. Their pull request backlog dropped from 15 to 3. Their juniors started learning faster. Their seniors stopped arguing about formatting.
 
