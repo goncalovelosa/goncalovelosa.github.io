@@ -6,6 +6,7 @@ category: "AI"
 tags: ["augment-code", "windsurf", "cursor", "ai-coding", "ide", "developer-tools"]
 mediumUrl: "https://medium.com/@gvelosa/the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code-c59d89d1a121"
 canonicalUrl: "https://medium.com/@gvelosa/the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code-c59d89d1a121"
+heroImage: "./the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code/images/cover.png"
 ---
 
 Another Tuesday, another pull request. The coffee is brewing, the Slack notifications are… notifying, and I'm staring at a function so tangled it looks like it was written by a spider on espresso. We've all been there. For the last year, the promise of an AI pair programmer has been the light at the end of my debugging tunnel. And I've been on a quest, a journey through the wild, wonderful, and sometimes weird world of AI coding assistants.

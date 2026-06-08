@@ -6,6 +6,7 @@ category: "AI"
 tags: ["mcp", "model-context-protocol", "anthropic", "ai-integration", "developer-tools", "cursor"]
 mediumUrl: "https://medium.com/@gvelosa/ditch-the-ai-glue-code-meet-mcp-the-universal-connector-to-your-dev-workflow-needs-015f3fc9a8fe"
 canonicalUrl: "https://medium.com/@gvelosa/ditch-the-ai-glue-code-meet-mcp-the-universal-connector-to-your-dev-workflow-needs-015f3fc9a8fe"
+heroImage: "./ditch-the-ai-glue-code-meet-mcp-the-universal-connector-to-your-dev-workflow-needs/images/cover.png"
 ---
 
 (Okay, Maybe Not Ditched Entirely, But Way Less Glue!)

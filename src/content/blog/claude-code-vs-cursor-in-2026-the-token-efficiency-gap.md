@@ -6,6 +6,7 @@ category: "AI"
 tags: ["claude-code", "cursor", "ai-coding", "token-efficiency", "developer-tools", "llm"]
 mediumUrl: "https://medium.com/@gvelosa/claude-code-vs-cursor-in-2026-the-token-efficiency-gap-befd0864e0a5"
 canonicalUrl: "https://medium.com/@gvelosa/claude-code-vs-cursor-in-2026-the-token-efficiency-gap-befd0864e0a5"
+heroImage: "./claude-code-vs-cursor-in-2026-the-token-efficiency-gap/images/cover.png"
 ---
 
 ## TL;DR

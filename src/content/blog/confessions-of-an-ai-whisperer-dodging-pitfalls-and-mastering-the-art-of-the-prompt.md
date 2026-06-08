@@ -6,6 +6,7 @@ category: "AI"
 tags: ["prompting", "ai", "prompt-engineering", "llm", "developer-tools", "best-practices"]
 mediumUrl: "https://medium.com/@gvelosa/confessions-of-an-ai-whisperer-dodging-pitfalls-and-mastering-the-art-of-the-prompt-2fc5cbd21625"
 canonicalUrl: "https://medium.com/@gvelosa/confessions-of-an-ai-whisperer-dodging-pitfalls-and-mastering-the-art-of-the-prompt-2fc5cbd21625"
+heroImage: "./confessions-of-an-ai-whisperer-dodging-pitfalls-and-mastering-the-art-of-the-prompt/images/cover.png"
 ---
 
 (Or: How I Learned to Stop Worrying and Love the Language Model)

@@ -6,6 +6,7 @@ category: "AI"
 tags: ["ai-agents", "artificial-intelligence", "machine-learning", "autonomous-systems", "llm"]
 mediumUrl: "https://medium.com/@gvelosa/decoding-the-magic-a-deep-dive-into-ai-agents-1c24613a44e9"
 canonicalUrl: "https://medium.com/@gvelosa/decoding-the-magic-a-deep-dive-into-ai-agents-1c24613a44e9"
+heroImage: "./decoding-the-magic-a-deep-dive-into-ai-agents/images/cover.png"
 ---
 
 Hey fellow devs!

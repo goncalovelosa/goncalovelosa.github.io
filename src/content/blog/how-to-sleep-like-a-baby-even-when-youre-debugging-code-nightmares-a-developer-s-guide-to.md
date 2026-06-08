@@ -5,6 +5,7 @@ pubDate: 2024-08-26
 category: "Career"
 tags: ["sleep", "wellness", "work-life-balance", "developer-life", "productivity", "self-care"]
 mediumUrl: "https://medium.com/@gvelosa/how-to-sleep-like-a-baby-even-when-youre-debugging-code-nightmares-a-developer-s-guide-to-d6f68f70543f"
+heroImage: "./how-to-sleep-like-a-baby-even-when-youre-debugging-code-nightmares-a-developer-s-guide-to/images/cover.jpeg"
 canonicalUrl: "https://medium.com/@gvelosa/how-to-sleep-like-a-baby-even-when-youre-debugging-code-nightmares-a-developer-s-guide-to-d6f68f70543f"
 ---
 

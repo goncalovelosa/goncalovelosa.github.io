@@ -5,6 +5,7 @@ pubDate: 2024-06-10
 category: "Career"
 tags: ["remote-work", "work-life-balance", "flexibility", "developer-life", "future-of-work"]
 mediumUrl: "https://medium.com/@gvelosa/the-remote-work-revolution-embracing-flexibility-and-work-life-balance-916fc45dca8e"
+heroImage: "./the-remote-work-revolution-embracing-flexibility-and-work-life-balance/images/cover.jpeg"
 canonicalUrl: "https://medium.com/@gvelosa/the-remote-work-revolution-embracing-flexibility-and-work-life-balance-916fc45dca8e"
 ---
 
