@@ -7,7 +7,6 @@ tags: ["Artificial Intelligence", "Software Engineering", "Future of Work", "Tec
 heroImage: "./ai-coding-productivity-measurement-wrong/images/VISUAL_1_cover_1.png"
 ---
 
-![A small amber pebble drops into still teal water, sending enormous concentric ripples outward](./ai-coding-productivity-measurement-wrong/images/VISUAL_1_cover_1.png)
 *A narrow study casting a wide wake.*
 
 I have been quoting AI productivity studies with the confidence of a man who definitely read the whole paper. I hadn't.
