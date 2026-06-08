@@ -10,7 +10,6 @@ A Jane Street designer stopped using Figma and started shipping working prototyp
 
 I've been writing about AI replacing coding workflows for months. Coding agents, pair programmers, autonomous devs, the whole parade. I was looking in the wrong direction. The disruption that's already happening isn't on the engineering side at all. It's on the design side. And it's moving faster than anyone predicted.
 
-![A flat amber drafting ruler morphing smoothly into a large curly brace symbol, transforming from design tool to code](./jane-street-claude-design-workflow/images/VISUAL_1_cover_1.png)
 *The tool is becoming the output.*
 
 ## what happened at jane street
