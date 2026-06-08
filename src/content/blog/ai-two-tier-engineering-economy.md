@@ -15,7 +15,6 @@ But 96% of those developers don't fully trust the AI output. Only 48% always ver
 
 This is the shape of the problem. AI helps you write code faster. It also makes someone else's job harder. And right now, almost no organisation can tell the difference.
 
-![AI coding tools split engineering into visible shippers and invisible reviewers](./ai-two-tier-engineering-economy/images/visual-1-cover.png)
 
 ## The numbers nobody tracks
 
