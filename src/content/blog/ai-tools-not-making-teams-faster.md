@@ -5,10 +5,9 @@ pubDate: 2026-06-07
 category: "AI"
 tags: ["artificial-intelligence", "programming", "productivity", "software-development", "technology"]
 heroImage: "./ai-tools-not-making-teams-faster/images/cover.png"
+mediumUrl: "https://medium.com/@gvelosa/ai-writes-42-of-your-code-why-havent-you-shipped-42-faster-82dda91eed7f"
+canonicalUrl: "https://medium.com/@gvelosa/ai-writes-42-of-your-code-why-havent-you-shipped-42-faster-82dda91eed7f"
 ---
-
-
-
 
 Sonar's latest survey, released in January 2026, found that AI now accounts for 42% of all committed code. Seventy-two percent of developers who have tried AI tools use them every single day. GitHub Copilot adoption has reached nearly half of developers industry-wide.
 
@@ -90,7 +89,7 @@ It does not.
 
 I want to be honest about something. The METR study I referenced, the one that found developers 19% slower with AI, was published in July 2025 using data from February to June 2025. The tools were Cursor Pro with Claude 3.5 and 3.7 Sonnet.
 
-In February 2026, METR published an update. They tried to replicate the study with a larger pool of developers using newer AI tools. They could not make it work. Developers refused to participate because they did not want to work without AI. Thirty to fifty percent of participants were choosing not to submit tasks they did not want to do without AI assistance. The selection bias was severe enough to make the results unreliable.
+In February 2026, METR published an update. They tried to replicate the study with a larger pool of developers using newer AI tools. They could not make it work. Developers refused to participate because they did not want to work without AI. Thirty to fifty percent of participants chose not to submit tasks they did not want to do without AI assistance. The selection bias was severe enough to make the results unreliable.
 
 METR's raw data from the new experiment shows a possible speedup. Their original developers went from 19% slower to an estimated 18% faster. But the confidence interval, spanning from 38% faster to 9% slower, crosses zero. The new data, like the old data, cannot statistically distinguish between a real effect and no effect at all.
 
@@ -106,7 +105,7 @@ AI tools are getting faster at writing code. The system around them — review, 
 
 If your team is using AI tools and you cannot point to a corresponding increase in deployment frequency, the problem is not the tools. The problem is what happens after the code is written.
 
-Stop measuring lines of code. Start measuring cycle time from first commit to merged PR. Track the acceptance rate of AI-generated PRs separately from human-written ones. Measure the time reviewers spend on each category. Track defect rates in production for AI-assisted versus manual code.
+Stop measuring lines of code. Start measuring cycle time from the first commit to the merged PR. Track the acceptance rate of AI-generated PRs separately from human-written ones. Measure the time reviewers spend on each category. Track defect rates in production for AI-assisted versus manual code.
 
 But measurement alone is not enough. If your AI PRs are bloated and low-quality, change the process. Mandate smaller batch sizes for AI-assisted PRs. Require AI-attribution labels so reviewers know what they are looking at. Set higher test-coverage thresholds for AI-generated changes. Pair junior developers with seniors on their first fifty AI-assisted PRs. And recognize that the first two months of adoption will be ugly, with review time spikes and acceptance drops, before teams learn to use the tools well.
 
@@ -115,5 +114,4 @@ The 42% number from Sonar is accurate. AI does account for that share of committ
 Your developers are writing more code than ever. The question is whether anyone is measuring what happens to it.
 
 ---
-
 *Data sources: METR (arxiv.org/abs/2507.09089), Harness State of DevOps Modernization 2026 (survey by Coleman Parkes, 700 respondents), LinearB 2026 Software Engineering Benchmarks Report (8.1M PRs, 4,800 organizations), Stack Overflow Developer Survey 2025, GitClear 2025 AI Copilot Code Quality Report (211M lines analyzed), Sonar State of Code Developer Survey January 2026 (1,100 developers). Some cited research is produced by vendors (Harness, LinearB, GitClear, Sonar) who sell products in the spaces they research. This article notes those conflicts where relevant.*
