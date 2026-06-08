@@ -5,6 +5,8 @@ pubDate: 2026-06-07
 category: "AI"
 tags: ["artificial-intelligence", "programming", "productivity", "software-development", "technology"]
 heroImage: "./ai-tools-not-making-teams-faster/images/cover.png"
+mediumUrl: "https://medium.com/@gvelosa/ai-writes-42-of-your-code-why-havent-you-shipped-42-faster-82dda91eed7f"
+canonicalUrl: "https://medium.com/@gvelosa/ai-writes-42-of-your-code-why-havent-you-shipped-42-faster-82dda91eed7f"
 ---
 
 
