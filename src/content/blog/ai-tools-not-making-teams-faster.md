@@ -90,7 +90,7 @@ It does not.
 
 I want to be honest about something. The METR study I referenced, the one that found developers 19% slower with AI, was published in July 2025 using data from February to June 2025. The tools were Cursor Pro with Claude 3.5 and 3.7 Sonnet.
 
-In February 2026, METR published an update. They tried to replicate the study with a larger pool of developers using newer AI tools. They could not make it work. Developers refused to participate because they did not want to work without AI. Thirty to fifty percent of participants were choosing not to submit tasks they did not want to do without AI assistance. The selection bias was severe enough to make the results unreliable.
+In February 2026, METR published an update. They tried to replicate the study with a larger pool of developers using newer AI tools. They could not make it work. Developers refused to participate because they did not want to work without AI. Thirty to fifty percent of participants chose not to submit tasks they did not want to do without AI assistance. The selection bias was severe enough to make the results unreliable.
 
 METR's raw data from the new experiment shows a possible speedup. Their original developers went from 19% slower to an estimated 18% faster. But the confidence interval, spanning from 38% faster to 9% slower, crosses zero. The new data, like the old data, cannot statistically distinguish between a real effect and no effect at all.
 
@@ -106,7 +106,7 @@ AI tools are getting faster at writing code. The system around them — review, 
 
 If your team is using AI tools and you cannot point to a corresponding increase in deployment frequency, the problem is not the tools. The problem is what happens after the code is written.
 
-Stop measuring lines of code. Start measuring cycle time from first commit to merged PR. Track the acceptance rate of AI-generated PRs separately from human-written ones. Measure the time reviewers spend on each category. Track defect rates in production for AI-assisted versus manual code.
+Stop measuring lines of code. Start measuring cycle time from the first commit to the merged PR. Track the acceptance rate of AI-generated PRs separately from human-written ones. Measure the time reviewers spend on each category. Track defect rates in production for AI-assisted versus manual code.
 
 But measurement alone is not enough. If your AI PRs are bloated and low-quality, change the process. Mandate smaller batch sizes for AI-assisted PRs. Require AI-attribution labels so reviewers know what they are looking at. Set higher test-coverage thresholds for AI-generated changes. Pair junior developers with seniors on their first fifty AI-assisted PRs. And recognize that the first two months of adoption will be ugly, with review time spikes and acceptance drops, before teams learn to use the tools well.
 
