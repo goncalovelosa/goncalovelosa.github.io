@@ -31,6 +31,8 @@ Think of its client-server architecture:
 
 The Host (via its Client) talks to one or more MCP Servers using a defined protocol (often JSON-RPC over transports like standard I/O initially, with more options likely).
 
+![MCP client-server architecture](./ditch-the-ai-glue-code-meet-mcp-the-universal-connector-to-your-dev-workflow-needs/images/inline-1.png)
+
 The beauty lies in standardization. An MCP Host doesn't need to know the intimate details of how to talk to Jira versus GitHub versus your local filesystem if there's an MCP Server acting as the interpreter for each. Just speak MCP, and the server handles the specifics. It's the "universal connector" dream for AI integrations.
 
 ## MCP in the Wild: Look Who's Adopting It!
@@ -47,6 +49,9 @@ These examples show MCP moving from a promising idea to a tangible part of the d
 Okay, cool standard, early adopters… but what does this actually mean for getting stuff done? Let's break down the productivity wins:
 
 1. Unified Tool Access: Write (or find on Smithery!) one MCP server for your custom internal tool. Now any MCP-compliant host (your IDE, a script, an agent framework) can talk to it using the same standard. Less glue code, less reinventing the wheel for each AI integration.
+
+![MCP benefits overview](./ditch-the-ai-glue-code-meet-mcp-the-universal-connector-to-your-dev-workflow-needs/images/inline-2.png)
+
 2. Deeper, Broader Context for AI: Imagine your AI assistant not just reading your open file, but instantly accessing the relevant API contract from an MCP server, pulling related tickets from Jira via another, and checking dependency vulnerabilities through a third. This richer, real-time context means more accurate code generation, better bug analysis, and smarter Q&A.
 3. Composable AI Agents & Workflows: MCP makes it far easier to build AI agents that perform multistep tasks across different domains. "Draft a response to @SupportTicket-789, referencing the error logs from @LoggingService and adhering to the guidelines in @CompanyStyleGuide.md" becomes more feasible when each @ resource is accessible via a standard MCP interface.
 4. Interoperability & Choice: As more tools adopt MCP (both Hosts/Clients like IDEs and Servers for data/APIs), you gain flexibility. Swap out AI models or connect new tools without massive integration overhauls, as long as they speak MCP. Avoid vendor lock-in.

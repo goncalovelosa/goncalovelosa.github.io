@@ -19,6 +19,8 @@ I've been a paying customer of Windsurf, I've dabbled with Cursor, and now, I've
 
 Let's be clear: Windsurf isn't a bad tool. It's a full-fledged, AI-first IDE built on a fork of VS Code, and it has some serious muscle. For a while, it was my daily driver. Its "Supercomplete" feature, which pulls context from across multiple files, felt like magic. The "Cascade" feature, designed for creating complex AI workflows, showed a ton of promise for enterprise-level work. If you're in a highly regulated industry, Windsurf's focus on security is a big plus.
 
+![Windsurf IDE features](./the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code/images/inline-1.png)
+
 So, why the breakup?
 
 Honestly, living inside a dedicated AI-first IDE started to feel less like a feature and more like a beautifully designed cage. While it was powerful, it was also… a lot. The learning curve was real, and I found myself fighting its opinions on workflow more often than I'd like. And while recent updates brought in a built-in browser and some task management features, it felt like catch-up. The core experience hadn't evolved enough to justify the subscription, especially when I saw what else was out there. The magic had faded.
@@ -39,9 +41,13 @@ The first thing that blew me away was its uncanny ability to understand my entir
 
 This is where its "task orchestrator" comes into play. You can give it a complex task, like "Refactor the user authentication flow to use a new passport.js strategy and then write integration tests for it," and it doesn't just spit out a blob of code. It breaks the problem down into a logical task list, plans its attack, and executes it step-by-step. You can even edit the plan, adding or removing steps before it starts. It's like having a junior dev who actually listens.
 
+![Task orchestrator workflow](./the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code/images/inline-2.png)
+
 The best part? It integrates directly into the IDE I already use and love. No weird, walled-garden environment. It's just there, in VS Code or JetBrains, ready to help when I need it. The recently added "Remote Agent" that can work on tasks in the background is just the cherry on top. It feels less like a tool and more like a true collaborator.
 
 ## Head-to-Head: A Developer's Verdict
+
+![Head-to-head comparison](./the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code/images/inline-3.png)
 
 ## Conclusion: My New AI Co-Pilot
 

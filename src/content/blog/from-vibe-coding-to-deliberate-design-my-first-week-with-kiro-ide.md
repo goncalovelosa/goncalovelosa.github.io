@@ -31,6 +31,8 @@ It's a simple but profound three-step dance:
 
 This workflow is a game-changer. It transforms the AI from a wildcard into a predictable, accountable collaborator. The chaos is gone, replaced by deliberate, verifiable steps.
 
+![Kiro spec-oriented workflow](./from-vibe-coding-to-deliberate-design-my-first-week-with-kiro-ide/images/inline-1.png)
+
 ### The Superpowers: Hooks and Steering
 
 Beyond the core workflow, Kiro has a couple of other tricks up its sleeve that feel like the missing pieces from older tools.

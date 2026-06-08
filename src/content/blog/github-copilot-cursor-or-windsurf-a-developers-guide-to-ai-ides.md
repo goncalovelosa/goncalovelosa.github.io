@@ -78,6 +78,8 @@ Let's dissect each tool's strengths, focusing on what matters most to us as deve
 
 ### Capabilities Compared: A Three-Way Showdown
 
+![Capabilities Compared: A Three-Way Showdown](./github-copilot-cursor-or-windsurf-a-developers-guide-to-ai-ides/images/inline-1.png)
+
 ## The Verdict: Which AI Co-pilot Should You Choose?
 
 The "best" tool depends on your specific needs and priorities. Here's a breakdown to help you decide:
