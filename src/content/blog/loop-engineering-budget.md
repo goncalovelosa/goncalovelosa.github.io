@@ -33,7 +33,7 @@ But accessibility and affordability are different things.
 
 The average Claude Code user spends $340 per month on tokens, according to Cohrint, a Claude Code monitoring platform, which analyzed 200+ engineering teams in Q1 2026. Senior engineers in active sprints hit $600 to $800. Agent-heavy users report $500 to $2,000 monthly.
 
-Here's where the money goes. A study by MorphLLM, an AI token analytics company, tracked every token across 42 agent runs and found that 70% of tokens were waste. The agent re-read files it had already seen. It explored irrelevant code paths. It repeated searches. The actual code generation, the part you want, accounted for just 5 to 15% of total tokens.
+Where does the money go? MorphLLM, an AI token analytics company, tracked every token across 42 agent runs and found that 70% of tokens were waste. The agent re-read files it had already seen. It explored irrelevant code paths. It repeated searches. The actual code generation, the part you want, accounted for just 5 to 15% of total tokens.
 
 And when loops go wrong, they go *expensive*-wrong. CloudAtler documented a case they call the "Infinite Loop of Death": a $50,000 bill from an agent trapped in a recurring failure cycle with no exit condition.
 
@@ -59,11 +59,11 @@ The model cost per run: roughly $0.05. It runs 48 times a day. That's about $2.4
 
 Based on Cohrint's $340 average, MorphLLM's agent-heavy user range, and my own experience at the lowest tier, loop engineering at different budget levels looks something like this.
 
-**$50–100 per month: Cron loops with shell verification.** You run scheduled checks using cheap models (or scripts with no model at all). Infra monitoring, automated test runs, issue triage. You verify with exit codes, not LLM calls. This is where my self-healing loop lives.
+**$50–100 per month: Cron loops with shell verification.** You run scheduled checks using cheap models (or scripts with no model at all). Infra monitoring, automated test runs, issue triage. You verify with exit codes, not LLM calls. This is where my self-healing loop lives. It's not glamorous, but it runs 24/7 and costs less than a Spotify subscription.
 
-**$200–400 per month: Agent loops with model routing.** You use Sonnet-tier models for 80% of tasks and reserve expensive reasoning models for the 20% that genuinely need them. PR self-healing, article quality checks, code reviews. Verification is hybrid: deterministic checks first, selective LLM evaluation for ambiguous cases.
+**$200–400 per month: Agent loops with model routing.** This is where most individual developers land. You use Sonnet-tier models for 80% of tasks and reserve expensive reasoning models for the 20% that genuinely need them. PR self-healing, article quality checks, code reviews. Verification is hybrid: deterministic checks first, selective LLM evaluation for ambiguous cases. The trick is knowing when to spend tokens and when to save them.
 
-**$500–2,000 per month: Full agentic loops.** Maker/checker splits where one agent writes and another reviews. Overnight feature development. Multi-file refactors. This is the tier where the Steinberger-style workflows become viable — but with hard circuit breakers to prevent the $50,000 scenario.
+**$500–2,000 per month: Full agentic loops.** This is the territory of maker/checker splits, where one agent writes and another reviews. Overnight feature development. Multi-file refactors. This is the tier where the Steinberger-style workflows become viable — but with hard circuit breakers to prevent the $50,000 scenario. At this budget, you're spending real money, and the safeguards matter more than the model.
 
 Every tier needs the same safeguards: action history tracking to prevent repeating the same failed approach, hard caps on max iterations, and structured reflection when the loop gets stuck. Building a reliable orchestration layer with all of these is real engineering work, not a weekend project. But the ongoing token cost stays low when verification is deterministic.
 
