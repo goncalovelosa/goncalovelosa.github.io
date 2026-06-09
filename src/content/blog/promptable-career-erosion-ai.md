@@ -1,5 +1,5 @@
 ---
-title: 'Your 10 Years of Expertise Is Now Promptable'
+title: 'blog: Your 10 Years of Expertise Is Now Promptable'
 description: "A senior engineer watched AI dissolve his career pillars one by one. The threat isn't replacement — it's homogenization."
 pubDate: 2026-06-08
 category: "AI"

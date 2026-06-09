@@ -1,5 +1,5 @@
 ---
-title: "Confessions of an AI Whisperer: Dodging Pitfalls and Mastering the Art of the Prompt"
+title: "blog: Confessions of an AI Whisperer: Dodging Pitfalls and Mastering the Art of the Prompt"
 description: "A developer's field guide to prompting — common blunders, practical mastery techniques, and why the human element still matters most when working with AI."
 pubDate: 2025-03-28
 category: "AI"
