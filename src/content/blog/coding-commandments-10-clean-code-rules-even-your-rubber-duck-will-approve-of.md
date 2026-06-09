@@ -1,5 +1,5 @@
 ---
-title: "Blog: Coding Commandments: 10 Clean Code Rules Even Your Rubber Duck Will Approve Of"
+title: "blog: Coding Commandments: 10 Clean Code Rules Even Your Rubber Duck Will Approve Of"
 description: "Ten practical clean code commandments inspired by Uncle Bob Martin — naming, dead code, tests, refactoring, and keeping it simple."
 pubDate: 2024-09-07
 category: "TypeScript"

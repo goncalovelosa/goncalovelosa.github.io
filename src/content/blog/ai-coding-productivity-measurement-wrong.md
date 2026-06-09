@@ -1,5 +1,5 @@
 ---
-title: 'Blog: 87% of Devs "Feel Faster." The Data Is a Mess.'
+title: 'blog: 87% of Devs "Feel Faster." The Data Is a Mess.'
 description: "The 55% faster statistic is everywhere. But the studies behind AI coding productivity tell a far messier story."
 pubDate: 2026-06-05
 category: "AI"

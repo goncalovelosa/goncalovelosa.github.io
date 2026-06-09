@@ -1,5 +1,5 @@
 ---
-title: "Blog: Code Comments: Your Secret Weapon for a Happier Dev Life (and a Healthier Codebase)"
+title: "blog: Code Comments: Your Secret Weapon for a Happier Dev Life (and a Healthier Codebase)"
 description: "How to write code comments that actually help — TODOs, FIXMEs, inline explanations, and the anti-patterns to avoid in your codebase."
 pubDate: 2024-06-15
 category: "TypeScript"

@@ -1,5 +1,5 @@
 ---
-title: "Blog: From Vibe Coding to Deliberate Design: My First Week with Kiro IDE"
+title: "blog: From Vibe Coding to Deliberate Design: My First Week with Kiro IDE"
 description: "The AI coding landscape is finally growing up. Kiro's spec-oriented development turns chaotic AI coding into a predictable, accountable collaboration."
 pubDate: 2025-07-17
 category: "AI"

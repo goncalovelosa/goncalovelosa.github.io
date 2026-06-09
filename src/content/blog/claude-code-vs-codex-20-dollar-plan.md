@@ -1,5 +1,5 @@
 ---
-title: "Blog: The $20 AI Coding Bet: Claude Code vs Codex CLI"
+title: "blog: The $20 AI Coding Bet: Claude Code vs Codex CLI"
 description: "Two terminal agents, one price point, wildly different economics. I've been running both Claude Code and Codex CLI on the $20 tier for the past month, and the r"
 pubDate: 2026-05-21
 category: "AI"

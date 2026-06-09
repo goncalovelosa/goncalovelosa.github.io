@@ -1,5 +1,5 @@
 ---
-title: "Blog: Branded Types in TypeScript: Stronger Type Safety for Your Codebase"
+title: "blog: Branded Types in TypeScript: Stronger Type Safety for Your Codebase"
 description: "TypeScript is fantastic for catching type-related errors at compile time. However, there are scenarios where its structural type system falls short. This is where branded types step in."
 pubDate: 2024-06-12
 category: "TypeScript"

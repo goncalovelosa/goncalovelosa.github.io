@@ -1,5 +1,5 @@
 ---
-title: "Blog: The Great AI Coding Shake-Up of 2025: Why I'm Breaking Up with Windsurf to Augment Code"
+title: "blog: The Great AI Coding Shake-Up of 2025: Why I'm Breaking Up with Windsurf to Augment Code"
 description: "A story from the trenches about breaking up with Windsurf, leaving Cursor behind, and finding a new AI co-pilot in Augment Code."
 pubDate: 2025-07-04
 category: "AI"
