@@ -1,5 +1,5 @@
 ---
-title: "How to Sleep Like a Baby (Even When You're Debugging Code Nightmares) — A Developer's Guide to Catching Z's"
+title: "blog: How to Sleep Like a Baby (Even When You're Debugging Code Nightmares) — A Developer's Guide to Catching Z's"
 description: "A developer's guide to prioritizing sleep — daytime prep, pre-bedtime rituals, and nighttime ninja moves for when sleep resists capture."
 pubDate: 2024-08-26
 category: "Career"

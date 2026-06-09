@@ -1,5 +1,5 @@
 ---
-title: 'The Designer Who Ships Code'
+title: 'blog: The Designer Who Ships Code'
 description: "A Jane Street designer replaced Figma with Claude Code for prototyping. The real story isn't about tools dying — it's about who gets to build."
 pubDate: 2026-06-08
 category: "AI"
