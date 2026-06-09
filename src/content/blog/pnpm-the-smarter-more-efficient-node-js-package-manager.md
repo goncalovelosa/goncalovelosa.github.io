@@ -1,5 +1,5 @@
 ---
-title: "PNPM: The Smarter, More Efficient Node.js Package Manager"
+title: "Blog: PNPM: The Smarter, More Efficient Node.js Package Manager"
 description: "NPM has ruled the Node.js dependency management landscape for years. But as projects grow complex, NPM's limitations become increasingly apparent. Enter PNPM."
 pubDate: 2024-03-26
 category: "TypeScript"

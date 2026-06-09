@@ -1,5 +1,5 @@
 ---
-title: "Decoding the Magic: A Deep Dive into AI Agents"
+title: "Blog: Decoding the Magic: A Deep Dive into AI Agents"
 description: "AI agents are the superheroes of the AI universe — autonomous, adaptable mini-masterminds that can think, act, and learn on their own."
 pubDate: 2025-01-14
 category: "AI"

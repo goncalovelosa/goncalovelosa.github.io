@@ -1,5 +1,5 @@
 ---
-title: "Composer 2.5 is the AI coding model most developers should actually use"
+title: "Blog: Composer 2.5 is the AI coding model most developers should actually use"
 description: "At $20/month all three major AI coding tools cost the same. The difference is how far that budget goes. Composer 2.5 stretches your credits further than any competitor."
 pubDate: 2026-06-03
 category: "AI"

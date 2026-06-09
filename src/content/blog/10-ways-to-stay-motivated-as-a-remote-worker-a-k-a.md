@@ -1,5 +1,5 @@
 ---
-title: "10 Ways to Stay Motivated as a Remote Worker (a.k.a. How to Avoid Becoming a Hermit in Your Pyjamas)"
+title: "Blog: 10 Ways to Stay Motivated as a Remote Worker (a.k.a. How to Avoid Becoming a Hermit in Your Pyjamas)"
 description: "A survival guide packed with tips for staying motivated while working remotely — from creating a Batcave to embracing the virtual water cooler."
 pubDate: 2024-08-11
 category: "Career"

@@ -1,5 +1,5 @@
 ---
-title: "Ditch the AI Glue Code: Meet MCP, the Universal Connector to Your Dev Workflow Needs"
+title: "Blog: Ditch the AI Glue Code: Meet MCP, the Universal Connector to Your Dev Workflow Needs"
 description: "An open standard called Model Context Protocol (MCP) is the 'USB-C port for AI' — letting models seamlessly talk to databases, APIs, and developer tools."
 pubDate: 2025-04-06
 category: "AI"

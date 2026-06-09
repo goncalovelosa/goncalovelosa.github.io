@@ -1,5 +1,5 @@
 ---
-title: "Why Your Soft Skills Matter More Than You Think (And It's Not Just About Being Nice)"
+title: "Blog: Why Your Soft Skills Matter More Than You Think (And It's Not Just About Being Nice)"
 description: "Soft skills are the social glue that holds teams together. Communication, collaboration, and emotional intelligence can make or break your developer career."
 pubDate: 2024-06-23
 category: "Career"

@@ -1,5 +1,5 @@
 ---
-title: "Feedback Loops and Rubber Duckies: A Dev's Guide to Not Taking it Personally (and Actually Improving)"
+title: "Blog: Feedback Loops and Rubber Duckies: A Dev's Guide to Not Taking it Personally (and Actually Improving)"
 description: "How to give and receive feedback without taking it personally — practical tips for code reviews, swallowing your pride, and turning critique into growth."
 pubDate: 2024-07-23
 category: "Career"

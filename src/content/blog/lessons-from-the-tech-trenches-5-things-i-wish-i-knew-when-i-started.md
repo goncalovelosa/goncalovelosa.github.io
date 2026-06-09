@@ -1,5 +1,5 @@
 ---
-title: "Lessons From the Tech Trenches: 5 Things I Wish I Knew When I Started"
+title: "Blog: Lessons From the Tech Trenches: 5 Things I Wish I Knew When I Started"
 description: "Five hard-won lessons from 5+ years in the tech jungle — consistency over scattered brilliance, embracing the struggle, and knowing when to jump ship."
 pubDate: 2024-09-26
 category: "Career"

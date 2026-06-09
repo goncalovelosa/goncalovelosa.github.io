@@ -1,5 +1,5 @@
 ---
-title: 'AI Writes 42% of Your Code. Why Haven''t You Shipped 42% Faster?'
+title: 'Blog: AI Writes 42% of Your Code. Why Haven''t You Shipped 42% Faster?'
 description: "AI writes 42% of committed code. Teams are not shipping 42% faster. The data explains why."
 pubDate: 2026-06-07
 category: "AI"

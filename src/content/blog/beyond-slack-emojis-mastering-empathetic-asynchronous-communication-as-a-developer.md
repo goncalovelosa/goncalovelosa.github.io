@@ -1,5 +1,5 @@
 ---
-title: "Beyond Slack Emojis: Mastering Empathetic Asynchronous Communication as a Developer"
+title: "Blog: Beyond Slack Emojis: Mastering Empathetic Asynchronous Communication as a Developer"
 description: "(Because 'LGTM 👍' Doesn't Always Cut It) — Mastering empathetic async comms isn't just fluff; it's a core skill for saving time, reducing friction, and building awesome software together."
 pubDate: 2025-04-25
 category: "Career"
