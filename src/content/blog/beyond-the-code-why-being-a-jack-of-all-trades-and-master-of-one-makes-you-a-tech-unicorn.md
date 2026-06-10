@@ -1,5 +1,5 @@
 ---
-title: "blog: Beyond the Code: Why Being a \"Jack of All Trades\" (and Master of One) Makes You a Tech Unicorn"
+title: "Beyond the Code: Why Being a \"Jack of All Trades\" (and Master of One) Makes You a Tech Unicorn"
 description: "Becoming a T-shaped professional — deep expertise in one area plus broad knowledge across the tech landscape — is the key to a thriving, future-proof career."
 pubDate: 2024-10-26
 category: "Career"

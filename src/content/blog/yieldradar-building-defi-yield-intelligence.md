@@ -1,5 +1,5 @@
 ---
-title: "blog: YieldRadar: Building a DeFi Yield Intelligence Bot"
+title: "YieldRadar: Building a DeFi Yield Intelligence Bot"
 description: "How I built a multi-factor risk scoring system for 18K+ DeFi yield pools, from scratch to production Telegram bot."
 pubDate: 2026-05-06
 category: "DeFi"

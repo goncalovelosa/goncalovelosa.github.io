@@ -1,5 +1,5 @@
 ---
-title: "blog: Copilot vs. Cursor vs. Windsurf: Which AI Coding IDE is Right for You?"
+title: "Copilot vs. Cursor vs. Windsurf: Which AI Coding IDE is Right for You?"
 description: "A three-way showdown between GitHub Copilot, Cursor AI, and Windsurf IDE — comparing strengths, weaknesses, pricing, and the best use case for each."
 pubDate: 2025-01-31
 category: "AI"

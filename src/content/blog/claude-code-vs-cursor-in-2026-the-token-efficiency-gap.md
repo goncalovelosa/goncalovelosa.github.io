@@ -1,5 +1,5 @@
 ---
-title: "blog: Claude Code vs Cursor in 2026: The Token Efficiency Gap"
+title: "Claude Code vs Cursor in 2026: The Token Efficiency Gap"
 description: "Why the cheapest option isn't always the one with the lowest sticker price."
 pubDate: 2026-02-22
 category: "AI"
