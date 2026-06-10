@@ -31,7 +31,7 @@ Not what survived.
 
 ## What the dashboards miss
 
-The incidents-to-PR ratio under high AI adoption **more than tripled**, up 242.7%. Monthly incidents rose 57.9%. Outages, security events, system failures reaching real users in production systems: finance, healthcare, infrastructure. Not staging. Not tests. Production.
+The incidents-to-PR ratio under high AI adoption **more than tripled**, up 242.7%. Monthly incidents rose 57.9%. Outages, security events, system failures reaching real users in production systems. Finance, healthcare, infrastructure. The real stuff.
 
 Bugs per developer? Up **54%**. The previous year's report showed 9%. The trajectory is worsening, not stabilizing.
 
@@ -53,15 +53,15 @@ Slow, expensive cognitive work. The data shows who bears the cost. (And to be cl
 
 Median time to first PR review: up **156.6%**. Average time spent in code review: up **199.6%**. Median time in review: up **441.5%**.
 
-Gustav Söderström, Spotify's CEO, put it bluntly at a recent company all-hands: "When I speak to my most senior engineers, the best developers we have, they say that they have not written a single line of code since December. They only supervise AI systems."
+Gustav Söderström, Spotify's CEO, reportedly said that the company's most senior engineers "have not written a single line of code since December" and now primarily supervise AI systems.
 
-Canva's CTO, Brendan Humphreys, described the same shift in a public engineering blog post: senior engineers now spend most of their time reviewing AI-generated code rather than writing it. Their role has changed. The people with the deepest system knowledge, the ones you'd least want doing validation work, are now your primary validators.
+Canva's CTO, Brendan Humphreys, has described the same shift: senior engineers now spend most of their time reviewing AI-generated code rather than writing it. Their role has changed. The people with the deepest system knowledge, the ones you'd least want doing validation work, are now your primary validators.
 
-Matt Garman, CEO of AWS, called the downstream consequence by its name in an interview with The Pragmatic Engineer: "Cutting juniors is one of the dumbest things I've ever heard. How's that going to work when ten years in the future you have no one that has learned anything?"
+Matt Garman, CEO of AWS, was blunt about the downstream consequence: "Cutting juniors is one of the dumbest things I've ever heard. How's that going to work when ten years in the future you have no one that has learned anything?"
 
 If seniors are reviewing instead of mentoring, and juniors aren't writing the code they'd learn from, where does the next generation of senior engineers come from?
 
-That question has no good answer right now.
+That question should worry everyone running an engineering org right now.
 
 ## The full picture requires more than one dataset
 
