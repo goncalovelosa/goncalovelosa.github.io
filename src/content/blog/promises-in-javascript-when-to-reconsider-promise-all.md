@@ -1,11 +1,10 @@
 ---
-title: "blog: Promises in JavaScript: When to Reconsider Promise.all()"
+title: "Promises in JavaScript: When to Reconsider Promise.all()"
 description: "JavaScript's Promise.all() offers a tempting way to handle multiple asynchronous tasks at once. However, it's crucial to recognize its potential shortcomings in real-world development scenarios."
 pubDate: 2024-04-10
 category: "TypeScript"
 tags: ["javascript", "promises", "async", "promise-all", "error-handling"]
 mediumUrl: "https://medium.com/@gvelosa/promises-in-javascript-when-to-reconsider-promise-all-7d66ea6f120f"
-heroImage: "./promises-in-javascript-when-to-reconsider-promise-all/images/cover.jpeg"
 canonicalUrl: "https://medium.com/@gvelosa/promises-in-javascript-when-to-reconsider-promise-all-7d66ea6f120f"
 ---
 

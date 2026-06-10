@@ -1,11 +1,10 @@
 ---
-title: "blog: TypeScript: Rise of the Phoenix — Node.js Embraces the Uncompiled Future (and SWC Joins the Party!)"
+title: "TypeScript: Rise of the Phoenix — Node.js Embraces the Uncompiled Future (and SWC Joins the Party!)"
 description: "Node.js adds experimental native TypeScript support via type stripping and SWC integration — eliminating the compile step and unifying the JS/TS ecosystem."
 pubDate: 2024-08-05
 category: "TypeScript"
 tags: ["typescript", "nodejs", "swc", "type-stripping", "javascript", "compilers"]
 mediumUrl: "https://medium.com/@gvelosa/typescript-rise-of-the-phoenix-node-js-embraces-the-uncompiled-future-and-swc-joins-the-party-56417f712250"
-heroImage: "./typescript-rise-of-the-phoenix-node-js-embraces-the-uncompiled-future-and-swc-joins-the-party/images/cover.jpeg"
 canonicalUrl: "https://medium.com/@gvelosa/typescript-rise-of-the-phoenix-node-js-embraces-the-uncompiled-future-and-swc-joins-the-party-56417f712250"
 ---
 

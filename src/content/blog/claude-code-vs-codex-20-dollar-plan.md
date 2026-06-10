@@ -1,10 +1,9 @@
 ---
-title: "blog: The $20 AI Coding Bet: Claude Code vs Codex CLI"
+title: "The $20 AI Coding Bet: Claude Code vs Codex CLI"
 description: "Two terminal agents, one price point, wildly different economics. I've been running both Claude Code and Codex CLI on the $20 tier for the past month, and the r"
 pubDate: 2026-05-21
 category: "AI"
 tags: ["ai-coding-tools", "claude-code", "codex-cli", "pricing-comparison", "developer-productivity"]
-heroImage: "./claude-code-vs-codex-20-dollar-plan/images/cover.png"
 mediumUrl: "https://medium.com/@gvelosa/the-20-ai-coding-bet-claude-code-vs-codex-cli-2d9240d0ebe7"
 canonicalUrl: "https://medium.com/@gvelosa/the-20-ai-coding-bet-claude-code-vs-codex-cli-2d9240d0ebe7"
 ---
@@ -35,7 +34,6 @@ What you get for the money: Opus 4.7 with a 1M token context window (on Max and 
 
 The weekly cap system creates a specific kind of frustration. You learn to game it. Tuesday becomes "big Claude Code day" because the reset just happened. Thursday becomes "light touch day" because you're preserving tokens for a Friday deadline. Your coding schedule starts revolving around a subscription reset, and that's a weird way to build software.
 
-![Budget burn rate: one wallet nearly empty, one still full](./claude-code-vs-codex-20-dollar-plan/images/efficiency-gauges.png)
 
 ## How Codex CLI bills your time
 
@@ -50,8 +48,6 @@ There's a 2x rate limit promotion running since February 2026. The upper bounds 
 ## The token efficiency gap
 
 This is where the comparison gets lopsided. Codex CLI uses approximately 4x fewer tokens per task than Claude Code. That's the difference between burning through your allocation in an afternoon versus lasting the whole workday.
-
-![Resource pacing: one coffee half-empty from big gulps, one mostly full from small sips](./claude-code-vs-codex-20-dollar-plan/images/usage-pattern.png)
 
 But fewer tokens doesn't always mean better value. Claude Code's approach is thorough. It reads more of your codebase, considers more edge cases, and produces higher-quality output that needs fewer revision cycles. Codex is faster and leaner, optimized for autonomous execution where speed matters more than perfection.
 

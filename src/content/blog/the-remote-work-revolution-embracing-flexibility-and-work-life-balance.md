@@ -1,11 +1,10 @@
 ---
-title: "blog: The Remote Work Revolution: Embracing Flexibility and Work-Life Balance"
+title: "The Remote Work Revolution: Embracing Flexibility and Work-Life Balance"
 description: "Remote work offers flexibility and work-life balance that traditional offices can't match — especially valuable for developers juggling career and family."
 pubDate: 2024-06-10
 category: "Career"
 tags: ["remote-work", "work-life-balance", "flexibility", "developer-life", "future-of-work"]
 mediumUrl: "https://medium.com/@gvelosa/the-remote-work-revolution-embracing-flexibility-and-work-life-balance-916fc45dca8e"
-heroImage: "./the-remote-work-revolution-embracing-flexibility-and-work-life-balance/images/cover.jpeg"
 canonicalUrl: "https://medium.com/@gvelosa/the-remote-work-revolution-embracing-flexibility-and-work-life-balance-916fc45dca8e"
 ---
 

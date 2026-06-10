@@ -1,12 +1,11 @@
 ---
-title: "blog: Confessions of an AI Whisperer: Dodging Pitfalls and Mastering the Art of the Prompt"
+title: "Confessions of an AI Whisperer: Dodging Pitfalls and Mastering the Art of the Prompt"
 description: "A developer's field guide to prompting — common blunders, practical mastery techniques, and why the human element still matters most when working with AI."
 pubDate: 2025-03-28
 category: "AI"
 tags: ["prompting", "ai", "prompt-engineering", "llm", "developer-tools", "best-practices"]
 mediumUrl: "https://medium.com/@gvelosa/confessions-of-an-ai-whisperer-dodging-pitfalls-and-mastering-the-art-of-the-prompt-2fc5cbd21625"
 canonicalUrl: "https://medium.com/@gvelosa/confessions-of-an-ai-whisperer-dodging-pitfalls-and-mastering-the-art-of-the-prompt-2fc5cbd21625"
-heroImage: "./confessions-of-an-ai-whisperer-dodging-pitfalls-and-mastering-the-art-of-the-prompt/images/cover.png"
 ---
 
 (Or: How I Learned to Stop Worrying and Love the Language Model)
@@ -27,7 +26,6 @@ Ah, the AI prompt blunder. We've all been there. You ask for something simple, a
 - The Result: You get something, but it's probably generic, unhelpful, or wildly off-target. It's the AI equivalent of shouting "Make food!" into a kitchen — you might get something, but probably not the gourmet meal you envisioned.
 - The Fix (Preview): Specificity is your best friend. What code? What language? What should it do? Which aspect of databases?
 
-![Vague request syndrome illustration](./confessions-of-an-ai-whisperer-dodging-pitfalls-and-mastering-the-art-of-the-prompt/images/inline-1.png)
 
 **Forgetting the Context: The Amnesiac AI Problem:**
 
@@ -84,8 +82,6 @@ Ready to transform your AI interactions from frustrating guesswork to predictabl
 - Think of it like building with LEGOs — piece by piece!
 
 **Iterative Refinement: The Debugging Loop:** Your first prompt might not be perfect. That's okay! Treat it like debugging code. See the output, analyse what's wrong or missing, tweak the prompt, and try again. Sometimes adding a constraint, clarifying a term, or rephrasing is all it takes.
-
-![Iterative refinement debugging loop](./confessions-of-an-ai-whisperer-dodging-pitfalls-and-mastering-the-art-of-the-prompt/images/inline-2.png)
 
 ## Prompting Best Practices: The Cheat Sheet
 

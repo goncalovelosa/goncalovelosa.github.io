@@ -1,12 +1,11 @@
 ---
-title: "blog: The Great AI Coding Shake-Up of 2025: Why I'm Breaking Up with Windsurf to Augment Code"
+title: "The Great AI Coding Shake-Up of 2025: Why I'm Breaking Up with Windsurf to Augment Code"
 description: "A story from the trenches about breaking up with Windsurf, leaving Cursor behind, and finding a new AI co-pilot in Augment Code."
 pubDate: 2025-07-04
 category: "AI"
 tags: ["augment-code", "windsurf", "cursor", "ai-coding", "ide", "developer-tools"]
 mediumUrl: "https://medium.com/@gvelosa/the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code-c59d89d1a121"
 canonicalUrl: "https://medium.com/@gvelosa/the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code-c59d89d1a121"
-heroImage: "./the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code/images/cover.png"
 ---
 
 Another Tuesday, another pull request. The coffee is brewing, the Slack notifications are… notifying, and I'm staring at a function so tangled it looks like it was written by a spider on espresso. We've all been there. For the last year, the promise of an AI pair programmer has been the light at the end of my debugging tunnel. And I've been on a quest, a journey through the wild, wonderful, and sometimes weird world of AI coding assistants.
@@ -19,7 +18,6 @@ I've been a paying customer of Windsurf, I've dabbled with Cursor, and now, I've
 
 Let's be clear: Windsurf isn't a bad tool. It's a full-fledged, AI-first IDE built on a fork of VS Code, and it has some serious muscle. For a while, it was my daily driver. Its "Supercomplete" feature, which pulls context from across multiple files, felt like magic. The "Cascade" feature, designed for creating complex AI workflows, showed a ton of promise for enterprise-level work. If you're in a highly regulated industry, Windsurf's focus on security is a big plus.
 
-![Windsurf IDE features](./the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code/images/inline-1.png)
 
 So, why the breakup?
 
@@ -41,15 +39,10 @@ The first thing that blew me away was its uncanny ability to understand my entir
 
 This is where its "task orchestrator" comes into play. You can give it a complex task, like "Refactor the user authentication flow to use a new passport.js strategy and then write integration tests for it," and it doesn't just spit out a blob of code. It breaks the problem down into a logical task list, plans its attack, and executes it step-by-step. You can even edit the plan, adding or removing steps before it starts. It's like having a junior dev who actually listens.
 
-![Task orchestrator workflow](./the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code/images/inline-2.png)
-
 The best part? It integrates directly into the IDE I already use and love. No weird, walled-garden environment. It's just there, in VS Code or JetBrains, ready to help when I need it. The recently added "Remote Agent" that can work on tasks in the background is just the cherry on top. It feels less like a tool and more like a true collaborator.
 
 ## Head-to-Head: A Developer's Verdict
 
-![Head-to-head comparison](./the-great-ai-coding-shake-up-of-2025-why-im-breaking-up-with-windsurf-to-augment-code/images/inline-3.png)
-
-## Conclusion: My New AI Co-Pilot
 
 The world of AI development tools is moving at a breakneck pace. A year ago, I would have recommended a completely different setup. But right now, in mid-2025, my choice is clear.
 

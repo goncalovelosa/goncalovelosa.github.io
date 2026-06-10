@@ -1,11 +1,10 @@
 ---
-title: "blog: Why Your Soft Skills Matter More Than You Think (And It's Not Just About Being Nice)"
+title: "Why Your Soft Skills Matter More Than You Think (And It's Not Just About Being Nice)"
 description: "Soft skills are the social glue that holds teams together. Communication, collaboration, and emotional intelligence can make or break your developer career."
 pubDate: 2024-06-23
 category: "Career"
 tags: ["soft-skills", "communication", "emotional-intelligence", "career-growth", "teamwork", "leadership"]
 mediumUrl: "https://medium.com/@gvelosa/why-your-soft-skills-matter-more-than-you-think-and-its-not-just-about-being-nice-d5f19efd196a"
-heroImage: "./why-your-soft-skills-matter-more-than-you-think-and-its-not-just-about-being-nice/images/cover.png"
 canonicalUrl: "https://medium.com/@gvelosa/why-your-soft-skills-matter-more-than-you-think-and-its-not-just-about-being-nice-d5f19efd196a"
 ---
 

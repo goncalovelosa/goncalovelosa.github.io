@@ -1,11 +1,10 @@
 ---
-title: "blog: PNPM: The Smarter, More Efficient Node.js Package Manager"
+title: "PNPM: The Smarter, More Efficient Node.js Package Manager"
 description: "NPM has ruled the Node.js dependency management landscape for years. But as projects grow complex, NPM's limitations become increasingly apparent. Enter PNPM."
 pubDate: 2024-03-26
 category: "TypeScript"
 tags: ["nodejs", "pnpm", "package-manager", "npm", "performance"]
 mediumUrl: "https://medium.com/@gvelosa/pnpm-the-smarter-more-efficient-node-js-package-manager-3e392a1f7a4a"
-heroImage: "./pnpm-the-smarter-more-efficient-node-js-package-manager/images/cover.jpeg"
 canonicalUrl: "https://medium.com/@gvelosa/pnpm-the-smarter-more-efficient-node-js-package-manager-3e392a1f7a4a"
 ---
 

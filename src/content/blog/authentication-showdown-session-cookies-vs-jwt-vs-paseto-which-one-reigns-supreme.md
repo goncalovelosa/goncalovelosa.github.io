@@ -1,11 +1,10 @@
 ---
-title: "blog: Authentication Showdown: Session Cookies vs. JWT vs. PASETO — Which One Reigns Supreme?"
+title: "Authentication Showdown: Session Cookies vs. JWT vs. PASETO — Which One Reigns Supreme?"
 description: "Comparing three popular authentication methods — session cookies, JWT, and PASETO — across security, scalability, and developer experience."
 pubDate: 2024-07-04
 category: "TypeScript"
 tags: ["authentication", "jwt", "session-cookies", "paseto", "security", "web-development"]
 mediumUrl: "https://medium.com/@gvelosa/authentication-showdown-session-cookies-vs-jwt-vs-paseto-which-one-reigns-supreme-f5419897da9d"
-heroImage: "./authentication-showdown-session-cookies-vs-jwt-vs-paseto-which-one-reigns-supreme/images/cover.png"
 canonicalUrl: "https://medium.com/@gvelosa/authentication-showdown-session-cookies-vs-jwt-vs-paseto-which-one-reigns-supreme-f5419897da9d"
 ---
 

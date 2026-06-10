@@ -1,12 +1,11 @@
 ---
-title: "blog: Beyond the Code: Why Being a \"Jack of All Trades\" (and Master of One) Makes You a Tech Unicorn"
+title: "Beyond the Code: Why Being a \"Jack of All Trades\" (and Master of One) Makes You a Tech Unicorn"
 description: "Becoming a T-shaped professional — deep expertise in one area plus broad knowledge across the tech landscape — is the key to a thriving, future-proof career."
 pubDate: 2024-10-26
 category: "Career"
 tags: ["t-shaped-developer", "career-growth", "soft-skills", "career-development", "tech-career"]
 mediumUrl: "https://medium.com/@gvelosa/beyond-the-code-why-being-a-jack-of-all-trades-and-master-of-one-makes-you-a-tech-unicorn-07d363bf3893"
 canonicalUrl: "https://medium.com/@gvelosa/beyond-the-code-why-being-a-jack-of-all-trades-and-master-of-one-makes-you-a-tech-unicorn-07d363bf3893"
-heroImage: "./beyond-the-code-why-being-a-jack-of-all-trades-and-master-of-one-makes-you-a-tech-unicorn/images/cover.jpg"
 ---
 
 Alright, fellow devs, gather around the virtual campfire. Today, we're not talking about the latest JavaScript framework or that elusive bug that's been haunting your dreams. Instead, we're diving into the deep end of career development — the part that goes beyond mastering a single programming language or framework.

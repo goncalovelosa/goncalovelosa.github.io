@@ -1,12 +1,11 @@
 ---
-title: "blog: Lessons From the Tech Trenches: 5 Things I Wish I Knew When I Started"
+title: "Lessons From the Tech Trenches: 5 Things I Wish I Knew When I Started"
 description: "Five hard-won lessons from 5+ years in the tech jungle — consistency over scattered brilliance, embracing the struggle, and knowing when to jump ship."
 pubDate: 2024-09-26
 category: "Career"
 tags: ["career-advice", "junior-developer", "career-growth", "soft-skills", "tech-career"]
 mediumUrl: "https://medium.com/@gvelosa/lessons-from-the-tech-trenches-5-things-i-wish-i-knew-when-i-started-b7737751bd46"
 canonicalUrl: "https://medium.com/@gvelosa/lessons-from-the-tech-trenches-5-things-i-wish-i-knew-when-i-started-b7737751bd46"
-heroImage: "./lessons-from-the-tech-trenches-5-things-i-wish-i-knew-when-i-started/images/cover.png"
 ---
 
 Hello, fellow code warriors! If you're a newbie in the IT world, pull up a chair and grab your favourite caffeinated beverage. I've spent over 5 years navigating the tech jungle, and I've collected a few battle scars (and a few hilarious stories) along the way. So, let's dive into 5 things I wish someone had told me when I first started out:

@@ -1,11 +1,10 @@
 ---
-title: "blog: Feedback Loops and Rubber Duckies: A Dev's Guide to Not Taking it Personally (and Actually Improving)"
+title: "Feedback Loops and Rubber Duckies: A Dev's Guide to Not Taking it Personally (and Actually Improving)"
 description: "How to give and receive feedback without taking it personally — practical tips for code reviews, swallowing your pride, and turning critique into growth."
 pubDate: 2024-07-23
 category: "Career"
 tags: ["feedback", "code-review", "soft-skills", "communication", "career-growth", "teamwork"]
 mediumUrl: "https://medium.com/@gvelosa/feedback-loops-and-rubber-duckies-a-devs-guide-to-not-taking-it-personally-and-actually-73c7cb5789a2"
-heroImage: "./feedback-loops-and-rubber-duckies-a-devs-guide-to-not-taking-it-personally-and-actually/images/cover.jpeg"
 canonicalUrl: "https://medium.com/@gvelosa/feedback-loops-and-rubber-duckies-a-devs-guide-to-not-taking-it-personally-and-actually-73c7cb5789a2"
 ---
 

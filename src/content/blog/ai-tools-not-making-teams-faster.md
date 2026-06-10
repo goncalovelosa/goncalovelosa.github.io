@@ -1,10 +1,9 @@
 ---
-title: 'blog: AI Writes 42% of Your Code. Why Haven''t You Shipped 42% Faster?'
+title: 'AI Writes 42% of Your Code. Why Haven''t You Shipped 42% Faster?'
 description: "AI writes 42% of committed code. Teams are not shipping 42% faster. The data explains why."
 pubDate: 2026-06-07
 category: "AI"
 tags: ["artificial-intelligence", "programming", "productivity", "software-development", "technology"]
-heroImage: "./ai-tools-not-making-teams-faster/images/cover.png"
 mediumUrl: "https://medium.com/@gvelosa/ai-writes-42-of-your-code-why-havent-you-shipped-42-faster-82dda91eed7f"
 canonicalUrl: "https://medium.com/@gvelosa/ai-writes-42-of-your-code-why-havent-you-shipped-42-faster-82dda91eed7f"
 ---
@@ -29,7 +28,6 @@ What's not real is the delivery improvement.
 
 ## The review bottleneck
 
-![The review bottleneck: input vastly exceeds throughput](./ai-tools-not-making-teams-faster/images/review-bottleneck.png)
 
 LinearB's 2026 Software Engineering Benchmarks Report analyzed 8.1 million pull requests across 4,800 organizations. (LinearB sells engineering metrics software, so its business benefits from organizations believing they have measurement gaps.) It's the largest dataset on AI coding's impact in production to date, though the data is observational, not a controlled experiment, and AI PRs may differ systematically from human ones in task complexity, developer experience, and codebase area.
 
@@ -48,8 +46,6 @@ Eighty-one percent of developers report spending more time on code review since 
 The code generation gain is real. It is being eaten by the review bottleneck.
 
 ## The verification tax
-
-![The verification tax: scrutinizing the piece that almost fits](./ai-tools-not-making-teams-faster/images/verification-tax.png)
 
 Here is where the numbers get uncomfortable. Sonar, a code review company, surveyed 1,100 developers in January 2026. Ninety-six percent said they do not fully trust AI-generated code to be functionally correct. Only 48% said they always verify AI output before committing it.
 
@@ -73,9 +69,6 @@ This is the compound cost that nobody is measuring. Today's code clone is tomorr
 
 ## The measurement vacuum
 
-![The measurement vacuum: every dial points to the wrong thing](./ai-tools-not-making-teams-faster/images/measurement-vacuum.png)
-
-The most damning number in the Harness report is not about AI at all. It is this: 94% of engineering leaders admit their current metrics frameworks do not capture code quality or developer burnout.
 
 Eighty-nine percent say AI is delivering gains. Ninety-four percent say they cannot measure whether those gains are real.
 
