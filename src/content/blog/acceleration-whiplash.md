@@ -4,7 +4,7 @@ description: "AI coding tools shipped 66% more epics per developer. They also tr
 pubDate: 2026-06-11
 category: "AI"
 tags: ["ai", "software-engineering", "productivity", "code-quality", "faros"]
-heroImage: "/blog/images/acceleration-whiplash-hero.png"
+heroImage: "./images/acceleration-whiplash-hero.png"
 ---
 
 # AI Writes Most of Your Code Now. That's the Problem.
