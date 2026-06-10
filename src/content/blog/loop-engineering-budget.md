@@ -1,5 +1,5 @@
 ---
-title: "blog: Loop Engineering Doesn't Need $1.3M a Month"
+title: "Loop Engineering Doesn't Need $1.3M a Month"
 description: "Loop engineering is dominated by people with infinite token budgets. Solo developers can adopt it at three tiers using deterministic verification, circuit breakers, and cheap models."
 pubDate: 2026-06-09
 category: "AI"
