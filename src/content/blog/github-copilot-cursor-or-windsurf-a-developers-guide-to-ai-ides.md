@@ -6,6 +6,7 @@ category: "AI"
 tags: ["github-copilot", "cursor", "windsurf", "ai-coding", "ide", "developer-tools"]
 mediumUrl: "https://medium.com/@gvelosa/github-copilot-cursor-or-windsurf-a-developers-guide-to-ai-ides-e69181a6f75f"
 canonicalUrl: "https://medium.com/@gvelosa/github-copilot-cursor-or-windsurf-a-developers-guide-to-ai-ides-e69181a6f75f"
+heroImage: "./github-copilot-cursor-or-windsurf-a-developers-guide-to-ai-ides/images/cover.jpg"
 ---
 
 The AI revolution is in full swing, and it's changing the way we write code faster than we can say "segmentation fault." We've moved beyond simple code completion to having full-fledged AI companions that can understand our code, suggest improvements, and even write entire blocks of logic for us. As seasoned developers, the question is no longer if we should embrace these tools, but which one best suits our needs.
@@ -77,6 +78,7 @@ Let's dissect each tool's strengths, focusing on what matters most to us as deve
 
 ### Capabilities Compared: A Three-Way Showdown
 
+![Capabilities Compared: A Three-Way Showdown](./github-copilot-cursor-or-windsurf-a-developers-guide-to-ai-ides/images/inline-1.png)
 
 ## The Verdict: Which AI Co-pilot Should You Choose?
 

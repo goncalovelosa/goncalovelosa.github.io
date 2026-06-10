@@ -5,6 +5,7 @@ pubDate: 2024-06-15
 category: "TypeScript"
 tags: ["code-comments", "best-practices", "clean-code", "documentation", "maintainability"]
 mediumUrl: "https://medium.com/@gvelosa/code-comments-your-secret-weapon-for-a-happier-dev-life-and-a-healthier-codebase-e7457af42df5"
+heroImage: "./code-comments-your-secret-weapon-for-a-happier-dev-life-and-a-healthier-codebase/images/cover.png"
 canonicalUrl: "https://medium.com/@gvelosa/code-comments-your-secret-weapon-for-a-happier-dev-life-and-a-healthier-codebase-e7457af42df5"
 ---
 

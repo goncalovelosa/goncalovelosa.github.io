@@ -6,6 +6,7 @@ category: "AI"
 tags: ["kiro", "ai-coding", "spec-oriented-development", "ide", "amazon", "developer-tools"]
 mediumUrl: "https://medium.com/@gvelosa/from-vibe-coding-to-deliberate-design-my-first-week-with-kiro-ide-f9af7e2de035"
 canonicalUrl: "https://medium.com/@gvelosa/from-vibe-coding-to-deliberate-design-my-first-week-with-kiro-ide-f9af7e2de035"
+heroImage: "./from-vibe-coding-to-deliberate-design-my-first-week-with-kiro-ide/images/cover.png"
 ---
 
 A few months ago, I wrote about my "break-up" with the first wave of AI coding assistants. It was a whirlwind romance, full of dazzling autocomplete suggestions and moments of pure magic. But like any relationship built purely on "vibes," it eventually got… messy. I was spending more time babysitting my AI pair programmer than actually programming, correcting its weird detours and cleaning up its confident mistakes. The initial thrill of "vibe coding" — just throwing a prompt at the wall and seeing what sticks — gave way to a low-grade headache.
@@ -30,6 +31,7 @@ It's a simple but profound three-step dance:
 
 This workflow is a game-changer. It transforms the AI from a wildcard into a predictable, accountable collaborator. The chaos is gone, replaced by deliberate, verifiable steps.
 
+![Kiro spec-oriented workflow](./from-vibe-coding-to-deliberate-design-my-first-week-with-kiro-ide/images/inline-1.png)
 
 ### The Superpowers: Hooks and Steering
 

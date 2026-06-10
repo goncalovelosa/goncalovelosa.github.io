@@ -5,6 +5,7 @@ pubDate: 2024-06-12
 category: "TypeScript"
 tags: ["typescript", "type-safety", "branded-types", "nominal-typing"]
 mediumUrl: "https://medium.com/@gvelosa/branded-types-in-typescript-stronger-type-safety-for-your-codebase-3f2125c28b43"
+heroImage: "./branded-types-in-typescript-stronger-type-safety-for-your-codebase/images/cover.jpeg"
 canonicalUrl: "https://medium.com/@gvelosa/branded-types-in-typescript-stronger-type-safety-for-your-codebase-3f2125c28b43"
 ---
 

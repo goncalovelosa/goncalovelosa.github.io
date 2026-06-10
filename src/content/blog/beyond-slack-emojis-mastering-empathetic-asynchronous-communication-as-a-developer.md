@@ -4,6 +4,7 @@ description: "(Because 'LGTM 👍' Doesn't Always Cut It) — Mastering empathet
 pubDate: 2025-04-25
 category: "Career"
 tags: ["communication", "asynchronous", "empathy", "remote-work", "pull-requests", "soft-skills"]
+heroImage: "./beyond-slack-emojis-mastering-empathetic-asynchronous-communication-as-a-developer/images/cover.png"
 mediumUrl: "https://medium.com/@gvelosa/beyond-slack-emojis-mastering-empathetic-asynchronous-communication-as-a-developer-607f9c00e73f"
 canonicalUrl: "https://medium.com/@gvelosa/beyond-slack-emojis-mastering-empathetic-asynchronous-communication-as-a-developer-607f9c00e73f"
 ---
@@ -44,6 +45,7 @@ Let's break down how to apply empathy in the places developers communicate most:
 - **Preempt Questions:** Did you make a non-obvious choice? Briefly explain your reasoning *in the description*. Considered alternatives? Mention them.
 - **Keep 'Em Focused:** Smaller, focused PRs are easier (and faster) to review. Big PRs can feel overwhelming and signal less empathy for reviewer time.
 
+![Empathetic PR review tips](./beyond-slack-emojis-mastering-empathetic-asynchronous-communication-as-a-developer/images/inline-1.png)
 
 ### 2. Documentation (Docs & READMEs): Be Kind to Future You (and Everyone Else)
 
@@ -79,6 +81,8 @@ Let's break down how to apply empathy in the places developers communicate most:
 - **Indicate Urgency (Or Lack Thereof):** If it's not urgent, say so! "No rush on this…" or "When you get a chance…" respects their time. If it is urgent, explain why briefly.
 - **Proofread for Tone:** Read it aloud quickly. Does it sound abrupt? Could adding a "Please" or "Thanks" help? (But don't overdo it!).
 - **Summarize:** If a long chat discussion reaches a conclusion or action item, summarize it clearly at the end.
+
+![Async communication best practices](./beyond-slack-emojis-mastering-empathetic-asynchronous-communication-as-a-developer/images/inline-2.png)
 
 ## When Async Waters Get Choppy: Handling Disagreements Empathetically
 

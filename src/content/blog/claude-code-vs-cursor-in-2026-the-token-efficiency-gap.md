@@ -6,6 +6,7 @@ category: "AI"
 tags: ["claude-code", "cursor", "ai-coding", "token-efficiency", "developer-tools", "llm"]
 mediumUrl: "https://medium.com/@gvelosa/claude-code-vs-cursor-in-2026-the-token-efficiency-gap-befd0864e0a5"
 canonicalUrl: "https://medium.com/@gvelosa/claude-code-vs-cursor-in-2026-the-token-efficiency-gap-befd0864e0a5"
+heroImage: "./claude-code-vs-cursor-in-2026-the-token-efficiency-gap/images/cover.png"
 ---
 
 ## TL;DR
@@ -29,10 +30,13 @@ Think of token usage like fuel efficiency. Two cars, same destination, wildly di
 
 ## The Token Efficiency Metric
 
+![Token efficiency comparison](./claude-code-vs-cursor-in-2026-the-token-efficiency-gap/images/inline-1.png)
 
 Based on Claude Sonnet pricing at ~$3/million input tokens. That's a 5.5x difference. Run that multiplier across a year of heavy usage.
 
 ## Head-to-Head Comparison
+
+![Head-to-head comparison table](./claude-code-vs-cursor-in-2026-the-token-efficiency-gap/images/inline-2.png)
 
 ## The Credit System Horror Story
 

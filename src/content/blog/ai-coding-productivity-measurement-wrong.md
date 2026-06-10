@@ -4,6 +4,7 @@ description: "The 55% faster statistic is everywhere. But the studies behind AI 
 pubDate: 2026-06-05
 category: "AI"
 tags: ["Artificial Intelligence", "Software Engineering", "Future of Work", "Technology", "Career"]
+heroImage: "./ai-coding-productivity-measurement-wrong/images/VISUAL_1_cover_1.png"
 mediumUrl: "https://medium.com/p/9aea4e68f0fb"
 canonicalUrl: "https://medium.com/p/9aea4e68f0fb"
 ---
@@ -40,6 +41,7 @@ Self-report measures of productivity are confessions. They capture how people fe
 
 This would be a footnote if the self-reports aligned with objective data. They do not.
 
+![A hamster runs furiously inside a wheel that spins freely, detached from any cage or stand, going nowhere](./ai-coding-productivity-measurement-wrong/images/VISUAL_2_illustration_1.png)
 *Running fast. Going nowhere.*
 
 A 2025 randomized controlled trial by Becker and colleagues at METR gave 16 experienced developers 246 real engineering issues to solve. Each task was randomly assigned, so developers completed some with AI and some without. The AI-assisted tasks took 19% longer. Objectively measured. Timed. Verified. That original finding was statistically significant, with a confidence interval between 2% and 39% slower. But sixteen developers at a single AI-safety organization is a sample that demands humility, not headlines.
@@ -68,6 +70,8 @@ Opsera's 2026 benchmark, covering 250,000 developers across 60 enterprises, fill
 
 Junior developers often show genuine speed improvements in these studies. IBM's 2025 CHI work by Weisz and colleagues (IBM sells its own coding assistant, Watsonx) confirmed that net productivity increases exist but are distributed unevenly. Some people benefit. Others pay a tax. When you average across skill levels, junior gains mask senior drag. Your aggregate dashboard looks green while your most experienced contributors absorb the review debt.
 
+![A row of pristine teal columns, but one amber column in the center is cracked and crumbling, bearing the heaviest weight](./ai-coding-productivity-measurement-wrong/images/VISUAL_3_diagram_1.png)
+*Junior gains mask senior drag — the averaging problem.*
 
 On tasks where I already know the approach, typing was never the bottleneck. Thinking through edge cases was. AI accelerates the typing part of a job where typing was already the fastest part.
 
@@ -90,6 +94,9 @@ Teams shipped faster at first. Then the complexity caught up. The generated code
 Whether the newest generation of coding agents changes this pattern is too early to tell. The He study covers Cursor adoption through 2025. The latest agents have not been studied at equivalent depth. But the pattern, speed followed by complexity, is worth watching for.
 
 The speed was real. So was the complexity. But the speed was temporary, and the complexity was not.
+
+![A sleek amber arrow flies forward, but a heavy iron chain drags a massive rusted ball behind it](./ai-coding-productivity-measurement-wrong/images/VISUAL_4_illustration_1.png)
+*Speed was temporary. Complexity was not.*
 
 This is the streetlight effect applied to software. We measure what is easy to see, not what matters. We optimized for stories closed because those were the numbers AI could visibly improve. The costs showed up in maintainability, onboarding time, and the cognitive load of reading code that no single person on the team wrote.
 

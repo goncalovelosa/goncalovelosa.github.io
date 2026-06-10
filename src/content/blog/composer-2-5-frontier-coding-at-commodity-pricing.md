@@ -4,6 +4,7 @@ description: "At $20/month all three major AI coding tools cost the same. The di
 pubDate: 2026-06-03
 category: "AI"
 tags: ["ai-coding", "cursor", "composer-2.5", "deepseek-v4", "llm-benchmarks", "developer-tools"]
+heroImage: "./composer-2-5-frontier-coding-at-commodity-pricing/images/cover.png"
 mediumUrl: "https://medium.com/@gvelosa/composer-2-5-is-the-ai-coding-model-most-developers-should-actually-use-653a1ce9bf18"
 canonicalUrl: "https://medium.com/@gvelosa/composer-2-5-is-the-ai-coding-model-most-developers-should-actually-use-653a1ce9bf18"
 ---
@@ -31,6 +32,7 @@ Cursor Pro includes $20 of model usage credits per month. Because Composer 2.5 s
 
 The gap widens at higher tiers. Cursor Pro+ at $60/month gives you more included credits. Claude Code's Max 5x ($100/month) and Codex Pro 5x ($100/month) both offer 5x the base quota. At the top, Cursor Ultra ($200/month), Claude Max 20x ($200/month), and Codex Pro 20x ($200/month) all sit at the same price point. But because Composer 2.5's per-token costs are an order of magnitude lower than Opus or GPT models, each tier's credits buy you significantly more agent sessions in Cursor.
 
+![Cost comparison: three receipts of dramatically different lengths — same $20 monthly budget, vastly different output](./composer-2-5-frontier-coding-at-commodity-pricing/images/cost-comparison.png)
 
 DeepSeek V4-Pro has complicated this picture further. At $0.435 per million input tokens and $0.87 per million output tokens after its permanent 75% price cut, it's the cheapest model on the Coding Agent Index that still delivers frontier-adjacent performance. It scored 80.6% on SWE-bench Verified, matching Claude Opus 4.6 on that variant (note: SWE-bench Verified and SWE-Bench Multilingual are different benchmarks — scores across variants are not directly comparable). On LiveCodeBench, its 93.5 is the highest of any model, period. MIT-licensed, open weights, 1M-token context window. But DeepSeek lives in the API layer. You run it through an open harness like Aider or Continue, or call the API directly. It doesn't come bundled with any IDE or subscription.
 
@@ -43,6 +45,8 @@ The technical story behind Composer 2.5 is worth paying attention to because it 
 The base model is Kimi K2.5 from Moonshot AI, a mixture-of-experts architecture with 1 trillion total parameters but only ~32 billion active at any given inference step. That MoE design is doing exactly what it should: giving you a big model's knowledge with a smaller model's compute cost.
 
 But the part that matters more: Cursor spent 85% of their compute budget on their own additional training and reinforcement learning pipeline. They generated 25 times more synthetic training tasks than they did for Composer 2. The result is a model that went from a score of 48 (Composer 2) to 62, a 14-point jump in a single generation. That's the kind of improvement curve that makes you lean forward in your chair.
+
+![Strategy: two toolboxes — one perfect tool vs a full practical set](./composer-2-5-frontier-coding-at-commodity-pricing/images/strategy.png)
 
 The pricing reflects the architecture. Standard mode runs $0.50 per million input tokens and $2.50 per million output tokens. Fast mode costs $3.00/$15.00. For context, Claude Opus 4.8 pricing is an order of magnitude higher on both dimensions ($5/$25). Composer 2.5 Fast completes tasks in 6.7 minutes on average, making it the third-fastest model on the entire Index. Speed and cost aren't enemies here; they're allies.
 

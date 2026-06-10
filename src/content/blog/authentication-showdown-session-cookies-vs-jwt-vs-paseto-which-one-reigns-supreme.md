@@ -5,6 +5,7 @@ pubDate: 2024-07-04
 category: "TypeScript"
 tags: ["authentication", "jwt", "session-cookies", "paseto", "security", "web-development"]
 mediumUrl: "https://medium.com/@gvelosa/authentication-showdown-session-cookies-vs-jwt-vs-paseto-which-one-reigns-supreme-f5419897da9d"
+heroImage: "./authentication-showdown-session-cookies-vs-jwt-vs-paseto-which-one-reigns-supreme/images/cover.png"
 canonicalUrl: "https://medium.com/@gvelosa/authentication-showdown-session-cookies-vs-jwt-vs-paseto-which-one-reigns-supreme-f5419897da9d"
 ---
 
