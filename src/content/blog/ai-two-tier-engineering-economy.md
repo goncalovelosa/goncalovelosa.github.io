@@ -1,5 +1,5 @@
 ---
-title: "blog: AI Is Creating a Two-Tier Engineering Economy"
+title: "AI Is Creating a Two-Tier Engineering Economy"
 description: "AI coding tools were supposed to make everyone faster. Instead, they split engineering teams into two tiers, and the metrics we use can only see one of them."
 pubDate: 2026-06-05
 category: "AI"
