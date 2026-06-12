@@ -5,6 +5,8 @@ pubDate: 2026-06-11
 category: "AI"
 tags: ["ai", "software-engineering", "productivity", "code-quality", "faros"]
 heroImage: "./images/acceleration-whiplash-hero.png"
+mediumUrl: "https://medium.com/@gvelosa/ai-writes-most-of-your-code-now-thats-the-problem-976f4fd7f173"
+canonicalUrl: "https://medium.com/@gvelosa/ai-writes-most-of-your-code-now-thats-the-problem-976f4fd7f173"
 ---
 
 # AI Writes Most of Your Code Now. That's the Problem.
