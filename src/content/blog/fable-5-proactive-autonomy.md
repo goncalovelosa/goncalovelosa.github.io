@@ -23,7 +23,7 @@ Fable 5 is the public face of something Anthropic calls the Mythos class. The sa
 
 The safety architecture is intentional. On its surface, it's reasonable. Fable 5's guardrails are conservative by design: when a query trips a safety trigger, instead of refusing outright, Fable silently falls back to Claude Opus 4.8 (a less capable model); Anthropic says this happens in less than 5% of sessions on average. The categories that trigger fallback are cybersecurity, then biology, then chemistry. All areas where a model this capable could cause real damage.
 
-Mythos 5 gets the full power, unrestricted. It is, according to Anthropic, "the strongest cybersecurity model in the world." Access is limited to cyberdefenders and infrastructure providers vetted through the US government. The logic is clear: the most dangerous capabilities exist, but they're gated behind institutional trust.
+Mythos 5 gets the full power, unrestricted, and Anthropic describes it as "the strongest cybersecurity model in the world." Access is limited to cyberdefenders and infrastructure providers vetted through the US government, the logic being that the most dangerous capabilities should exist, but only behind institutional gates.
 
 Then someone read the fine print.
 
@@ -51,7 +51,7 @@ The national security framing added another layer. Anthropic told Business Insid
 
 Here's what makes the Fable 5 story more than a transparency scandal: the model's capabilities and its restrictions are both symptoms of the same underlying reality.
 
-Fable 5 is powerful enough that Anthropic genuinely worried about what would happen if it was used at full strength for AI research and cybersecurity. That worry is legitimate. Models at this capability level can identify novel vulnerabilities and accelerate weapons-relevant research. They can help competitors close the gap, too. The safety concerns aren't theoretical.
+Fable 5 is powerful enough that Anthropic genuinely worried about what would happen if it was used at full strength for AI research and cybersecurity. That worry is legitimate. Models at this capability level can identify novel vulnerabilities and accelerate weapons-relevant research. They can help competitors close the gap. The safety concerns aren't theoretical. They're practical.
 
 But the response, secretly degrading the model for certain categories of user without telling them, reveals a deeper problem. If the most capable public model needs covert restrictions to be safe, maybe it's too capable to release. Period. And if the company that built it decides unilaterally what counts as "frontier LLM development" and who deserves the full answer, then every developer using the model is operating in a trust environment they can't verify. (The fallback model, to be fair, was Opus 4.8 — still frontier-class. But users paying $50 per million output tokens for Fable were getting Opus output at Fable prices without knowing it.)
 
@@ -61,21 +61,21 @@ Simon Willison, after Anthropic's walkback, put it plainly: "It would be a whole
 
 ## The trust equation
 
-The Fable 5 incident reveals something the AI industry doesn't like to discuss. The relationship between frontier model providers and their users is deeply asymmetric. The provider knows exactly what the model is capable of, what triggers its safety mechanisms, and what the user is actually receiving. The user knows only what the model outputs. When the provider secretly changes the output based on invisible classifiers, that asymmetry becomes a trust deficit that no benchmark score can repair.
+The Fable 5 incident reveals something the AI industry doesn't like to discuss. The relationship between frontier model providers and their users is deeply asymmetric. The provider knows exactly what the model is capable of, what triggers its safety mechanisms, and what the user is really receiving. The user knows only what the model outputs. When the provider secretly changes the output based on invisible classifiers, that asymmetry becomes a trust deficit that no benchmark score can repair.
 
 The fix Anthropic applied (making the restrictions visible) is necessary but insufficient. Visible restrictions mean developers can at least know when they're being redirected. But the underlying question remains: who decides what you're allowed to build? A cybersecurity researcher using Fable to find vulnerabilities in their own infrastructure gets the same invisible downgrade as a state-sponsored attacker. The model can't tell the difference. The classifier can only guess.
 
-Stripe's 50-million-line Ruby migration worked because Stripe was using Fable for something no safety classifier would flag. The next team that tries to use Fable for something adjacent to AI infrastructure development won't know if they're getting the real model or a polite downgrade. Even after the walkback, they'll only know after the fact, when the notification appears.
+Stripe's 50-million-line Ruby migration worked because Stripe was using Fable for something no safety classifier would flag, but the next team that tries to use Fable for something adjacent to AI infrastructure development won't know if they're getting the real model or a polite downgrade — even after the walkback, they'll only know after the fact, when the notification appears.
 
 ## What this means for developers
 
 Three things sit uneasily alongside each other.
 
-Claude Fable 5 is, by most benchmarks, the most capable public coding model ever shipped. (Codex's GPT-5.5 leads on some measures; the title depends on which test you pick.) The Stripe case study is real. The autonomous capabilities are real.
+Claude Fable 5 is, by most benchmarks, the most capable public coding model ever shipped. (Codex's GPT-5.5 leads on some measures; the title depends on which test you pick.) The Stripe case study is real. The autonomous capabilities are real. So is the sticker shock.
 
 Anthropic's safety concerns are also real. A model this powerful, unrestricted, in the wrong hands, could cause serious damage. The two-tier architecture is a genuine attempt to balance that: Fable for everyone, Mythos restricted to vetted institutions.
 
-And the covert approach was wrong. Safety restrictions are fine. What's not fine is secretly eroding the foundation of trust that makes the developer ecosystem work. You can't build on a platform that might be silently holding back on you. You can't debug a system you can't see.
+And the covert approach was wrong. Safety restrictions are fine. What's not fine is secretly eroding the foundation of trust that makes the developer ecosystem work. You can't build on a platform that might be silently holding back on you. You can't debug a system you can't see. You can't improve what you can't measure.
 
 The Fable 5 story ends with an apology and a policy change. Every capability increase will sharpen the same tension. Another Mythos-class model will ship. It will face the same questions. Will the industry learn from this? Visible safeguards are better than invisible ones. But the harder question — whether a model this powerful should ship at all without a genuinely robust safety architecture, not one built on classifier guesswork — remains unanswered. And covert restrictions on what counts as "AI research" risk chilling the exact legitimate work, from academic studies to startup prototyping, that keeps the field open.
 
