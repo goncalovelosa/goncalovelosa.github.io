@@ -4,7 +4,7 @@ description: "Claude Fable 5 can migrate 50 million lines of Ruby in a day. It c
 pubDate: 2026-06-13
 category: "AI"
 tags: ["ai", "anthropic", "claude", "fable-5", "safety", "transparency"]
-heroImage: "/blog/images/fable-5-hero.png"
+heroImage: "./images/fable-5-hero.png"
 ---
 
 # Anthropic Built the Most Powerful Coding Model Ever. Then They Secretly Weakened It.
