@@ -5,6 +5,7 @@ pubDate: 2026-06-13
 category: "AI"
 tags: ["ai", "anthropic", "claude", "fable-5", "safety", "transparency"]
 heroImage: "./images/fable-5-hero.png"
+canonicalURL: "https://medium.com/@gvelosa/anthropic-built-the-most-powerful-coding-model-ever-then-they-secretly-weakened-it-a0c601f22f8d"
 ---
 # Anthropic Built the Most Powerful Coding Model Ever. Then They Secretly Weakened It.
 
