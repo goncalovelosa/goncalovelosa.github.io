@@ -36,7 +36,7 @@ This is different from every other safety mechanism in Fable. The cybersecurity 
 
 Fortune's Sharon Goldman broke the story on June 10, reporting that researchers had discovered the covert restrictions buried in the system card. The backlash was immediate and severe.
 
-## "We made the wrong tradeoff"
+## "We made the wrong tradeoff."
 
 Within 24 hours, Anthropic reversed course. In a statement to WIRED, reported by Maxwell Zeff: "We're changing Fable 5's safeguards for frontier LLM development to make them visible. We made the wrong tradeoff, and we apologize for not getting the balance right."
 
@@ -46,7 +46,7 @@ The justification for the original covert approach was speed. Anthropic explaine
 
 To be fair to Anthropic, the speed of their reversal matters. They shipped on June 9, the story broke on June 10, and by June 11 the policy was reversed with a public apology. That's faster than most companies respond to a PR crisis, let alone a structural safety decision. But the fact that they reversed it under pressure, rather than before launch, is the tell.
 
-The national security framing added another layer. Anthropic told Business Insider the restrictions were designed to prevent "foreign adversaries" from using Fable to accelerate their own frontier AI development. The specific worry: a state-level actor with access to Fable could compress what would normally take years of capability research into months, closing a multi-year gap with Western labs in a fraction of the time. The reasoning has merit — Anthropic's own system card notes that recent models can "accelerate their own development," making frontier AI a genuine dual-use concern. The problem is that visible safeguards are also probe-able; adversaries can test exactly where the boundaries are and work around them. That's the real engineering tension, and Anthropic never publicly addressed how to solve it.
+The national security framing added another layer. Anthropic told Business Insider the restrictions were designed to prevent "foreign adversaries" from using Fable to accelerate their own frontier AI development. The specific worry: a state-level actor with access to Fable could compress what would normally take years of capability research into months, closing a multi-year gap with Western labs in a fraction of the time. The reasoning has merit — Anthropic's own system card notes that recent models can "accelerate their own development," making frontier AI a genuine dual-use concern. The problem is that visible safeguards are also probeable; adversaries can test exactly where the boundaries are and work around them. That's the real engineering tension, and Anthropic never publicly addressed how to solve it.
 
 The cybersecurity community pushed back hard regardless. TechCrunch reported that security researchers found the guardrails "too strict for any cybersecurity work," effectively blocking them from using the most advanced public model for legitimate defense research.
 
@@ -54,9 +54,9 @@ The cybersecurity community pushed back hard regardless. TechCrunch reported tha
 
 What makes the Fable 5 story more than a transparency scandal: the model's capabilities and its restrictions are both symptoms of the same underlying reality.
 
-Fable 5 is powerful enough that Anthropic genuinely worried about what would happen if it was used at full strength for AI research and cybersecurity. That worry is legitimate. Models at this capability level can identify novel vulnerabilities and accelerate weapons-relevant research. They can help competitors close the gap. The safety concerns aren't theoretical. They're practical.
+Fable 5 is powerful enough that Anthropic genuinely worried about what would happen if it were used at full strength for AI research and cybersecurity. That worry is legitimate. Models at this capability level can identify novel vulnerabilities and accelerate weapons-relevant research. They can help competitors close the gap. The safety concerns aren't theoretical. They're practical.
 
-But the response, secretly degrading the model for certain categories of user without telling them, reveals a deeper problem. If the most capable public model needs covert restrictions to be safe, maybe it's too capable to release without a more robust safety architecture. And if the company that built it decides unilaterally what counts as "frontier LLM development" and who deserves the full answer, then every developer using the model is operating in a trust environment they can't verify. The fallback model was Opus 4.8, still frontier-class, still one of the best models in the world. But users paying $50 per million output tokens for Fable were getting Opus output at Fable prices without knowing it.
+But the response, secretly degrading the model for certain categories of users without telling them, reveals a deeper problem. If the most capable public model needs covert restrictions to be safe, maybe it's too capable to release without a more robust safety architecture. And if the company that built it decides unilaterally what counts as "frontier LLM development" and who deserves the full answer, then every developer using the model is operating in a trust environment they can't verify. The fallback model was Opus 4.8, still frontier-class, still one of the best models in the world. But users paying $50 per million output tokens for Fable were getting Opus output at Fable prices without knowing it.
 
 This isn't just about Anthropic. Every frontier lab faces the same tension. OpenAI ships GPT-5.5 through Codex with usage monitoring and content policies. Google's Gemini models have their own safety layers. Neither has been caught deploying covert restrictions — but neither has been scrutinized as closely as Anthropic was here. The question isn't whether safety mechanisms are needed. It's whether they can be honest.
 
