@@ -9,8 +9,6 @@ mediumUrl: "https://medium.com/@gvelosa/ai-writes-most-of-your-code-now-thats-th
 canonicalUrl: "https://medium.com/@gvelosa/ai-writes-most-of-your-code-now-thats-the-problem-976f4fd7f173"
 ---
 
-# AI Writes Most of Your Code Now. That's the Problem.
-
 Here's a number you won't find on any engineering dashboard: **861%**.
 
 That's how much code churn, the ratio of lines deleted to lines added, increased when teams shifted from low to high AI tool adoption. Code was written, merged, then ripped out at nearly ten times the previous rate. That statistic doesn't make it into many slide decks.

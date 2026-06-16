@@ -6,8 +6,6 @@ category: "DeFi"
 tags: ["defi", "typescript", "telegram", "risk-scoring", "yield"]
 ---
 
-# YieldRadar: Building a DeFi Yield Intelligence Bot
-
 Finding good DeFi yields is easy. Finding *safe* ones isn't.
 
 There are 18,000+ liquidity pools across chains. Most yield aggregators show APY and nothing else. But APY without risk context is dangerous — that 200% yield might come from an unaudited contract with a rugpull-able token.

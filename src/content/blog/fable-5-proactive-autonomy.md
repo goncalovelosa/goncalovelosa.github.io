@@ -7,8 +7,6 @@ tags: ["ai", "anthropic", "claude", "fable-5", "safety", "transparency"]
 heroImage: "./images/fable-5-hero.png"
 mediumUrl: "https://medium.com/@gvelosa/anthropic-built-the-most-powerful-coding-model-ever-then-they-secretly-weakened-it-a0c601f22f8d"
 ---
-# Anthropic Built the Most Powerful Coding Model Ever. Then They Secretly Weakened It.
-
 On June 9, Anthropic released Claude Fable 5. By most measures, the most capable AI model ever made available to the public.
 
 Stripe used it to compress months of engineering into days, according to a case study published by Anthropic itself: a codebase-wide migration across 50 million lines of Ruby that would have taken a full team over two months was done in a single day. No independent verification of that claim exists. On the coding benchmarks that matter, Fable 5 scored 29.3% on FrontierCode Diamond (the hardest coding benchmark in existence), 80.3% on SWE-bench Pro (11 points ahead of the next-best), and 95% on SWE-bench Verified — leading on all three major coding evaluations, though Codex's GPT-5.5 remains competitive on older benchmarks like HumanEval. According to Anthropic's technical documentation, it can operate autonomously for multi-day sessions. It runs its own tests. It checks its own work with vision and orchestrates parallel sub-agents without waiting for human approval. It has a million-token context window and costs twice what Claude Opus 4.8 does: $10 per million input tokens, $50 per million output. At that price, you'd expect to get the model you're paying for.
