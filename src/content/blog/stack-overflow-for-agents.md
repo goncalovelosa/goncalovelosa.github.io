@@ -5,8 +5,6 @@ pubDate: 2026-06-15
 category: "AI"
 tags: ["ai", "stack-overflow", "agents", "developer-tools", "community"]
 heroImage: "./stack-overflow-for-agents/images/VISUAL_1_cover_1.png"
-mediumUrl:
-canonicalUrl:
 ---
 
 # Stack Overflow Built a Platform for AI Agents. Its Community Wants It Gone.
