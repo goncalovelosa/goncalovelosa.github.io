@@ -34,7 +34,7 @@ He called that his first shock.
 
 I recognized the feeling. I have caught myself reaching for Claude before I finish thinking about a problem. Not because I cannot solve it. Because the model will get there faster and I have a deadline.
 
-The data backs up the anxiety, with caveats. Xu and colleagues analyzed open-source repositories before and after Copilot adoption in 2025 and found experienced developers showed a 19% drop in original code output. Their methodology was observational. But the direction aligns with what the author describes: senior engineers are producing less of the code that used to define their value.
+The data backs up the anxiety, with caveats. [Xu and colleagues](https://arxiv.org/abs/2510.10165) analyzed open-source repositories before and after Copilot adoption in 2025 and found experienced developers showed a 19% drop in original code output. Their methodology was observational. But the direction aligns with what the author describes: senior engineers are producing less of the code that used to define their value.
 
 ## the second pillar: debugging
 
@@ -49,7 +49,7 @@ Claude 4.5 solved about 60% of his bugs given a stack trace and a Sentry link. N
 
 Ninety percent is his number, not mine. I cannot verify it. But I have watched Claude Code diagnose a subtle timing bug in a WebSocket reconnection loop in under a minute. A bug I had spent an afternoon on.
 
-The METR studies track a compatible pattern, albeit from a different angle. Their 2025 randomized trial, where 16 developers each completed some tasks with AI and some without, found the AI-assisted tasks took 19% longer. But those same developers reported feeling 20% faster. The follow-up in February 2026 showed an estimated 18% speedup for the original developers. But the confidence interval ranged from a 38% speedup to a 9% slowdown, crossing zero. The data is consistent with anything from a genuine speedup to no effect at all. What is consistent is the feeling: developers believe they are faster, whether or not the clock agrees.
+The METR studies track a compatible pattern, albeit from a different angle. Their [2025 randomized trial](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/), where 16 developers each completed some tasks with AI and some without, found the AI-assisted tasks took 19% longer. But those same developers reported feeling 20% faster. The [follow-up in February 2026](https://metr.org/blog/2026-02-24-uplift-update/) showed an estimated 18% speedup for the original developers. But the confidence interval ranged from a 38% speedup to a 9% slowdown, crossing zero. The data is consistent with anything from a genuine speedup to no effect at all. What is consistent is the feeling: developers believe they are faster, whether or not the clock agrees.
 
 The author's debugging claim fits this pattern. The model probably does resolve many bugs faster than he could. Whether it resolves ninety percent is less important than what believing that number does to his sense of professional identity.
 
@@ -64,7 +64,7 @@ Except the industry is redefining those values.
 
 > Agents do a really bad job at keeping codebases organized. That should keep humans employed, except that this skill is now being reduced to the word "taste." Nobody needs A or B-grade codebases anymore because they are being made for LLMs, not for humans to read.
 
-Separately, Opsera's 2026 benchmark of 250,000 developers found AI-generated pull requests wait 4.6 times longer for review. The data is observational. IBM's 2025 CHI paper by Weisz and colleagues (IBM sells its own coding assistant, Watsonx) confirmed that productivity gains exist but distribute unevenly. Junior developers benefit. Senior engineers absorb the review debt.
+Separately, [Opsera's 2026 benchmark](https://www.linkedin.com/posts/vizsh_ai-generated-pull-requests-wait-46-times-activity-7434123156539387904-SikR) of 250,000 developers found AI-generated pull requests wait 4.6 times longer for review. The data is observational. [IBM's 2025 CHI paper](https://research.ibm.com/publications/examining-the-use-and-impact-of-an-ai-code-assistant-on-developer-productivity-and-experience-in-the-enterprise) by Weisz and colleagues (IBM sells its own coding assistant, Watsonx) confirmed that productivity gains exist but distribute unevenly. Junior developers benefit. Senior engineers absorb the review debt.
 
 The author's company used to hire "Software Engineer — Payments" or "Software Engineer — Risk." Now it hires "Software Engineer." Domain expertise is no longer a differentiator in the job listing.
 
@@ -78,7 +78,7 @@ The author does not claim AI will replace him. He is still employed. He still re
 
 The economics are not kind either. If every senior engineer becomes a generalist with an AI copilot, the supply of generalists explodes while demand is, by most indicators, contracting. The author notes that brilliant ex-colleagues laid off eight months ago are still looking for work. The company is hiring again, but domain familiarity no longer matters.
 
-This has happened before. Spreadsheets did not eliminate accountants, but they compressed the middle of the profession and rewarded the people who could interpret the numbers instead of merely producing them. CAD changed architecture without ending it. The pattern is consistent: the tool automates the production layer, the humans who adapt move to the judgment layer, and the humans who do not adapt get squeezed. The question is whether software engineering's judgment layer is large enough to absorb the displaced production workers, or whether the floor genuinely drops for everyone.
+This has happened before. Spreadsheets didn't eliminate accountants, but they compressed the profession's middle tier. CAD changed architecture without ending it. Now AI tools are doing the same thing — automating the production work that used to differentiate senior engineers. The question is whether software engineering has enough judgment-layer work to absorb everyone, or whether the floor genuinely drops.
 
 ## what I keep coming back to
 
@@ -94,5 +94,4 @@ But the author's anxiety is still directionally right. If most companies make th
 
 The honest answer about what to do is unsatisfying. The career paths that are emerging — AI quality governance, domain-plus-AI specialism, smaller teams with bigger scope — are still taking shape. The author does not see a path. Neither do I, clearly. His closing line was: "Maybe I should consider transforming my woodworking hobby into a profession."
 
-I laughed.
-Then I thought about it for longer than I should have.
+I laughed. Then I thought about it for longer than I should have.
