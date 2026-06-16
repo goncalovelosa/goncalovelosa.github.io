@@ -34,7 +34,7 @@ He called that his first shock.
 
 I recognized the feeling. I have caught myself reaching for Claude before I finish thinking about a problem. Not because I cannot solve it. Because the model will get there faster and I have a deadline.
 
-The data backs up the anxiety, with caveats. [Xu and colleagues](https://arxiv.org/abs/2510.10165) analyzed open-source repositories before and after Copilot adoption in 2025 and found experienced developers showed a 19% drop in original code output. Their methodology was observational. But the direction aligns with what the author describes: senior engineers are producing less of the code that used to define their value.
+The data backs up the anxiety, with caveats. [Xu and colleagues](https://arxiv.org/abs/2510.10165) analyzed open-source repositories before and after Copilot adoption in 2025 and found experienced developers showed a 19% drop in original code output. Their methodology was observational, and the metric (volume of novel keystrokes) doesn't distinguish between erosion and reallocation. Seniors writing less original code could mean they're producing less value. It could also mean AI handles the routine parts and they're spending more time on review and architecture, higher-value work the metric can't see. But the direction aligns with the author's experience: senior engineers are producing less of the code that used to define their value.
 
 ## the second pillar: debugging
 
@@ -76,22 +76,24 @@ The author does not claim AI will replace him. He is still employed. He still re
 
 > I have no domain expertise that another Sr. engineer steering an LLM cannot match. All my finance and payment domain expertise, all the debugging intuition and distributed system knowledge earned through hours of sweat and tears, is now promptable.
 
-The economics are not kind either. If every senior engineer becomes a generalist with an AI copilot, the supply of generalists explodes while demand is, by most indicators, contracting. The author notes that brilliant ex-colleagues laid off eight months ago are still looking for work. The company is hiring again, but domain familiarity no longer matters.
+Maybe. But there's a distinction the author's framing collapses. Claude can produce a plausible design document for a payment system. It can suggest idempotency patterns. It cannot navigate a PCI audit, explain to a regulator why your settlement reconciliation has a 0.01% variance, or catch that the code it generated violates a PSD2 requirement issued as interpretive guidance last quarter. The *recalling* layer of domain knowledge is increasingly promptable. The *deploying-under-uncertainty* layer, knowing which pattern applies when the requirements are ambiguous and the stakeholder is wrong, is not. The problem is that invisible expertise doesn't get hired for and doesn't get compensated. The threat may be less that the expertise disappears and more that it becomes invisible to the market.
 
-This has happened before. Spreadsheets didn't eliminate accountants, but they compressed the profession's middle tier. CAD changed architecture without ending it. Now AI tools are doing the same thing — automating the production work that used to differentiate senior engineers. The question is whether software engineering has enough judgment-layer work to absorb everyone, or whether the floor genuinely drops.
+The economics are not kind either. If every senior engineer becomes a generalist with an AI copilot, the supply of generalists explodes while demand shifts to different configurations. The author notes that brilliant ex-colleagues laid off eight months ago are still looking for work. That's one circle in one sub-sector during a tech correction driven partly by post-pandemic overhiring and interest rates, not just AI. Still, the pattern he describes in hiring listings is real: the company is hiring again, but domain familiarity no longer matters.
+
+This has happened before. Spreadsheets compressed bookkeeping but expanded accounting. The CPA credential became more useful, not less, because more sophisticated operations created more judgment-layer work. CAD changed architecture without ending it. Now AI tools are automating the production work that used to differentiate senior engineers. The question is whether software engineering has a comparable judgment layer that deepens, or whether "prompt, review, iterate" is itself automatable. If the former, the profession restructures. If the latter, the floor genuinely drops.
 
 ## what I keep coming back to
 
 I use AI coding tools every day. I am not writing this from a position of purity. The METR follow-up data, imprecise as it is, suggests the tools are getting better. The author himself admits he liked shipping faster.
 
-But his post articulated something I had been unable to name. The threat to software engineering careers is not replacement. It is homogenization. The skills that made you stand out — deep domain knowledge, debugging intuition, architectural judgment — are being compressed into the same flat layer of "prompt, review, iterate." The floor rises. The ceiling drops. Everyone becomes a generalist.
+But his post articulated something I had been unable to name. The threat to software engineering careers is not replacement. It is homogenization. The skills that made you stand out (deep domain knowledge, debugging intuition, architectural judgment) are being compressed into the same flat layer of "prompt, review, iterate." The floor rises. The ceiling drops. Everyone becomes a generalist.
 
 At least, that is how it feels from the top of the skill distribution. From further down, the view is different. AI tools are opening doors that were previously locked. Engineers who never had the chance to specialize in payments or distributed systems can now contribute to those domains with AI assistance. Returning-to-work parents are ramping faster. Engineers whose first language is not English are producing design docs that no longer get flagged for clarity. The tools that compress expertise from above also democratize access from below.
 
 And homogenization is partly a management choice. The author's company chose to stop hiring for domain expertise. That is a leadership bet, independent of any technological inevitability. Some companies are going the other direction, deepening domain requirements precisely because AI-generated code produces subtle compliance gaps that only specialists catch.
 
-But the author's anxiety is still directionally right. If most companies make the same bet — if domain familiarity stops being a differentiator in most job listings — then the economic pressure is real regardless of whether individual companies resist.
+But the author's anxiety is still directionally right. If most companies make the same bet, if domain familiarity stops being a differentiator in most job listings, then the economic pressure is real regardless of whether individual companies resist.
 
-The honest answer about what to do is unsatisfying. The career paths that are emerging — AI quality governance, domain-plus-AI specialism, smaller teams with bigger scope — are still taking shape. The author does not see a path. Neither do I, clearly. His closing line was: "Maybe I should consider transforming my woodworking hobby into a profession."
+The honest answer about what to do is unsatisfying. The career paths that are emerging (AI quality governance, domain-plus-AI specialism, smaller teams with bigger scope) are still taking shape. The author does not see a path. Neither do I, clearly. His closing line was: "Maybe I should consider transforming my woodworking hobby into a profession."
 
 I laughed. Then I thought about it for longer than I should have.
