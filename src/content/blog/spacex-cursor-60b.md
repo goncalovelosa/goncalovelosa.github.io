@@ -1,10 +1,12 @@
 ---
 title: "SpaceX Just Bought Cursor for $60 Billion. Your Code Is the Product."
-description: "SpaceX acquired Cursor for $60 billion. One million developers, 50,000 companies, and a data pipeline now flowing to a company whose AI division is under active investigation. The deal terms, the privacy implications, and the governance question every developer should be asking."
+description: "SpaceX bought Cursor for $60B. One million developers' code now flows to a company under active AI safety investigation. Here's what changes."
 pubDate: 2026-06-17
 category: "AI"
 tags: ["ai", "spacex", "cursor", "developer-tools", "privacy", "acquisition"]
 heroImage: "./spacex-cursor-60b/images/VISUAL_1_cover.png"
+mediumUrl: "https://medium.com/@gvelosa/spacex-just-bought-cursor-for-60-billion-your-code-is-the-product-b409c8a55574"
+canonicalUrl: "https://medium.com/@gvelosa/spacex-just-bought-cursor-for-60-billion-your-code-is-the-product-b409c8a55574"
 ---
 
 On June 16, 2026, four days after the largest IPO in history, SpaceX exercised its option to acquire Anysphere, the company behind Cursor, for $60 billion in stock. The deal values an AI coding editor at more than twice what Facebook paid for WhatsApp. It gives Elon Musk's empire direct access to the daily workflows of one million developers at 50,000 companies, including 40,000 engineers at NVIDIA and the entire engineering team at Coinbase.
@@ -19,9 +21,9 @@ Cursor is not just an editor. It is a surface. Every time a developer types a pr
 
 Codebase data. Prompts. Editor actions. Every keystroke that shapes a suggestion, every rejection that reveals a preference, every debugging path that exposes a mental model. This is not metadata. It is the raw material of how developers think and work.
 
-SpaceX's IPO filing made the strategic logic explicit. Cursor's access to developers' data, including coding requests and design decisions, could help improve its AI models such as Grok. Grok is the chatbot built by xAI, which SpaceX absorbed in February. In other words, the filing acknowledges what the data is worth: developer interactions in Cursor can feed Grok's training pipeline.
+SpaceX's IPO filing made the strategic logic explicit. Cursor's access to developers' data, including coding requests and design decisions, could help improve its AI models such as Grok. Grok is the chatbot built by xAI, which SpaceX absorbed in February. In other words, the filing acknowledges the value of the data: developer interactions in Cursor can feed into Grok's training pipeline.
 
-Cursor offers Privacy Mode, which prevents data from being used for training. Enterprise customers get Zero Data Retention agreements with model providers. These protections are real, and they matter. But Privacy Mode is an opt-in setting that many individual developers never enable. Enterprise contracts with stronger data guarantees cover significant ground — 64 percent of Fortune 500 companies use Cursor, according to ByteIota — but millions of individual developers on Pro and free tiers sit outside those agreements. The gap between the protection that exists and the protection developers use is where the concern lives.
+Cursor offers Privacy Mode, which prevents data from being used for training. Enterprise customers get Zero Data Retention agreements with model providers. These protections are real, and they matter. But Privacy Mode is an opt-in setting that many individual developers never enable. Enterprise contracts with stronger data guarantees cover significant ground — 64 percent of Fortune 500 companies use Cursor, according to ByteIota — but millions of individual developers on Pro and free tiers sit outside those agreements. The gap between the protection that exists and the protection developers use is where the concern lies.
 
 ## The company holding your data
 
@@ -34,7 +36,7 @@ The entity acquiring Cursor is not a neutral technology conglomerate. SpaceX abs
 
 Musk himself has reportedly pushed to make Grok "more unhinged," framing safety measures as censorship.
 
-This is the AI division that now sits inside the company buying your coding editor. The same corporate parent that controls Grok will control the data pipeline flowing from one million developer sessions per day. The connection between Grok's content moderation failures and developer data privacy is not direct — one is a safety culture problem, the other is a data governance question. But the common thread matters: a company that has demonstrated weak internal guardrails on how its AI products handle user inputs is now positioned to receive the most sensitive professional data most developers produce.
+This is the AI division that now sits inside the company buying your coding editor. The same corporate parent that controls Grok will control the data pipeline flowing from one million developer sessions per day. The connection between Grok's content moderation failures and developer data privacy is not direct — one is a safety-culture problem, the other is a data-governance question. But the common thread matters: a company that has demonstrated weak internal guardrails on how its AI products handle user inputs is now positioned to receive the most sensitive professional data that most developers produce.
 
 SpaceX's IPO prospectus disclosed a dual-class share structure that gives Musk approximately 85 percent of voting control. No board override. No shareholder revolt. No activist investor can force a change in how developer data is handled. The governance model is, for practical purposes, a single-decision-maker structure.
 
@@ -71,6 +73,6 @@ When the surface where you write code is owned by the same company that trains t
 
 Privacy Mode helps. Enterprise contracts help. Competition helps. Cursor's declining market share proves developers are willing to switch tools when trust erodes. These are real protections, and they should not be dismissed. Developers chose Cursor because it works — the editor is fast, the completions are good, and the agent workflow saves hours every week. That utility is real, and no acquisition erases it.
 
-But $60 billion is not a charity investment. SpaceX paid that price because one million developers produce something worth having. The same dynamic applies to Claude Code, which runs on SpaceX compute infrastructure, and to GitHub Copilot, which feeds Microsoft's model training. The difference is governance. The difference is who sits at the top, and what they can do with what flows through.
+But $60 billion is not a charity investment. SpaceX paid that price because one million developers produce something worth having. The same dynamic applies to Claude Code, which runs on SpaceX compute infrastructure, and to GitHub Copilot, which feeds Microsoft's model training. The difference is governance. The difference is who sits at the top and what they can do with what flows through.
 
 Do you know where your code is going?
