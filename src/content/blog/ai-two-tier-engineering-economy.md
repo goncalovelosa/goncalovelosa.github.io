@@ -1,20 +1,21 @@
 ---
 title: "AI Is Creating a Two-Tier Engineering Economy"
-description: "AI coding tools were supposed to make everyone faster. Instead, they split engineering teams into two tiers, and the metrics we use can only see one of them."
+description: "AI coding tools split engineering into visible shippers and invisible reviewers. 94% of leaders admit their metrics cannot tell the difference."
 pubDate: 2026-06-05
 category: "AI"
 tags: ["Artificial Intelligence", "Software Engineering", "Future of Work", "Technology", "Career"]
 heroImage: "./ai-two-tier-engineering-economy/images/visual-1-cover.png"
 ---
-
 AI coding tools were supposed to make everyone faster. They did something stranger instead: they split engineering teams into two tiers, and the metrics we use can only see one of them.
 
 In January 2026, Sonar (a code quality platform) surveyed 1,100 professional developers and found that 42% of committed code is now AI-generated or AI-assisted, categories that span everything from autocomplete suggestions to full function generation. By 2027, developers expect that to reach 65%. The tools work. The code ships.
 
 But 96% of those developers don't fully trust the AI output. Only 48% always verify it before committing. And 38% say reviewing AI-generated code takes more effort than reviewing code written by a human colleague.
 
-This is the shape of the problem. AI helps you write code faster. It also makes someone else's job harder. And right now, almost no organisation can tell the difference.
+This is the shape of the problem. AI helps you write code faster. It also makes someone else's job harder. Right now, almost no organisation can tell the difference.
 
+![Two construction hard hats on a dark charcoal desk — bright safety orange hat under spotlight, faded grey-blue hat in shadow with a worn clipboard](./ai-two-tier-engineering-economy/images/visual-1-cover.png)
+*The visible work gets the spotlight. The invisible work doesn't even register on the dashboard.*
 
 ## The numbers nobody tracks
 
@@ -48,7 +49,8 @@ Gabriel Scherer, an OCaml maintainer, said reviewing AI-generated code is "more 
 
 Nobody promoted them for it.
 
-![A pristine desk surface with a laptop showing green growth, hiding a chaotic tangled mess of cables and debris below](./ai-two-tier-engineering-economy/images/visual-2-funnel.png)
+![A pristine white desk with laptop showing green dashboard charts, concealing tangled cables and debris below the surface](./ai-two-tier-engineering-economy/images/visual-2-funnel.png)
+*Green dashboards on top. The mess underneath never makes it into the report.*
 
 ## The review tax
 
@@ -74,13 +76,14 @@ Cui et al., published in *Management Science* in 2025, ran randomised controlled
 
 The Qodo findings seem to contradict this. They don't, exactly. Cui et al. measured quality by what shipped and survived in production. Qodo measured what static analysis flags in review. A PR can pass all tests and deploy cleanly while still carrying maintainability debt that surfaces months later. Both studies are right. They measure different things. The honest answer is that we don't yet know which one predicts long-term outcomes.
 
-The same ambiguity applies to the acceptance rates. AI-generated PRs may have lower acceptance because reviewers apply more scrutiny to them, not because the code is worse. The data cannot distinguish between the two.
+The same ambiguity applies to the acceptance rates. AI-generated PRs may have lower acceptance because reviewers apply more scrutiny to them. Or because the code is worse. The data cannot distinguish between the two.
 
 13.5% more PRs. That is what the dashboard sees. What it does not see: the senior engineer who spent an extra hour verifying each one.
 
 Engineering metrics were already broken before AI. Story points got inflated. Commits got split. Lines of code got padded. AI did not break the metrics. It made the breakage obvious.
 
-![A tower of green pristine blocks on top, dark crumbling cracked blocks on the bottom, spotlight on the green section](./ai-two-tier-engineering-economy/images/visual-3-dashboard.png)
+![A tower of bright green pristine building blocks on top of dark crumbling cracked blocks, harsh spotlight on green section only](./ai-two-tier-engineering-economy/images/visual-3-dashboard.png)
+*The metrics see the green. The rot underneath is invisible until the tower collapses.*
 
 When a junior engineer ships three times more PRs with AI assistance and a senior engineer spends their day reviewing them, the junior looks like a 10x developer. The senior looks like they are falling behind. The organisation rewards the wrong person. The senior burns out. Nobody notices until the codebase starts rotting.
 
@@ -93,6 +96,9 @@ There is no version of this where we go back to writing code without AI. The 42%
 I have been that reviewer. In my role as tech lead, I've watched my own PR count flatten while the queue of AI-assisted pull requests grows longer every sprint. The work that keeps our codebase maintainable, the architectural decisions, the security reviews, the mentorship of juniors who are learning faster than ever but building on shakier foundations, none of it shows up in our engineering dashboard. What shows up is PR count. And PR count tells a story that rewards the wrong people.
 
 The fix is not to measure harder. It is to measure differently. Organizations should track review-hours alongside PR counts. Promotion criteria should explicitly reward engineers who prevent bad code from shipping. Review time is work. Until dashboards reflect that, the gap keeps growing.
+
+![Two metronomes on a dark walnut workbench — left one fast with finished brass gears, right one slow with broken rejected parts](./ai-two-tier-engineering-economy/images/visual-4-documentation.png)
+*One ships fast and looks productive. The other reviews slow and looks stuck.*
 
 ## The real cost
 
