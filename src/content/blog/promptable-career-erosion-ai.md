@@ -9,8 +9,6 @@ heroImage: "./promptable-career-erosion-ai/images/VISUAL_1_cover_1.png"
 
 # Your 10 Years of Expertise Is Now Promptable
 
-![A tall amber sandstone column crumbling layer by layer from the top, dust drifting from the ruined upper section, hairline cracks spreading in the solid base, dramatic warm lighting against dark background](./promptable-career-erosion-ai/images/VISUAL_1_cover_1.png)
-
 A senior engineer watched AI dissolve his career pillars one by one. His story is not unique.
 
 Last week, a software engineer with ten years of experience published a blog post with a title that stopped me mid-scroll: "LLMs are eroding my software engineering career and I don't know what to do."

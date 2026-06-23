@@ -11,8 +11,6 @@ heroImage: "./loop-engineering-budget/images/VISUAL_1_cover_1.png"
 
 Last week, Peter Steinberger posted a screenshot of his monthly AI bill. The number: $1,305,088.81. He burned through 603 billion tokens running roughly 100 autonomous agents on his open-source project. OpenAI picked up the tab.
 
-![Digital billing dashboard showing $1,305,088.81 monthly cost, 603 billion tokens, roughly 100 autonomous agents](./loop-engineering-budget/images/VISUAL_1_cover_1.png)
-
 On the same day, Boris Cherny, the person who built Claude Code, said in an interview: "I don't prompt Claude anymore. I have loops that are running. My job is to write loops."
 
 The message from the frontier of AI engineering is clear: stop prompting, start designing loops. But there's a detail nobody mentions. Steinberger's employer pays his bill. Cherny works at Anthropic. The people evangelizing loop engineering have effectively infinite tokens.
