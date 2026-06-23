@@ -1,13 +1,17 @@
 ---
-title: "Loop Engineering Doesn't Need $1.3M a Month"
-description: "Loop engineering is dominated by people with infinite token budgets. Solo developers can adopt it at three tiers using deterministic verification, circuit breakers, and cheap models."
-pubDate: 2026-06-09
-category: "AI"
-tags: ["artificial-intelligence", "programming", "software-engineering", "technology", "coding"]
-heroImage: "./loop-engineering-budget/images/cover.png"
+title: "Loop Engineering on a $1.3M Budget"
+description: "Peter Steinberger spent $1.3M on autonomous agents. Boris Cherny says he doesn't prompt anymore. Here's how the rest of us build loop engineering on real budgets."
+pubDate: 2026-06-05
+category: "AI Engineering"
+tags: ["Loop Engineering", "AI Agents", "Token Budget", "Claude Code", "Autonomous Systems"]
+heroImage: "./loop-engineering-budget/images/VISUAL_1_cover_1.png"
 ---
 
+# Loop Engineering on a $1.3M Budget
+
 Last week, Peter Steinberger posted a screenshot of his monthly AI bill. The number: $1,305,088.81. He burned through 603 billion tokens running roughly 100 autonomous agents on his open-source project. OpenAI picked up the tab.
+
+![Digital billing dashboard showing $1,305,088.81 monthly cost, 603 billion tokens, roughly 100 autonomous agents](./loop-engineering-budget/images/VISUAL_1_cover_1.png)
 
 On the same day, Boris Cherny, the person who built Claude Code, said in an interview: "I don't prompt Claude anymore. I have loops that are running. My job is to write loops."
 
@@ -17,7 +21,7 @@ What about everyone else?
 
 ## What's a loop, really
 
-![Three interlocking gears — each a different size, all turning together](./loop-engineering-budget/images/visual-2-gears.png)
+![Circular flow diagram with trigger → goal → verification → completion, stylized blue arrows on dark background](./loop-engineering-budget/images/VISUAL_2_diagram_1.png)
 
 A loop is three things: a trigger, a goal, and a way to verify that goal was reached.
 
@@ -29,7 +33,7 @@ But accessibility and affordability are different things.
 
 ## The real cost of running agent loops
 
-![Most water wasted on bare soil, only a thin stream reaching the plant](./loop-engineering-budget/images/visual-3-watering-can.png)
+![Watering can watering plants but most water missing bare soil, only thin stream reaching plant, inefficiency visualization](./loop-engineering-budget/images/VISUAL_3_illustration_1.png)
 
 The average Claude Code user spends $340 per month on tokens, according to Cohrint, a Claude Code monitoring platform, which analyzed 200+ engineering teams in Q1 2026. Senior engineers in active sprints hit $600 to $800. Agent-heavy users report $500 to $2,000 monthly.
 
@@ -41,7 +45,7 @@ The math of autonomous failure is brutal even with good design. If each step in 
 
 ## Budget loop engineering: the $0.05 loop
 
-![A pressure gauge with the needle firmly in the green zone](./loop-engineering-budget/images/visual-4-pressure-gauge.png)
+![Pressure gauge with needle firmly in green zone, instrument panel, mechanical precision](./loop-engineering-budget/images/VISUAL_4_diagram_2.png)
 
 The insight that changes the economics: verification doesn't have to come from the LLM.
 
@@ -55,7 +59,7 @@ The model cost per run: roughly $0.05. It runs 48 times a day. That's about $2.4
 
 ## Three tiers for real budgets
 
-![Three ladders of different heights reaching up the same wall](./loop-engineering-budget/images/visual-5-ladders.png)
+![Set of ladders against wall at different heights, warm golden hour light, alternatives metaphor](./loop-engineering-budget/images/VISUAL_5_illustration_2.png)
 
 Based on Cohrint's $340 average, MorphLLM's agent-heavy user range, and my own experience at the lowest tier, loop engineering at different budget levels looks something like this.
 
@@ -69,7 +73,7 @@ Every tier needs the same safeguards: action history tracking to prevent repeati
 
 ## The loop doesn't care about your budget
 
-![A small lever about to move a massive stone block](./loop-engineering-budget/images/visual-6-lever.png)
+![Small lever about to move massive stone block, mechanical advantage metaphor, dramatic lighting](./loop-engineering-budget/images/VISUAL_6_illustration_3.png)
 
 The Bun runtime was recently ported from Zig to Rust using Claude Code's dynamic workflows — roughly 750,000 lines of code, 6,755 commits, 99.8% of the existing test suite passing, eleven days from first commit to merge. Anthropic highlighted it as a flagship case study.
 
@@ -78,9 +82,3 @@ But the code hasn't been deployed to production. The maintainer said there's a "
 Steinberger's own framing is telling: "If tokens no longer matter, how will we build software in the future?" That's a fine question for someone whose tokens don't matter. For the rest of us, a better question: how do we design the most efficient loop with the tokens we have?
 
 The answer doesn't require $1.3 million. It requires a trigger, a goal, a shell script, and the discipline to stop the loop when it stops making progress.
-
----
-
-This article was originally published on Medium.
-Read it there and give it a 👏 if you enjoyed it → [Link TBD after publication]
-Follow me on Medium for more → [medium.com/@gvelosa](https://medium.com/@gvelosa)
