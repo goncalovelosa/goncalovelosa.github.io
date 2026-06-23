@@ -9,9 +9,6 @@ mediumUrl: "https://medium.com/@gvelosa/cursor-billing-trap-TBD"
 canonicalUrl: "https://medium.com/@gvelosa/cursor-billing-trap-TBD"
 ---
 
-![A long paper receipt curling out from a closed laptop keyboard at night, amber glow on dark charcoal desk](./cursor-billing-trap/images/VISUAL_1_cover_1.png)
-*While you sleep, the meter runs. Surprise on-demand charges are turning $20 subscriptions into unpredictable expenses.*
-
 A developer woke up on June 19th to find $130 in charges from their Cursor Pro subscription. They hadn't been at their computer. The editor wasn't open. The model that generated the charges, Claude Opus 4.7 at max effort, had apparently been running agent tasks through the night.
 
 The user also reported finding malware on their system, which means this specific incident was probably a compromised session rather than a billing bug. On its own, that makes this a security story. But it surfaced a question worth asking: why did Cursor's billing system allow $130 in charges to accumulate against an inactive account without flagging the anomaly? AWS and Stripe both have anomaly detection for unusual spending patterns. Cursor apparently does not.
