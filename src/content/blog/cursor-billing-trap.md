@@ -5,8 +5,8 @@ pubDate: 2026-06-22
 category: "AI"
 tags: ["ai", "coding"]
 heroImage: "./cursor-billing-trap/images/VISUAL_1_cover_1.png"
-mediumUrl: "https://medium.com/@gvelosa/cursor-billing-trap-TBD"
-canonicalUrl: "https://medium.com/@gvelosa/cursor-billing-trap-TBD"
+mediumUrl: "https://medium.com/@gvelosa/a-130-charge-for-code-nobody-wrote-5106aa380c64"
+canonicalUrl: "https://medium.com/@gvelosa/a-130-charge-for-code-nobody-wrote-5106aa380c64"
 ---
 
 A developer woke up on June 19th to find $130 in charges from their Cursor Pro subscription. They hadn't been at their computer. The editor wasn't open. The model that generated the charges, Claude Opus 4.7 at max effort, had apparently been running agent tasks through the night.
