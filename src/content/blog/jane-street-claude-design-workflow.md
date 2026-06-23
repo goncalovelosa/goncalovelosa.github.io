@@ -11,8 +11,6 @@ heroImage: "./jane-street-claude-design-workflow/images/VISUAL_1_cover_1.png"
 
 A Jane Street designer stopped using Figma and started shipping working prototypes with Claude. The real story isn't about a tool dying.
 
-![Designer at a trading desk with multiple screens showing code and UI prototypes, warm amber lighting, professional workspace](./jane-street-claude-design-workflow/images/VISUAL_1_cover_1.png)
-
 I've been writing about AI replacing coding workflows for months. Coding agents, pair programmers, autonomous devs, the whole parade. I was looking in the wrong direction. The disruption that's already happening isn't on the engineering side at all. It's on the design side. And it's moving faster than anyone predicted.
 
 *The tool is becoming the output.*

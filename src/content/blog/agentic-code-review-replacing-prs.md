@@ -9,8 +9,6 @@ heroImage: "./agentic-code-review-replacing-prs/images/VISUAL_1_cover_1.png"
 
 # The Quiet Death of the Code Review
 
-![Empty code review interface with ghostly cursor frozen mid-click, dust motes in soft light, muted blues and greys with faint warmth at edges](./agentic-code-review-replacing-prs/images/VISUAL_1_cover_1.png)
-
 A team of six developers and two seniors replaced their code review process with AI five months ago. Their pull request backlog dropped from 15 to 3. Their juniors started learning faster. Their seniors stopped arguing about formatting.
 
 Nobody outside their Slack channel noticed.
