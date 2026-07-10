@@ -1,6 +1,6 @@
 ---
 title: "Can You Trust Your Team's Commits?"
-description: "repo-slopscore scans 5,337 git repositories for AI-generated code. The tool is imperfect. The question it raises about code provenance is not.""
+description: "repo-slopscore scans 5,337 git repositories for AI-generated code. The tool is imperfect. The question it raises about code provenance is not."
 pubDate: 2026-07-06
 category: "AI"
 tags: ["ai", "coding"]

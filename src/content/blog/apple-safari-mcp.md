@@ -1,6 +1,6 @@
 ---
 title: "The Browser Is the New API"
-description: "Apple ships a Safari MCP server. When the most closed platform vendor adopts your open protocol, the browser becomes an agent-native surface.""
+description: "Apple ships a Safari MCP server. When the most closed platform vendor adopts your open protocol, the browser becomes an agent-native surface."
 pubDate: 2026-07-03
 category: "AI"
 tags: ["ai", "coding"]
