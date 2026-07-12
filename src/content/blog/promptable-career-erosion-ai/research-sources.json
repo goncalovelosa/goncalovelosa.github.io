@@ -1,0 +1,83 @@
+{
+  "sources": {
+    "original_blog_post": {
+      "title": "LLMs are eroding my software engineering career and I don't know what to do",
+      "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+      "type": "primary_source",
+      "published": "2026-06-06",
+      "verified": true,
+      "context": "Anonymous senior engineer with 10 years experience in finance/payments, published the post that gained 1000+ upvotes and comments on Hacker News within 24 hours"
+    },
+    "hacker_news_thread": {
+      "title": "LLMs are eroding my software engineering career and I don't know what to do",
+      "url": "https://news.ycombinator.com/item?id=48434312",
+      "type": "discussion_forum",
+      "stats": "1129 points, 1064 comments at time of research",
+      "verified": true
+    },
+    "xu_paper": {
+      "title": "AI-Assisted Programming May Decrease the Productivity of Experienced Developers",
+      "authors": "Xu et al.",
+      "url": "https://arxiv.org/abs/2510.10165",
+      "type": "academic_paper",
+      "published": "2025-10",
+      "doi": "10.48550/arXiv.2510.10165",
+      "finding": "Found experienced developers showed a 19% drop in original code output after Copilot adoption",
+      "methodology": "Observational study of open-source repositories before and after Copilot adoption",
+      "verified": true
+    },
+    "metr_2025": {
+      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "organization": "METR (Model Evaluation & Threat Research)",
+      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "type": "randomized_controlled_trial",
+      "published": "2025-07-10",
+      "finding": "19% longer task completion time when using AI tools",
+      "perception": "Developers felt 20% faster despite taking 19% longer",
+      "methodology": "16 experienced OS developers, 246 real issues, randomized AI/no-AI conditions",
+      "verified": true
+    },
+    "metr_2026": {
+      "title": "We are Changing our Developer Productivity Experiment Design",
+      "organization": "METR (Model Evaluation & Threat Research)",
+      "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "type": "follow_up_study",
+      "published": "2026-02-24",
+      "finding": "Estimated 18% speedup for original developers, but confidence interval from -38% to +9%",
+      "methodology": "Follow-up to 2025 study with selection bias acknowledged",
+      "note": "Authors acknowledge selection effects make the data unreliable, but believe speedup is likely occurring",
+      "verified": true
+    },
+    "opsera_2026": {
+      "title": "2026 AI Coding Impact Benchmark Report",
+      "organization": "Opsera",
+      "url": "https://www.linkedin.com/posts/vizsh_ai-generated-pull-requests-wait-46-times-activity-7434123156539387904-SikR",
+      "type": "industry_benchmark",
+      "published": "2026",
+      "finding": "AI-generated pull requests wait 4.6 times longer for review than human-written code",
+      "scope": "250,000 developers across 60 enterprise organizations",
+      "context": "Reflects trust deficit and governance challenges in AI code review",
+      "verified": true
+    },
+    "ibm_watsonx_study": {
+      "title": "Examining the Use and Impact of an AI Code Assistant on Developer Productivity and Experience in the Enterprise",
+      "authors": "Weisz et al.",
+      "organization": "IBM",
+      "venue": "CHI 2025",
+      "url": "https://research.ibm.com/publications/examining-the-use-and-impact-of-an-ai-code-assistant-on-developer-productivity-and-experience-in-the-enterprise",
+      "doi": "https://arxiv.org/pdf/2412.06603",
+      "type": "enterprise_study",
+      "published": "2025",
+      "methodology": "Surveys of 669 developers + 15 unmoderated usability tests",
+      "finding": "Productivity gains exist but distribute unevenly - junior developers benefit more while senior engineers absorb review debt",
+      "verified": true
+    }
+  },
+  "verification_summary": {
+    "total_sources_claimed": 7,
+    "total_sources_verified": 7,
+    "verification_status": "complete",
+    "verification_date": "2026-06-16",
+    "notes": "All primary sources verified. METR follow-up study acknowledges methodological limitations but provides valuable context about selection bias in AI productivity research."
+  }
+}
