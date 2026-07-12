@@ -1,7 +1,7 @@
 ---
 title: "A Jane Street Designer Stopped Using Figma"
 description: "Edwin Morris at Jane Street replaced Figma with Claude Code for internal tool prototyping. The three paths ahead for designers in an AI-first world."
-pubDate: 2026-06-05
+pubDate: 2026-05-30
 category: "AI & Design"
 tags: ["Figma", "Claude Code", "Design", "AI Tools", "Jane Street", "Prototyping"]
 heroImage: "./jane-street-claude-design-workflow/images/VISUAL_1_cover_1.png"

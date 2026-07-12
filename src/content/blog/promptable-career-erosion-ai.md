@@ -1,7 +1,7 @@
 ---
 title: "Your 10 Years of Expertise Is Now Promptable"
 description: "A senior engineer's three pillars — domain knowledge, debugging intuition, architectural judgment — are dissolving into prompts. The economics of homogenization."
-pubDate: 2026-06-05
+pubDate: 2026-05-24
 category: "Career"
 tags: ["AI Tools", "Software Engineering Career", "Senior Developers", "AI Productivity", "Career Erosion"]
 heroImage: "./promptable-career-erosion-ai/images/VISUAL_1_cover_1.png"

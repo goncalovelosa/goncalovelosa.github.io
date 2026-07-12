@@ -1,7 +1,7 @@
 ---
 title: "AI Is Creating a Two-Tier Engineering Economy"
 description: "AI coding tools split engineering into visible shippers and invisible reviewers. 94% of leaders admit their metrics cannot tell the difference."
-pubDate: 2026-06-05
+pubDate: 2026-06-01
 category: "AI"
 tags: ["Artificial Intelligence", "Software Engineering", "Future of Work", "Technology", "Career"]
 heroImage: "./ai-two-tier-engineering-economy/images/visual-1-cover.png"

@@ -1,7 +1,7 @@
 ---
 title: "Loop Engineering on a $1.3M Budget"
 description: "Peter Steinberger spent $1.3M on autonomous agents. Boris Cherny says he doesn't prompt anymore. Here's how the rest of us build loop engineering on real budgets."
-pubDate: 2026-06-05
+pubDate: 2026-05-22
 category: "AI Engineering"
 tags: ["Loop Engineering", "AI Agents", "Token Budget", "Claude Code", "Autonomous Systems"]
 heroImage: "./loop-engineering-budget/images/VISUAL_1_cover_1.png"

@@ -1,7 +1,7 @@
 ---
 title: "The Quiet Death of the Code Review"
 description: "AI code review tools are quietly replacing the way engineering teams handle pull requests. The data shows adoption growing 14x in 21 months, but developers trust AI code less than ever."
-pubDate: 2026-06-05
+pubDate: 2026-06-04
 category: "AI"
 tags: ["Artificial Intelligence", "Software Engineering", "Future of Work", "Technology", "Career"]
 heroImage: "./quiet-death-of-code-review/images/cover.png"

@@ -1,7 +1,7 @@
 ---
 title: '87% of Devs "Feel Faster." The Data Is a Mess.'
 description: "The 55% faster statistic is everywhere. But the studies behind AI coding productivity tell a far messier story."
-pubDate: 2026-06-05
+pubDate: 2026-05-28
 category: "AI"
 tags: ["Artificial Intelligence", "Software Engineering", "Future of Work", "Technology", "Career"]
 heroImage: "./ai-coding-productivity-measurement-wrong/images/VISUAL_1_cover_1.png"

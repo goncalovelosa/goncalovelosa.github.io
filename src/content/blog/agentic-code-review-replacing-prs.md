@@ -1,7 +1,7 @@
 ---
 title: "The Quiet Death of the Code Review"
 description: "AI code review tools aren't replacing humans — they're creating a three-tier system where juniors learn from bots and seniors focus on architecture. The metrics haven't caught up yet."
-pubDate: 2026-06-05
+pubDate: 2026-05-26
 category: "Software Engineering"
 tags: ["Code Review", "AI Tools", "Software Development", "Engineering Management", "Productivity"]
 heroImage: "./agentic-code-review-replacing-prs/images/VISUAL_1_cover_1.png"
