@@ -1,6 +1,6 @@
 ---
 title: "The $165K Rewrite"
-description: "One engineer rewrote Bun from Zig to Rust in 11 days. 1M lines of code, $165K API bill, 64 Claude instances. What the numbers actually prove about AI-assisted engineering at scale.""
+description: "One engineer rewrote Bun from Zig to Rust in 11 days. 1M lines of code, $165K API bill, 64 Claude instances. What the numbers actually prove about AI-assisted engineering at scale."
 pubDate: 2026-07-10
 category: "AI"
 tags: ["ai", "coding"]
