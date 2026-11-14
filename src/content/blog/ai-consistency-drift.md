@@ -7,8 +7,6 @@ tags: ["ai", "software-engineering", "programming", "technology", "software-deve
 heroImage: "./ai-consistency-drift/images/VISUAL_1_cover_1.png"
 ---
 
-![Ten identical blank paper documents fanned on a dark walnut desk, one page marked with a faint amber anomaly, a brass magnifying glass hovering above it unheld](./ai-consistency-drift/images/VISUAL_1_cover_1.png)
-*Caption: Every document passed review. The set was wrong — and nobody was holding the magnifying glass.*
 
 I run a small fleet of AI coding agents for a living. Last month I did something boring: I audited ten documents that fleet had produced for a single project. Cost estimates, quota plans, a migration brief, a couple of internal runbooks. Three parallel agents had written them, with a model switch mid-run when one provider started throttling us.
 
