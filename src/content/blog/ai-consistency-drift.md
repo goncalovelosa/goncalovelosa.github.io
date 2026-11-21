@@ -1,6 +1,6 @@
 ---
 title: "AI Didn't Degrade My Code. It Degraded My Defaults."
-description: "A Principal SWE running an AI agent fleet found ten documents that individually passed review and collectively contradicted each other."
+description: "A Head of Engineering running an AI agent fleet found ten documents that individually passed review and collectively contradicted each other."
 pubDate: 2026-11-14
 category: "AI"
 tags: ["ai", "software-engineering", "programming", "technology", "software-development"]
